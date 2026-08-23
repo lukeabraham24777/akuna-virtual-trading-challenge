@@ -267,7 +267,7 @@ class MarketMaker:
     BASE_HALF = 0.015      # base half-spread added on top of uncertainty term
     UNC_HALF = 0.6        # half-spread contribution per unit of theo uncertainty
     HALF_MIN = 0.02
-    HALF_MAX = 0.34
+    HALF_MAX = 0.26
     TIGHT_MIN = 1.0       # global spread multiplier bounds (adaptive)
     TIGHT_MAX = 1.0
     SIZE_BASE = 20.0
@@ -296,10 +296,12 @@ class MarketMaker:
     # --- grader-exact capital model (max-loss reserve accounting) ---
     HARD_BUF_ABS = 0.4     # untouchable slack on the reserve balance
     HARD_BUF_FRAC = 0.04   # ... as a fraction of starting capital (max of the two)
-    QUOTE_BUDGET = 0.30    # max fraction of available reserve a filled quote side may consume
+    QUOTE_BUDGET = 0.24    # max fraction of available reserve a filled quote side may consume
     FOK_FRAC0 = 0.20       # FOK reserve-budget fraction at zero edge
     FOK_FRAC_EDGE = 8.0    # ... grows with edge
-    FOK_FRAC_MAX = 0.80
+    FOK_FRAC_MAX = 0.60
+    FOK_CPCAP_UNK = 0.30   # max cost fraction of headroom per FOK from an unproven counterparty
+    FOK_CPCAP_BEN = 0.70   # ... from a proven-benign counterparty
     CHEAP_UNIT = 0.15      # per-contract max-loss below which a trade is bounded-loss
     REQ_DISC_MIN = 0.55    # FOK edge requirement multiplier for zero-cost trades
     NUDGE = 0.0           # weight of observed FOK prices pulled into micro price
@@ -1051,15 +1053,15 @@ class MarketMaker:
             lim1 = max(self.DEF1_ADV * self._cash0, 4.0 * self._dvol)
             lim2 = max(self.DEF2_ADV * self._cash0, 8.0 * self._dvol)
         else:
-            lim1 = max(self.DEF1_BEN * self._cash0, 6.5 * self._dvol)
-            lim2 = max(self.DEF2_BEN * self._cash0, 12.0 * self._dvol)
+            lim1 = max(self.DEF1_BEN * self._cash0, 5.0 * self._dvol)
+            lim2 = max(self.DEF2_BEN * self._cash0, 9.0 * self._dvol)
         if dd > lim2:
             self._def_mode = 2
         elif dd > lim1:
             self._def_mode = 1
         else:
             self._def_mode = 0
-        if self._def_mode == 2 and not adverse and mp_now > -0.15 * self._cash0:
+        if self._def_mode == 2 and not adverse and mp_now > -0.08 * self._cash0:
             self._def_mode = 1  # benign-regime variance never forces a full sit-out
         # toxic-session override: expected value of quoting is negative -> sit out
         if self._day >= self.TOX_OVR_DAY and self._g_mark < -self.TOX_OVR and mp_now < 0:
@@ -1155,7 +1157,7 @@ class MarketMaker:
         # capital-scarcity widening: with reserve mostly deployed, each remaining
         # dollar should be sold dearer (profit per reserve = edge/(1-price))
         util = 1.0 - max(headroom, 0.0) / self._cash0
-        half *= 1.0 + 3.2 * max(0.0, util - 0.35)
+        half *= 1.0 + 2.4 * max(0.0, util - 0.35)
         half = self._clamp(half, self.HALF_MIN, self.HALF_MAX)
 
         bid = math.floor((micro - half) * 100.0 + 1e-9) / 100.0
@@ -1263,7 +1265,7 @@ class MarketMaker:
                 self._fok_pend[(oid, cp)] = "buy" if we_sell else "sell"
                 return True
             # even in a sit-out, a fat-edge bounded-cost block is free money
-            if edge >= 0.12 and unit_cost <= 0.30 and cost <= max(headroom, 0.0) * 0.5:
+            if edge >= 0.12 and unit_cost <= 0.30 and cost <= max(headroom, 0.0) * 0.30:
                 self._fok_pend[(oid, cp)] = "buy" if we_sell else "sell"
                 return True
             if not reduces:
@@ -1298,9 +1300,13 @@ class MarketMaker:
         frac = self._clamp(self.FOK_FRAC0 + self.FOK_FRAC_EDGE * max(edge, 0.0),
                            self.FOK_FRAC0, self.FOK_FRAC_MAX)
         if edge >= 0.15:
-            frac = 0.90
+            frac = 0.75
         if option.steps_until_expiry <= 3:
-            frac = min(frac * 1.15, 0.92)
+            frac = min(frac * 1.15, 0.80)
+        # counterparty ladder: a fat-looking block from an unproven counterparty
+        # may be informed poison -- bound the reserve it can consume until that
+        # counterparty has earned trust via markouts
+        frac = min(frac, self.FOK_CPCAP_BEN if benign else self.FOK_CPCAP_UNK)
         if self._def_mode == 1 or locked:
             frac *= 0.5
         if cost > max(headroom, 0.0) * frac:
