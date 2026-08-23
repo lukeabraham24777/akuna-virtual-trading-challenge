@@ -131,13 +131,22 @@ def theo_check(module_name):
 # session simulation
 # ---------------------------------------------------------------------------
 class Adapter:
-    """Grader-side tracking wrapper around any MarketMaker-like object."""
+    """Grader-side tracking wrapper around any MarketMaker-like object.
 
-    def __init__(self, mm, label, cash):
+    Two parallel accountings, per the official bankruptcy note:
+      - cash: premium flows (used for PnL ranking)
+      - hard: max-loss reserve balance (used for the end-of-day solvency check);
+        every trade debits its maximum loss, expiry credits gross legs back.
+    """
+
+    def __init__(self, mm, label, cash, is_player=True):
         self.mm = mm
         self.label = label
         self.cash = cash
+        self.hard = cash
         self.cash0 = cash
+        self.is_player = is_player
+        self.gross = {}
         self.pos = {}
         self.alive = True
         self.n_trades = 0
@@ -177,6 +186,13 @@ class Adapter:
 
     def fill(self, opt, price, signed_qty, cp, true_p=None, tag=""):
         self.cash -= price * signed_qty
+        g = self.gross.setdefault(opt.option_id, [0, 0])
+        if signed_qty > 0:
+            self.hard -= price * signed_qty
+            g[0] += signed_qty
+        else:
+            self.hard -= (1.0 - price) * (-signed_qty)
+            g[1] += -signed_qty
         self.pos[opt.option_id] = self.pos.get(opt.option_id, 0) + signed_qty
         self.n_trades += 1
         if true_p is not None:
@@ -185,14 +201,18 @@ class Adapter:
                 self.fills_log = log = []
             log.append((tag, opt, price, signed_qty, cp, true_p))
         self._call(self.mm.on_trade, opt, price, signed_qty, cp)
-        if self.cash < 0:
-            self.alive = False
 
     def settle(self, oid, payout):
         q = self.pos.pop(oid, 0)
         if q:
             self.cash += q * payout
-        if self.cash < 0:
+        g = self.gross.pop(oid, None)
+        if g is not None:
+            self.hard += g[0] * payout + g[1] * (1.0 - payout)
+
+    def end_of_day_check(self):
+        # solvency is checked once per day, after expiry credits
+        if self.is_player and self.hard < 0:
             self.alive = False
 
     def pnl(self, mark):
@@ -215,36 +235,51 @@ class Bot:
     def name(self):
         return self.kind
 
+    SIZES = {"stalemate": 5, "fw_true": 15, "fw_wide": 15, "fw_ultra": 15,
+             "lattice": 12, "noisy": 20, "mongoose": 25, "situational": 8}
+    FOK_TH = {"stalemate": 0.04, "fw_true": 0.02, "fw_wide": 0.05, "fw_ultra": 0.08,
+              "lattice": 0.04, "noisy": 0.03, "mongoose": 0.01, "situational": 0.06}
+
     def quote(self, opt, cp):
         p = self.theo(opt)
         k = self.kind
         if k == "stalemate":
-            return ENV.Quote(bid_price=0.01, bid_quantity=1, offer_price=0.99, offer_quantity=1)
+            return ENV.Quote(bid_price=0.01, bid_quantity=5, offer_price=0.99, offer_quantity=5)
         if k == "fw_true":
             w = 0.025
         elif k == "fw_wide":
-            w = 0.06
+            w = 0.05
+        elif k == "fw_ultra":
+            w = 0.125
         elif k == "lattice":
             p = round(p * 10) / 10.0
             w = 0.05
+        elif k == "mongoose":
+            p = p + self.rng.gauss(0, 0.08)
+            w = 0.02
+        elif k == "situational":
+            w = 0.06
         else:  # noisy
             p = p + self.rng.gauss(0, 0.04)
             w = 0.03
+        p = min(max(p, 0.0), 1.0)
         bid = max(0.0, math.floor((p - w) * 100) / 100.0)
         off = min(1.0, math.ceil((p + w) * 100) / 100.0)
         if off <= bid:
             off = min(1.0, bid + 0.01)
             if off <= bid:
                 bid = off - 0.01
-        return ENV.Quote(bid_price=round(bid, 2), bid_quantity=20, offer_price=round(off, 2), offer_quantity=20)
+        sz = self.SIZES[k]
+        return ENV.Quote(bid_price=round(bid, 2), bid_quantity=sz, offer_price=round(off, 2), offer_quantity=sz)
 
     def respond_to_fok(self, opt, fok):
         p = self.theo(opt)
+        if self.kind == "mongoose":
+            p = p + self.rng.gauss(0, 0.08)
         edge = (fok.price - p) if fok.order_type == ENV.OrderType.BUY else (p - fok.price)
-        th = {"stalemate": 0.12, "fw_true": 0.02, "fw_wide": 0.05, "lattice": 0.04, "noisy": 0.03}[self.kind]
-        if abs(self.pos.get(opt.option_id, 0)) > 150:
+        if abs(self.pos.get(opt.option_id, 0)) > 200:
             return False
-        return edge >= th
+        return edge >= self.FOK_TH[self.kind]
 
     def on_trade(self, opt, price, qty, cp):
         self.pos[opt.option_id] = self.pos.get(opt.option_id, 0) + qty
@@ -397,10 +432,14 @@ class Session:
                 true_p = self.true_theo(opt)
                 nxt = replace_steps(opt, max(opt.steps_until_expiry - 1, 0))
                 if ckind == "noise":
-                    value = true_p + r.gauss(0, 0.07)
+                    value = true_p + r.gauss(0, 0.10)
                 elif ckind == "biased":
                     b = cust_bias.setdefault((ci, opt.option_id), r.gauss(0, 0.05))
                     value = true_p + b + r.gauss(0, 0.03)
+                elif ckind == "whale":
+                    # price-insensitive flow: pays way through fair (the source of
+                    # the "buy 0.94 for 26" FOKs seen in the real verbose logs)
+                    value = true_p + r.choice([-1, 1]) * r.uniform(0.05, 0.30)
                 elif ckind == "informed":
                     value = true_p
                 else:  # lookahead
@@ -410,14 +449,21 @@ class Session:
                     self.day -= 1000000
                     self.values = sv
                 value = min(max(value, 0.0), 1.0)
-                qty = r.randint(4, cfg.get("max_qty", 30))
+                qty = r.randint(4, cfg.get("max_qty", 24))
+                if ckind == "whale":
+                    qty = r.randint(8, cfg.get("max_qty_whale", 30))
                 if ckind == "informed":
                     delta = r.uniform(0.015, 0.06)
                     side = None  # decided by which quote is crossable
+                elif ckind == "whale":
+                    delta = 0.0
+                    side = "buy" if value > true_p else "sell"
                 else:
                     delta = 0.0
                     side = r.choice(["buy", "sell"])
-                if ev == "rfq":
+                if ev == "rfq" and ckind != "whale":
+                    # whales are price-insensitive block traders: they show up as
+                    # FOKs (matching the extreme-price FOKs in the real verbose logs)
                     self._do_rfq(alive, opt, cp, side, value, delta, qty, ckind)
                 else:
                     self._do_fok(alive, opt, cp, side, value, delta, qty, ckind, r, true_p)
@@ -432,6 +478,16 @@ class Session:
                         a.settle(o.option_id, payout)
                 else:
                     new_opts.append(replace_steps(o, o.steps_until_expiry - 1))
+            # end-of-day solvency check, after expiry credits (grader behavior)
+            session_dead = False
+            for a in adapters:
+                was_alive = a.alive
+                a.end_of_day_check()
+                if a.is_player and was_alive and not a.alive:
+                    session_dead = True
+            if session_dead and sum(1 for a in adapters if a.is_player) == 1:
+                self.days_played = day + 1
+                break  # grader ends the session early on player bankruptcy
             while len(new_opts) < self.cfg.get("n_options", 10) and r.random() < 0.8:
                 new_opts.append(self._spawn_option())
             self.options = new_opts
@@ -462,8 +518,12 @@ class Session:
         for a in adapters:
             errs = getattr(a, "theo_errs", [])
             rmse = math.sqrt(sum(errs) / len(errs)) if errs else 0.0
+            mm_hard = getattr(a.mm, "_hard", None)
+            hard_err = abs(mm_hard - a.hard) if (a.is_player and mm_hard is not None) else 0.0
             out[a.label] = dict(pnl=a.pnl(mark), alive=a.alive, trades=a.n_trades,
-                                errors=a.errors, secs=a.time_spent, rmse=rmse)
+                                errors=a.errors, secs=a.time_spent, rmse=rmse,
+                                hard=a.hard, hard_err=hard_err,
+                                days=getattr(self, "days_played", n_days))
         return out
 
     def _do_rfq(self, alive, opt, cp, side, value, delta, qty, ckind):
@@ -483,7 +543,7 @@ class Session:
                 side = "sell"
             else:
                 return
-        tol = 0.0 if ckind in ("informed", "lookahead") else 0.10
+        tol = 0.0 if ckind in ("informed", "lookahead", "whale") else self.rng.uniform(0.02, 0.15)
         tp = self.true_theo(opt)
         remaining = qty
         if side == "buy":
@@ -515,6 +575,8 @@ class Session:
             # priced fair vs TODAY's theo but toxic vs tomorrow's (their value)
             side = "buy" if value >= true_p else "sell"
             price = true_p + r.gauss(0, 0.015)
+        elif ckind == "whale":
+            price = value  # far through fair by construction
         else:
             price = value + r.gauss(0, 0.02)
         price = min(max(round(price, 2), 0.01), 0.99)
@@ -538,23 +600,27 @@ def replace_steps(opt, t):
 
 
 SCENARIOS = {
-    "easy_noise": dict(bots=["fw_wide", "noisy"], customers=["noise"] * 5 + ["biased"],
-                       rfq_rate=6, fok_rate=3, n_days=40),
-    "fw_true": dict(bots=["fw_true", "lattice"], customers=["noise"] * 4 + ["biased", "informed"],
-                    rfq_rate=6, fok_rate=3, n_days=40),
-    "stalemate_sparse": dict(bots=["stalemate", "fw_wide"], customers=["noise", "noise", "informed"],
-                             rfq_rate=2, fok_rate=2, n_days=40),
+    # analogs of the observed hidden tests: tiny capital, whale FOK flow,
+    # 40-100 day sessions, the real opponent roster
+    "tc5_stalemate": dict(bots=["stalemate"], customers=["whale", "noise", "noise", "noise"],
+                          rfq_rate=1.5, fok_rate=0.8, n_days=70, cash=10.0),
+    "tc6_ultrawide": dict(bots=["fw_ultra", "stalemate"], customers=["noise"] * 4 + ["whale"],
+                          rfq_rate=2.0, fok_rate=0.7, n_days=40, cash=10.0),
+    "tc8_fw": dict(bots=["fw_wide", "stalemate"], customers=["noise"] * 4 + ["whale"],
+                   rfq_rate=3.0, fok_rate=1.0, n_days=70, cash=10.0),
+    "tc13_4way": dict(bots=["fw_wide", "lattice", "situational"],
+                      customers=["noise", "biased", "informed", "whale"],
+                      rfq_rate=3.0, fok_rate=1.0, n_days=70, cash=20.0),
+    "late_mix": dict(bots=["fw_true", "lattice", "mongoose"],
+                     customers=["noise", "noise", "biased", "whale", "lookahead"],
+                     rfq_rate=3.0, fok_rate=1.2, n_days=100, cash=40.0),
     "toxic": dict(bots=["fw_true", "stalemate"], customers=["informed", "lookahead", "noise", "lookahead"],
-                  rfq_rate=4, fok_rate=4, n_days=40),
-    "high_vol": dict(bots=["fw_true", "noisy"], customers=["noise"] * 4 + ["lookahead"],
-                     vol=2.0, rfq_rate=6, fok_rate=3, n_days=40),
-    "rate_heavy": dict(bots=["fw_true", "lattice"], customers=["noise"] * 4 + ["informed"],
-                       option_mix=["fed", "fed", "fed", "co"], rfq_rate=5, fok_rate=3, n_days=40),
-    "crowded": dict(bots=["fw_true", "fw_wide", "stalemate", "lattice", "noisy"],
-                    customers=["noise"] * 3 + ["biased", "informed", "lookahead"],
-                    rfq_rate=8, fok_rate=4, n_days=40),
-    "long_sparse": dict(bots=["stalemate", "fw_true"], customers=["noise", "informed"],
-                        rfq_rate=2, fok_rate=1, n_days=80, n_hist=30),
+                  rfq_rate=2.5, fok_rate=2.0, n_days=40, cash=20.0),
+    "rate_heavy": dict(bots=["fw_wide", "lattice"], customers=["noise"] * 4 + ["informed", "whale"],
+                       option_mix=["fed", "fed", "fed", "co"], rfq_rate=3.0, fok_rate=1.0, n_days=70, cash=10.0),
+    "crowded": dict(bots=["fw_true", "fw_wide", "stalemate", "lattice", "situational"],
+                    customers=["noise"] * 3 + ["biased", "whale", "lookahead"],
+                    rfq_rate=4.0, fok_rate=1.5, n_days=40, cash=40.0),
 }
 
 
@@ -572,15 +638,17 @@ def score_from_results(res):
     return scores
 
 
-def build_session_adapters(session, module_names, bot_kinds, cash=1000.0):
+def build_session_adapters(session, module_names, bot_kinds, cash=None):
+    if cash is None:
+        cash = session.cfg.get("cash", 20.0)
     adapters = []
     for i, mn in enumerate(module_names):
         mod = importlib.import_module(mn)
         mm = mod.MarketMaker(make_underlyings(session.values), list(session.options), cash)
-        adapters.append(Adapter(mm, mn, cash))
+        adapters.append(Adapter(mm, mn, cash, is_player=True))
     for kind in bot_kinds:
-        bot = Bot(kind, session.true_theo, random.Random(hash(kind) & 0xFFFF))
-        adapters.append(Adapter(bot, kind, cash))
+        bot = Bot(kind, session.true_theo, random.Random(sum(ord(c) for c in kind) & 0xFFFF))
+        adapters.append(Adapter(bot, kind, cash, is_player=False))
     return adapters
 
 
@@ -606,12 +674,13 @@ def run_battery(module_names, seeds):
                 agg[mn]["errors"] += d["errors"]
                 agg[mn]["secs"] += d["secs"]
                 agg[mn]["rmse"] += d["rmse"]
+                agg[mn]["hard_err"] = max(agg[mn].get("hard_err", 0.0), d.get("hard_err", 0.0))
     print("\n== battery summary ==")
     for mn, d in agg.items():
         n = max(d["n"], 1)
         print(f"  {mn}: avg_score={d['score']/n:.3f} avg_pnl={d['pnl']/n:+.1f} "
               f"bankruptcies={d['bankrupt']}/{n} errors={d['errors']} avg_secs={d['secs']/n:.2f} "
-              f"theo_rmse={d['rmse']/n:.4f}")
+              f"theo_rmse={d['rmse']/n:.4f} max_hard_err={d.get('hard_err', 0.0):.3f}")
 
 
 def main():

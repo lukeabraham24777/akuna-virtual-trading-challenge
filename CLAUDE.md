@@ -7,131 +7,110 @@ it maps every file and distills everything we know about the competition.
 
 | Path | What it is / when to read it |
 |---|---|
-| `Round1/instructions.md` | Official task statement: fill in `MarketMaker` in `trader.py`. Defines the three underlyings (FED rate, AJR, THR), binary options, RFQ vs FOK pipelines. |
-| `Round1/transcript.md` | Transcript of the intro video + user notes. Key line: competitors with own ideas beyond AI-prompting are expected to win — favor competition-specific, unorthodox tactics. |
-| `Round1/trader.py` | The original HackerRank scaffold: all environment dataclasses (`BinaryOption`, `MarketParameters`, `Quote`, `FokOrder`, `MarketHistory`, `Position`, `Underlying`) plus the six stubbed `MarketMaker` methods. **Changes to non-MarketMaker classes are ignored by the autograder.** |
-| `Round1/discord-insights/general-page-{1,2}.json` | Raw Discrub Discord exports (~1.5MB each) of the competitor server. Don't read raw — use the extracted file below. |
-| `Round1/discord-insights/messages_extracted.txt` | All 1,541 substantive messages in chronological readable form (regenerate via the snippet in "Maintenance"). This is the intel goldmine — scoring rules, per-test-case hints, opponent bot names, constraints. |
-| `Round1/output1.py` … `output5.py` | **The deliverables.** Five complete, self-contained `trader.py` replacements, best-first. All share one validated engine; they differ in the policy-constant block at the top of `MarketMaker`. See "The five bots" below. |
-| `Round1/make_variants.py` | Generates `output2..5` from `output1` by overriding policy constants. Edit `output1.py` + this file, rerun it — never hand-edit `output2..5`. |
-| `Round1/sim_harness.py` | Local environment simulator + validation suite (not part of any submission). See "Testing" below. |
+| `Round1/instructions.md` | Official task statement **including the bankruptcy-accounting note** (max-loss debits per trade; end-of-day solvency). The single most important mechanics paragraph. |
+| `Round1/transcript.md` | Intro-video transcript + user notes. Key line: competitors with own ideas beyond AI-prompting are expected to win. |
+| `Round1/trader.py` | The original HackerRank scaffold (env dataclasses + six stubbed `MarketMaker` methods). Changes to non-MarketMaker classes are ignored by the autograder. |
+| `Round1/discord-insights/messages_extracted.txt` | All 1,541 substantive Discord messages, chronological. Scoring rules, per-test hints, opponent names, constraints. (Raw JSON exports sit next to it.) |
+| `Round1/outputs/output{1..5}/` | **v1 archive — do not edit.** The five originally submitted-style bots plus their real hidden-test results (`*_results.md`). Scores: Lodestar 17.1, Meridian 16.0, Lodestar-A 14.9 (2 bankruptcies), Lodestar-R 14.8, Bastion 14.8. |
+| `Round1/output1.py` | **Lodestar-Prime** — the v2 flagship deliverable (and the dev master). Full adaptive stack on top of the grader-exact capital model. |
+| `Round1/output2.py` | **Meridian-Prime** — v2 static backup: same engine + capital model, adaptive machinery pinned neutral. Generated, never hand-edited. |
+| `Round1/outputs_v2/output{1,2}/` | Mirror copies of the two v2 deliverables, in the same folder layout used for test results (drop `*_results.md` files here after running the hidden tests). |
+| `Round1/make_variants.py` | Regenerates `output2.py` (+ the `outputs_v2/` mirrors) from `output1.py` policy overrides. Edit `output1.py`, run this, never hand-edit `output2.py`. |
+| `Round1/sim_harness.py` | Local simulator with **grader-exact accounting** + validation suite. See "Testing". |
 
-## Competition mechanics (assembled from instructions + Discord intel)
+## Competition mechanics (confirmed against real grader output)
 
-- HackerRank, 20 test cases, file must be **< 64KB**, **no `print` statements**
-  (they break the custom checker: "Custom checker Failed: Success" also appears on
-  time/memory-limit violations — keep `warm_up` fast). Submission deadline was Aug 23-24.
-- **TC1 = "THEO" test**: calls `price_option_from_parameters` with the *true*
-  `MarketParameters` and compares against exact theos (pass/fail on max error).
-  A competitor leaked a full TC1 output — true params and six option theos — which we use
-  as ground truth in `sim_harness.py` (`TC1_PARAMS` / `TC1_CASES`). Our engine reproduces
-  all six to 4 decimal places.
-- **TC2–4**: easy pass/fail sanity runs (score 1.0 each, negligible PnL).
-- **TC5–20 (16 scored)**: live market-making sessions vs Akuna bots. Score per test:
-  `0.4 + 0.6*(N - rank)/(N - 1)` ranked by **PnL**; **bankruptcy or a raised exception = 0**
-  (confirmed pattern: last of 3 → 0.4, 2nd of 3 → 0.7, 1st → 1.0).
-  So: never go bankrupt, never throw, and out-earn the best Akuna bot in each session.
-- Known/likely Akuna bot archetypes (from Discord + a community arena): **Fixed Width**
-  (quotes true fair ±0.025 — wins all flow if you quote wider), **Stalemate Quoter**
-  (boundary quotes 0.01/0.99, skims only huge-edge FOKs; TC5–7 winners made only ~$13–23),
-  **Lattice** (coarse price grid). ~6 archetypes are mixed per test ("127 combinations").
-- Community experience: TC5–7 (and 8, 10, 13, 14, 18) are the hard ones. One competitor got
-  TC5 from 0.4 → 1.0 by **lowering his FOK edge requirement from 2× to 1.5× theo** —
-  in sparse/toxic sessions you must still capture the few good trades.
-- Typical honest scores: 15–18/20; 19+ is likely overfit. Round 2 = top performers' bots
-  face each other on out-of-sample cases (no code changes allowed) → generalization matters.
-- `warm_up` history: daily **values** (not returns), ~20 days typical. `on_trade`
-  quantity is **signed** (positive = we bought). Quotes: whole pennies, `0 ≤ bid < offer ≤ 1`.
+- HackerRank, 20 tests, file **< 64KB**, **no `print`** statements, time+memory limits.
+- **Test a (TC1) = THEO**: `price_option_from_parameters` vs true params, pass/fail on max
+  error. The leaked TC1 output (true params + six exact theos) is baked into
+  `sim_harness.py` (`TC1_PARAMS`/`TC1_CASES`); both deliverables reproduce all six to 4dp.
+- **Tests b–d (TC2–4) = VERBOSE**: full credit unless you error/bankrupt. Their logs are
+  gold: they reveal counterparty ids, option universes, and fills (see the archived
+  `*_results.md`).
+- **Tests e–t (TC5–20) = SCORED**: `0.4 + 0.6·(N−rank)/(N−1)` by PnL; bankrupt/error = 0.
+  Observed: **starting capital $10 (e–i), $20 (j–o), $40 (p–t)**; sessions up to
+  **70–100 days**; opponents drawn from Stalemate Quoter, Fixed Width 0.05/0.1/0.25,
+  Lattice, Mongoose, Situational Unawareness (2–4 per session).
+- **Bankruptcy accounting (verified to the penny against three grader logs):** every trade
+  immediately debits its **maximum loss** — buys cost `price·qty`, sells cost
+  `(1−price)·qty` — and the debit is **not refunded by closing trades**, only by expiry
+  credits (`bought·X + sold·(1−X)` per option, always ≥ 0). Solvency is checked at end of
+  day after credits. Consequences: bankruptcy is a *liquidity* event (impossible if you
+  budget reserve), churn is expensive, selling high-priced options is nearly free,
+  and capital recycles at expiry.
 
-## The market model (exact, from `trader.py` mechanics)
+## What the real v1 results taught us (drove the v2 redesign)
 
-- FED rate: grid random walk, step 0.25, `P(up) = clamp(pu + s*(target - r))`,
-  `P(down) = clamp(pd - s*(target - r), 0, 1-P(up))`, floored at 0. Defaults
-  `target=2.0`, `step=0.25`.
-- Company log-return per day: `drift + rate_beta*Δr + sector_beta*sector_shock + idio`,
-  where the sector shock is **shared** between AJR and THR.
-- Key structural facts our engine exploits:
-  1. A company's T-day log return depends on the rate path **only through the total change**
-     `R_T − R_0` (the per-step contributions telescope) → exact pricing = Markov-chain DP
-     over rate levels × Gaussian CDF mixture. No Monte Carlo needed.
-  2. For strike-0 spreads (`w_a*A + w_b*B ≥ 0`, opposite signs) the event is a **log-ratio**
-     event; with equal sector betas the sector shock cancels → very low variance → these can
-     be priced (and quoted) much tighter than single names.
-  3. Only residual *variance* and *covariance* are identifiable (and needed) from history —
-     the sector/idio split matters only for exotic strikes (quadrature fallback handles those).
-- Estimation (in `warm_up`, updated online every step as new days arrive):
-  rate params via grid MLE with priors; company drift/beta by ridge regression on rate
-  changes with **heavy drift shrinkage** (drift estimated from ~20 points is pure noise —
-  the biggest error source for long-dated options); variances/covariance from residuals.
-  Per-option **uncertainty** is derived (estimation-error propagation) and drives spreads.
+1. All five v1 bots scored 0.4 on TC5/6/13; the Stalemate Quoter won TC5 with ~$34 from
+   huge-edge "whale" FOKs (e.g. `buy 0.94 for 26` vs theo 0.81) that our contract-count
+   position caps (sized for $1000 capital, not $10–40) auto-rejected.
+2. v1's internal reserve model refunded closed shorts; the grader doesn't → the aggressive
+   variant went bankrupt twice (small negatives, −0.34/−0.85). Under the harness's
+   grader-true replay, v1-Lodestar itself goes bankrupt in 5/24 sessions — its real 17.1
+   survived on favorable draws.
+3. v1's drawdown breaker used fractions of capital ($0.6–$1.3 triggers at $10) → ordinary
+   PnL noise forced near-permanent lockdown in the sessions we under-earned (TC5–10).
 
-## Strategy architecture (shared by all five bots)
+## The market model & pricing engine (unchanged, exact)
 
-Single code path, behavior set by the policy-constant block at the top of `MarketMaker`:
+- FED: grid random walk with reversion tilt → exact Markov-chain DP.
+- Companies: log-return `drift + β·Δr + sector + idio`; T-day return depends on the rate
+  path only through `R_T − R_0` → DP × Gaussian-CDF mixture, closed form.
+- Strike-0 spreads: log-ratio event, sector shock cancels → priced very tight.
+- Estimation: grid-MLE rates with priors; ridge β; heavy drift shrinkage; residual
+  var/cov; online re-estimation every step; per-option uncertainty drives spreads.
 
-- **Pricing**: exact DP/closed-form engine above; `price_option_from_parameters` uses given
-  params (TC1-exact), `price_option` uses shrunk estimates.
-- **Quoting**: micro-price = theo + flow-fade + FOK-price nudge + inventory & bucket skew;
-  half-spread = `tight * cp_mult * (BASE_HALF + UNC_HALF * unc)`; sizes scale with cash,
-  inventory side, per-underlying net exposure (asymmetric: only the risk-increasing side is
-  choked), gross book, and session estimate quality. Riskless boundary quotes
-  (bid 0.00 / offer 1.00) when locked down — free options if hit.
-- **FOK policy**: accept when edge ≥ adaptive threshold (uncertainty- and
-  counterparty-scaled); relaxed for position-reducing trades and cheap "lottery" buys
-  (bounded loss); tail shorts need a price multiple of theo; hard risk checks assume full fill.
-- **Adaptivity** (the load-bearing part; markouts = post-trade theo moves):
-  - per-counterparty markout EWMAs → per-cp spread widening / hard lockout / tightening
-    for proven-benign flow (quote() receives `counterparty_id` — price discrimination is legal);
-  - RFQ vs FOK **channel-split** markout controllers (widen/lockdown quoting while still
-    harvesting FOKs — this is how you beat the Stalemate Quoter at its own game);
-  - win-rate controller (tighten when losing RFQs profitably, **harvest-widen** when
-    winning nearly all);
-  - mark-to-model drawdown circuit breaker, stricter when flow is provably adverse;
-    full sit-out override for hopeless toxic sessions (rank preservation).
-- **Bankruptcy shield**: cash-reserve accounting (shorts fully reserved at $1), margin
-  buffer, position/exposure/gross caps. Zero bankruptcies in 100+ simulated sessions.
-- All public methods are wrapped in try/except with safe fallbacks (an exception = score 0).
-- Private RNG only (`random.Random`) — never touch the global `random` module state, which
-  the grader's simulation uses.
+## v2 architecture (both deliverables)
 
-## The five bots (descending confidence)
+Everything from v1 (exact engine, markout/counterparty adaptivity in Lodestar-Prime,
+try/except shells, private RNG) plus the capital model:
 
-| File | Name | Profile |
-|---|---|---|
-| `output1.py` | **Lodestar** | Balanced adaptive flagship. Full machinery, moderate base aggression. Best head-to-head, swept the stalemate-sparse scenarios (the TC5–7 analog), top-2 everywhere else. |
-| `output2.py` | **Meridian** | Same engine, adaptive machinery pinned neutral: static uncertainty-scaled width, fixed sizes, plain FOK rule, single breaker. Fewest moving parts; best solo-battery score. If the grader environment differs from our assumptions, this is the hardest to break. |
-| `output3.py` | **Lodestar-R** | Robust/defensive calibration: uncertainty-heavy spreads, strict FOK bar, small book, hair-trigger defenses, extra shrinkage. Built for toxic/unknown regimes and R2 out-of-sample. |
-| `output4.py` | **Lodestar-A** | Aggressive flow-capture: tighter, bigger, lower FOK bar (the Discord "1.5×" lesson), dilution accepts. Upside bet that real test flow is richer/dumber than our harness. Weakest when many sharp MMs compete. |
-| `output5.py` | **Bastion** | Ultra-safe floor-maximizer: wide quotes, tiny book, high FOK bar, earliest lockdowns. Goal: never below 0.4, occasionally 1.0 when everyone else bleeds. |
+- `_hard`: exact replica of the grader's reserve balance (per-trade max-loss debits,
+  gross-leg expiry credits). Verified `max_hard_err = 0.000` across every harness session.
+- All quote sizes and FOK accepts budgeted in max-loss currency; a side that cannot afford
+  one contract quotes the free boundary price instead (bankruptcy impossible by
+  construction — zero bankruptcies in all v2 harness runs).
+- **Whale-FOK capture**: bounded-loss trades (unit max-loss ≤ 0.15) and fat-edge blocks
+  (edge ≥ 0.10) bypass contract-count caps; budget fraction grows with edge (up to 0.90),
+  bonus for fast-recycling short expiries; even lockdown mode accepts edge ≥ 0.12 at
+  unit-cost ≤ 0.30.
+- **Vol-scaled circuit breakers**: drawdown limits = max(capital fraction, k·realized
+  daily-PnL vol), benign-regime variance can throttle but never force a full sit-out;
+  lockdown quotes are stalemate-style 0.01/0.99 skims (reserve-cheap), not just 0.00/1.00.
+- **Capital-scarcity widening**: profit per unit of reserve is `edge/(1−price)` for sells,
+  so as utilization rises past 35%, quotes widen (up to HALF_MAX 0.34) — wide quotes only
+  forfeit flow the budget couldn't service anyway.
+- Lodestar-Prime keeps the adaptive stack (per-cp markouts/lockouts, RFQ/FOK channel
+  controllers, harvest-widening to 2.6×, flow fades); Meridian-Prime pins all of it
+  neutral via `make_variants.py`.
 
-Empirics (local harness, 8 scenarios × seeds; score = rank formula above):
-solo batteries ≈ 0.65–0.75 avg vs oracle-informed bot mixtures; head-to-head with all five
-plus bots: output1 ≈ output2 > output3 > output4 ≈ output5. Zero bankruptcies, zero
-exceptions, ~0.2s compute per 40-day session, theo RMSE vs truth ≈ 0.036.
+Harness comparison under identical grader-true conditions (8 scenarios × 3 seeds):
+v1-Lodestar 0.342 avg score, +3.8 PnL, **5 bankruptcies**; Lodestar-Prime 0.513–0.596,
++17–18 PnL, **0 bankruptcies**; Meridian-Prime ~0.48–0.52, +12–15, 0 bankruptcies.
+(Harness scores undershoot real scores: its bots are capital-unconstrained and its flow
+is richer than the real tests'; use it for safety proofs and A/B comparisons, not
+absolute score prediction.)
 
 ## Testing (`sim_harness.py`)
 
 ```
-python3 sim_harness.py theo output1     # TC1 exact-value check + Monte Carlo cross-check
-python3 sim_harness.py run output1 1 2 3    # scenario battery (8 scenarios x seeds)
-python3 sim_harness.py h2h output1 ... output5   # all bots in the same sessions
-python3 sim_harness.py diag output1 toxic 2      # per-fill PnL attribution for one session
-python3 sim_harness.py speed output1    # timing check
+python3 sim_harness.py theo output1        # TC1 exact-value check + MC cross-check
+python3 sim_harness.py run output1 1 2 3   # scenario battery (grader-true accounting)
+python3 sim_harness.py h2h output1 output2 # both in the same sessions
+python3 sim_harness.py diag output1 tc8_fw 1   # per-fill attribution for one session
+python3 sim_harness.py speed output1
 ```
 
-Scenarios replicate the intel: fixed-width-true / stalemate / lattice / wide / noisy
-opponents; noise / biased / informed / lookahead customers; RFQ best-price routing with
-book-walking; FOK splitting among accepters; bankruptcy → dead; final PnL marked at true theo.
-The `diag` mode splits instant edge (vs true theo) from inventory losses — that distinction
-drove the biggest design win (inventory variance, not adverse selection, was the main bleed).
+Scenarios replicate the observed tests: $10–40 capital, 40–100 days, whale FOK flow,
+the real opponent roster, end-of-day solvency with max-loss debits. The summary's
+`max_hard_err` asserts the bot's internal `_hard` matches the grader-side balance
+exactly — keep it at 0.000.
 
 ## Maintenance
 
-- To change strategy: edit `output1.py` (and/or the override dicts in `make_variants.py`),
-  run `python3 make_variants.py`, then `theo` + `run` + `h2h` before committing.
-- Keep each output file under 64KB and free of `print`/new imports/global-RNG usage.
-- Regenerate `messages_extracted.txt` if the raw JSONs change:
-  load both JSONs, dedupe by message `id`, sort by `timestamp`, emit
-  `[ts] author (replying to ...): content` lines, skip empty system messages.
-- The `MarketMaker` class must stay drop-in compatible with the scaffold: same six public
-  methods, no reliance on modifications to the other classes.
+- To change strategy: edit `output1.py` (+ overrides in `make_variants.py`), run
+  `python3 make_variants.py`, then `theo` + `run` + `h2h` before committing.
+  The archived v1 family under `outputs/` stays untouched as the known-17.1 fallback.
+- Keep files < 64KB, no `print`, no new imports, no global-RNG usage; all six public
+  methods wrapped in try/except.
+- The `MarketMaker` class must stay drop-in compatible with the scaffold.
