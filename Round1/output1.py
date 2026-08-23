@@ -268,6 +268,8 @@ class MarketMaker:
     UNC_HALF = 0.85        # half-spread contribution per unit of theo uncertainty
     HALF_MIN = 0.01
     HALF_MAX = 0.26
+    CAP_WIDTH_REF = 42.0   # capital-aware width: widen when starting cash is below this
+    CAP_WIDTH_MAX = 1.6
     TIGHT_MIN = 0.55       # global spread multiplier bounds (adaptive)
     TIGHT_MAX = 2.8
     SIZE_BASE = 20.0
@@ -390,6 +392,7 @@ class MarketMaker:
         self._mark_rfq = 0.0
         self._mark_fok = 0.0
         self._rfq_lock = False
+        self._floor_lock = False
         self._unc_scale = 1.0
         self._dvol = 0.05 * max(self._cash0, 1.0)
         self._last_mp = 0.0
@@ -1068,6 +1071,13 @@ class MarketMaker:
             self._def_mode = 2
         elif self._day >= self.TOX_OVR2_DAY and self._g_mark < -self.TOX_OVR2 and mp_now < 0.01 * self._cash0:
             self._def_mode = max(self._def_mode, 1)
+        # session stop-loss: past -8% of cash, lock to skim quotes and
+        # riskless/fat-edge/reducing FOKs only; release above -4% (hysteresis)
+        if self._floor_lock:
+            if mp_now > -0.04 * self._cash0:
+                self._floor_lock = False
+        elif mp_now < -0.08 * self._cash0:
+            self._floor_lock = True
 
         for oid in list(self._fade.keys()):
             self._fade[oid] *= 0.65
@@ -1132,7 +1142,7 @@ class MarketMaker:
         if headroom <= 0.15:
             # near-insolvent: only strictly free prices (buy at 0.00 / sell at 1.00)
             return Quote(bid_price=0.0, bid_quantity=25, offer_price=1.0, offer_quantity=25)
-        if self._def_mode >= 2 or self._rfq_lock:
+        if self._def_mode >= 2 or self._rfq_lock or self._floor_lock:
             # lockdown: stalemate-style skim quotes, still nearly free in reserve
             n = int(self._clamp(headroom * 0.5 / 0.01, 1, 25))
             return Quote(bid_price=0.01, bid_quantity=n, offer_price=0.99, offer_quantity=n)
@@ -1151,7 +1161,11 @@ class MarketMaker:
         if self._mark_rfq < -0.012 and not known_benign:
             cp_mult *= 1.0 + min(1.5, -self._mark_rfq * 35.0)
 
-        half = self._tight * cp_mult * (self.BASE_HALF + self.UNC_HALF * unc)
+        # capital-aware width: tiny bankrolls can't service tight-quote flow, so
+        # quote near the winning fixed-width bots (1.6x at $10, ~1.45x at $20,
+        # ~1.02x at $40, 1.0x above the reference)
+        cw = max(1.0, min(self.CAP_WIDTH_MAX, math.sqrt(self.CAP_WIDTH_REF / self._cash0)))
+        half = cw * self._tight * cp_mult * (self.BASE_HALF + self.UNC_HALF * unc)
         if self._def_mode == 1:
             half *= 1.6
         # capital-scarcity widening: with reserve mostly deployed, each remaining
@@ -1233,6 +1247,7 @@ class MarketMaker:
         pos = self.position.option_quantity_by_option_id.get(oid, 0)
         reduces = (pos > 0 and we_sell) or (pos < 0 and not we_sell)
         headroom = self._headroom()
+        dmode = 2 if self._floor_lock else self._def_mode  # floor lock = full defense
 
         if we_sell:
             edge = price - micro
@@ -1260,7 +1275,7 @@ class MarketMaker:
         cheap = unit_cost <= self.CHEAP_UNIT
 
         riskless = (we_sell and price >= 0.995) or ((not we_sell) and price <= 0.005 and p_raw > 0.001)
-        if self._def_mode >= 2:
+        if dmode >= 2:
             if riskless:
                 self._fok_pend[(oid, cp)] = "buy" if we_sell else "sell"
                 return True
@@ -1272,7 +1287,7 @@ class MarketMaker:
                 return False
 
         req = self._fokm * max(self.FOK_FLOOR, self.FOK_UNC * unc) + tox_add
-        if self._def_mode == 1:
+        if dmode == 1:
             req *= 1.5
             benign = False
         if locked:
@@ -1307,7 +1322,7 @@ class MarketMaker:
         # may be informed poison -- bound the reserve it can consume until that
         # counterparty has earned trust via markouts
         frac = min(frac, self.FOK_CPCAP_BEN if benign else self.FOK_CPCAP_UNK)
-        if self._def_mode == 1 or locked:
+        if dmode == 1 or locked:
             frac *= 0.5
         if cost > max(headroom, 0.0) * frac:
             return False
