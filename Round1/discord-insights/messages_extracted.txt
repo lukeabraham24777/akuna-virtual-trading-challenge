@@ -1,0 +1,1586 @@
+[2026-08-18 18:30] vroom: What score are you guys getting?
+[2026-08-18 18:36] TROLLLLLLLLLLLLL (replying to vroom: "What score are you guys getting?"): where to check lbd ?
+[2026-08-18 18:37] vroom: No leaderboard
+[2026-08-18 18:37] TROLLLLLLLLLLLLL: so wdym by score?
+[2026-08-18 18:37] vroom: just add up ur score for each testcase
+[2026-08-18 18:37] TROLLLLLLLLLLLLL: test case passing?
+[2026-08-18 18:37] vroom: nah each testcase has a score
+[2026-08-18 18:40] TROLLLLLLLLLLLLL: 11.6 , just FED
+[2026-08-18 18:41] TROLLLLLLLLLLLLL: wbu <@822522010209878137>
+[2026-08-18 18:48] Cynzi: 15.6
+[2026-08-18 18:48] TROLLLLLLLLLLLLL: all 3 implemented?
+[2026-08-18 18:48] Cynzi: Yh counting 0.0000 on first case as a 1 tho
+[2026-08-18 18:49] TROLLLLLLLLLLLLL (replying to Cynzi: "Yh counting 0.0000 on first case as a 1 tho"): whats your rank on case 20 and score?
+[2026-08-18 18:53] Cynzi:   [attachments: ['IMG_0717.jpg']]
+[2026-08-18 18:53] TROLLLLLLLLLLLLL: so you are TollBooth?
+[2026-08-18 19:00] Cynzi: Yh did crap on tht one but still decent
+[2026-08-18 19:09] Cynzi: How are ygs doing
+[2026-08-18 19:25] godfather: guys what are this scores you are putting in the chat? if they are num of tt passed then why decimals?
+[2026-08-18 19:35] Aang: hi guys, placed top 100 in prosperity this year. anybody want to work together?
+[2026-08-18 19:36] TROLLLLLLLLLLLLL (replying to Aang: "hi guys, placed top 100 in prosperity this year. anybody want to work together?"): country?
+[2026-08-18 19:36] Aang: also when does round 1 end?
+[2026-08-18 19:36] Aang: switzerland
+[2026-08-18 19:36] Aang: you?
+[2026-08-18 19:36] TROLLLLLLLLLLLLL: pakistan
+[2026-08-18 19:36] N: whats ur score 16.6 here
+[2026-08-18 19:37] godfather (replying to godfather: "guys what are this scores you are putting in the chat? if they are num of tt pas"): anyone?
+[2026-08-18 19:37] Mohit: score is out of 19 not 20 a lot of people addressing this incorrect the first test case is not Inc
+[2026-08-18 19:38] TROLLLLLLLLLLLLL: just add the score values you get in the ouput of each case
+[2026-08-18 20:22] Cynzi (replying to Mohit: "score is out of 19 not 20 a lot of people addressing this incorrect the first te"): Still ntb my percentage is 77 tho still decent
+[2026-08-18 20:55] nic: did you guys know about options well before the competition and their pricing model
+[2026-08-18 21:16] rixzky: whats everyones score im getting 15.6
+[2026-08-18 21:16] rixzky: *15.5
+[2026-08-18 21:16] Mohit: I saw someone on Reddit claim 19.7/20
+[2026-08-18 21:16] swish: someone's claiming 20/20
+[2026-08-18 21:16] rixzky: i saw that but surely overfitted i mean im out of ideas already
+[2026-08-18 21:17] (paraplegic): bot question what is the intneded response on test case 1- I've passed several of the real cases already but test case 1 still says failed
+[2026-08-18 21:19] Mohit: My max is 15.8/20 or you can say 14.8/19
+[2026-08-18 21:19] swish (replying to rixzky: "i saw that but surely overfitted i mean im out of ideas already"): that person said this: "But I am not just optimizing for the test cases since the reason my model is good is bc i've been running RL sims for the past 12 hours. It just happens to beat the test cases while doing this."
+[2026-08-18 21:25] rixzky (replying to swish: "that person said this: "But I am not just optimizing for the test cases since th"): i mean yea thats better than hand tuning
+[2026-08-18 21:26] rixzky: i defo dont have enough xp for that lol
+[2026-08-18 21:26] Cynzi (replying to swish: "that person said this: "But I am not just optimizing for the test cases since th"): So they overfit it anyways
+[2026-08-18 21:26] VJ: yea sounds overfitting
+[2026-08-18 21:27] Cynzi: They said they simulated environment then used ml the next round wont have that same opportunity or structure we also cant edit so lowk cooked
+[2026-08-18 21:27] Cynzi: Or he’s cracked
+[2026-08-18 21:27] rixzky: what is next round
+[2026-08-18 21:27] BAGGAA: are u guys typing the code or  pasting?
+will there be any problem in hackerrank evaluation if if i simply paste the code ?
+[2026-08-18 21:27] rixzky: i had no clue there even was a second round tbh
+[2026-08-18 21:27] Mohit (replying to BAGGAA: "are u guys typing the code or  pasting? will there be any problem in hackerrank "): I don’t think so
+[2026-08-18 21:27] Cynzi: Everyone tht makes it to the next stage vs eachother
+[2026-08-18 21:28] rixzky (replying to BAGGAA: "are u guys typing the code or  pasting? will there be any problem in hackerrank "): 80% pasted tbh but understand what youre doing at least
+[2026-08-18 21:28] swish: yeah what does the second round mean? when is that going to happen and does anyone know if we can make any changes to our bots before it starts?
+[2026-08-18 21:28] Cynzi: Akuna battle royale
+[2026-08-18 21:28] rixzky: i was cracked at fortnite i got this
+[2026-08-18 21:28] Cynzi (replying to swish: "yeah what does the second round mean? when is that going to happen and does anyo"): I doubt it ibr
+[2026-08-18 21:28] TROLLLLLLLLLLLLL: what would be the cutoff for r2 ? out of /20 ?
+[2026-08-18 21:28] Mohit (replying to Cynzi: "Akuna battle royale"): The legendary Arena
+[2026-08-18 21:28] Cynzi (replying to rixzky: "i was cracked at fortnite i got this"): Lowk buns no hope for me
+[2026-08-18 21:28] swish (replying to TROLLLLLLLLLLLLL: "what would be the cutoff for r2 ? out of /20 ?"): ^^^
+[2026-08-18 21:29] rixzky (replying to TROLLLLLLLLLLLLL: "what would be the cutoff for r2 ? out of /20 ?"): i read somewhere that it was 80% total or something last year. cant remember where i saw that tho dont trust me
+[2026-08-18 21:29] rixzky (replying to Cynzi: "Lowk buns no hope for me"): my model 200 pumps yours
+[2026-08-18 21:29] swish (replying to rixzky: "i read somewhere that it was 80% total or something last year. cant remember whe"): i think i remember reading this on a reddit comment
+[2026-08-18 21:29] swish: but last year's comp didn't include a second round where players faced off against each other
+[2026-08-18 21:30] swish: it was only against akuna's bots
+[2026-08-18 21:30] BAGGAA: do the current score will determine the leaderboard for the first round?
+[2026-08-18 21:30] Mohit (replying to rixzky: "i was cracked at fortnite i got this"): You need to be cracked at paying the most to Claude for this
+[2026-08-18 21:30] rixzky (replying to swish: "it was only against akuna's bots"): cuz ai probably too cracked but makes the same models every time so best way to differentiate is to see who did something different? idk
+[2026-08-18 21:31] rixzky (replying to Mohit: "You need to be cracked at paying the most to Claude for this"): lowk just used opus and instructed it and edited where i had to. claude cant quant like i can fr
+[2026-08-18 21:31] Cynzi (replying to TROLLLLLLLLLLLLL: "what would be the cutoff for r2 ? out of /20 ?"): Ive heard 75%-80% from last yr threads
+[2026-08-18 21:32] swish (replying to rixzky: "cuz ai probably too cracked but makes the same models every time so best way to "): yeah that makes sense
+[2026-08-18 21:32] Cynzi (replying to rixzky: "my model 200 pumps yours"): Shit man im reporting u
+[2026-08-18 21:32] Mohit: Any clue by when do we have to submit this for round 2 lol
+[2026-08-18 21:32] Mohit: Like today ?
+[2026-08-18 21:32] Cynzi (replying to swish: "but last year's comp didn't include a second round where players faced off again"): Oh yh ur right was one and done
+[2026-08-18 21:32] Cynzi: Therefore threshold likely lower
+[2026-08-18 21:32] BAGGAA (replying to Mohit: "Any clue by when do we have to submit this for round 2 lol"): by 23
+[2026-08-18 21:32] TROLLLLLLLLLLLLL (replying to Cynzi: "Ive heard 75%-80% from last yr threads"): so >16 is safe for r2?
+[2026-08-18 21:32] Cynzi: Maybe 70?
+[2026-08-18 21:33] rixzky (replying to Mohit: "Any clue by when do we have to submit this for round 2 lol"): i finished mine today cuz i cant be assed anymore but like wasnt it aug 23 on the email
+[2026-08-18 21:33] swish: it is 23rd
+[2026-08-18 21:33] Mohit: The email was confusing and so was the video
+[2026-08-18 21:33] vroom: is roudn 2 a seperate challenge or do they just take the >80%, make htem play each other and whoever gets the most out of those wins?
+[2026-08-18 21:33] swish: i havent started mine yet but i feel like i couldnt do 5 hours straight
+[2026-08-18 21:34] swish (replying to vroom: "is roudn 2 a seperate challenge or do they just take the >80%, make htem play ea"): i think the latter is what happends
+[2026-08-18 21:34] rixzky: how many ppl do u think r competing
+[2026-08-18 21:34] rixzky: video has like 2k view s
+[2026-08-18 21:34] BAGGAA:   [attachments: ['image.png']]
+[2026-08-18 21:34] Cynzi (replying to Mohit: "The email was confusing and so was the video"): Genuinely didn’t even watch just transcribed lol
+[2026-08-18 21:34] BAGGAA: i guess top 10 goes
+[2026-08-18 21:35] Mohit: I think it’s 1.7k even tho vid has 2k  views people watch it again and again
+[2026-08-18 21:35] rixzky (replying to BAGGAA: ""): i shat my pants for a sec till i read 2025
+[2026-08-18 21:35] Cynzi (replying to vroom: "is roudn 2 a seperate challenge or do they just take the >80%, make htem play ea"): Second
+[2026-08-18 21:35] swish (replying to BAGGAA: ""): is this from last year
+[2026-08-18 21:35] BAGGAA: yes
+[2026-08-18 21:36] VJ: r we allowed to edit the bot for r2?
+[2026-08-18 21:36] swish: i would hope so but i dont think
+[2026-08-18 21:36] Cynzi (replying to rixzky: "video has like 2k view s"): Heard 500 last year makes sense there’s more since it was just an essay barrier to entry
+[2026-08-18 21:36] BAGGAA (replying to swish: "is this from last year"): somebody posted it on linkedin
+[2026-08-18 21:36] rixzky: shit now im worried my models at 77.5% i shouldve at least tried a bit more
+[2026-08-18 21:36] swish: have you submitted
+[2026-08-18 21:36] rixzky: yes
+[2026-08-18 21:36] rixzky: lol
+[2026-08-18 21:36] BAGGAA: https://www.linkedin.com/posts/shivesh777_quantfinance-trading-options-share-7372541343245496321-0klz/  [embeds: 1]
+[2026-08-18 21:37] Cynzi: Yh ours was different deffo
+[2026-08-18 21:37] swish (replying to Cynzi: "Yh ours was different deffo"): in what way
+[2026-08-18 21:37] rixzky: just curious are you guys bachelors or masters or what
+[2026-08-18 21:37] Cynzi: Idt they had two stages j one big stage and theres was 2 day longer
+[2026-08-18 21:38] swish: wow
+[2026-08-18 21:38] swish: imma try and get it done tonight
+[2026-08-18 21:38] Cynzi: Also seems like it was less vs other competitors almost fully vs akuna’s model
+[2026-08-18 21:38] Cynzi (replying to rixzky: "just curious are you guys bachelors or masters or what"): Bachelors
+[2026-08-18 21:39] swish (replying to Cynzi: "Also seems like it was less vs other competitors almost fully vs akuna’s model"): yeah fasho it was only against akuna's bots
+[2026-08-18 21:39] Mohit (replying to BAGGAA: "https://www.linkedin.com/posts/shivesh777_quantfinance-trading-options-share-737"): Wow that’s cool no way he is also from UofT damn he is only one year older than me lololol
+[2026-08-18 21:39] rixzky (replying to Cynzi: "Bachelors"): i felt way out of my league applyng as a bachelors cs 1st year lol
+[2026-08-18 21:39] Mohit (replying to Mohit: "Wow that’s cool no way he is also from UofT damn he is only one year older than "): No way he is comp sci too wait tha gives me confidence I should be able to do this too
+[2026-08-18 21:40] BAGGAA (replying to Mohit: "No way he is comp sci too wait tha gives me confidence I should be able to do th"): ask him how many rounds were there last yr
+[2026-08-18 21:41] Mohit: Wait thanks for bringing this to my attention I just realized I met him before 2 times I completely forgot he was in the cssu
+[2026-08-18 21:41] Cynzi (replying to rixzky: "i felt way out of my league applyng as a bachelors cs 1st year lol"): Nah ur doing good im going into 2nd yr in sept
+[2026-08-18 21:41] rixzky: yea same lol
+[2026-08-18 21:42] Cynzi: I even do physics lol
+[2026-08-18 21:42] rixzky: fair enough
+[2026-08-18 21:42] rixzky: what uni
+[2026-08-18 21:42] Cynzi: Warwick
+[2026-08-18 21:42] rixzky: no way
+[2026-08-18 21:42] rixzky: same
+[2026-08-18 21:43] Cynzi: I have a thread ive been using for a while j uploading past dat nd its thinking 67.5% to 72.5% cutoff
+[2026-08-18 21:43] Cynzi (replying to rixzky: "no way"): Swr down what do u do
+[2026-08-18 21:43] rixzky: cs
+[2026-08-18 22:12] kool2732: For r1 we have until sunday right? There's no benefit to finishing early?
+[2026-08-18 22:44] Reset60: What's the point of doing such a competition where AI is allowed ? This is just gonna be a competition of who payed for Claude Max and can prompt best...
+[2026-08-18 22:45] Mohit (replying to Reset60: "What's the point of doing such a competition where AI is allowed ? This is just "): Idk but even using ai i am unable to go past 15.8
+[2026-08-19 04:12] BAGGAA: Is there anyone in this grp who is getting >15.6/19
+[2026-08-19 04:26] jamie (replying to BAGGAA: "Is there anyone in this grp who is getting >15.6/19"): ~16.3-16.5/19. it's a weird one to optimize as overfitting too much will get cooked against other people's bots in r2, but idt they've said what the cutoff will be which is annoying
+[2026-08-19 04:28] BAGGAA: did u overfit?
+[2026-08-19 04:47] jamie: i would say most of the improvements to 16.3 were intuitive, but 16.5 is likely overfit / variance / etc
+[2026-08-19 05:14] JKing007: Hi guys, im gonna start now hope it goes well
+[2026-08-19 05:15] JKing007: And round 1 goes for a week right? I can log in now and even continue tomorrow right?
+[2026-08-19 05:18] JKing007: anyone?
+[2026-08-19 05:19] BAGGAA (replying to JKing007: "And round 1 goes for a week right? I can log in now and even continue tomorrow r"): yes u can work
+[2026-08-19 05:49] bhumitmaru: what to input here?  [attachments: ['image.png']]
+[2026-08-19 05:52] BAGGAA (replying to bhumitmaru: "what to input here?"): nothing
+[2026-08-19 05:53] socks3000: can we alter the __init__ or no
+[2026-08-19 05:53] socks3000: how r u guys keeping track of cash
+[2026-08-19 05:53] bhumitmaru (replying to BAGGAA: "nothing"): okayy thankyouu
+[2026-08-19 06:11] godfather: Will the same code be used in round 2 or can we edit later?
+[2026-08-19 06:11] godfather: When is round2 gonna start?
+[2026-08-19 08:27] bhumitmaru (replying to BAGGAA: "Is there anyone in this grp who is getting >15.6/19"): i was able to get 17
+[2026-08-19 08:33] muffles: where did this information about a round 2 come from? didnt see on any akuna post
+[2026-08-19 08:36] Naman#0075: imo i think anything above 16/19 is probably overfit to the data on hand
+[2026-08-19 08:53] BAGGAA (replying to Naman#0075: "imo i think anything above 16/19 is probably overfit to the data on hand"): hmm
+[2026-08-19 08:54] BAGGAA (replying to bhumitmaru: "i was able to get 17"): 2 hours ago u were asking about the custom input doubt and now u are getting 17💀
+[2026-08-19 09:11] socks3000 (replying to Naman#0075: "imo i think anything above 16/19 is probably overfit to the data on hand"): no doubt it
+[2026-08-19 09:11] socks3000: unless you are hardcoding values instead of estimating
+[2026-08-19 09:12] socks3000: or they do something annyoing and change behaviour of other mm participatns
+[2026-08-19 09:12] BAGGAA (replying to socks3000: "no doubt it"): how much u are gettin
+[2026-08-19 09:15] socks3000: not high i bugged my code out
+[2026-08-19 09:16] socks3000: around 13-14/19
+[2026-08-19 09:16] socks3000: but i only started a couple hrs ago
+[2026-08-19 09:16] socks3000: gotta add tracking participants and i think itll hit higher
+[2026-08-19 09:25] Cynzi (replying to muffles: "where did this information about a round 2 come from? didnt see on any akuna pos"): The hackerrank
+[2026-08-19 09:32] Knight (replying to Naman#0075: "imo i think anything above 16/19 is probably overfit to the data on hand"): idts
+[2026-08-19 09:36] bhumitmaru (replying to BAGGAA: "2 hours ago u were asking about the custom input doubt and now u are getting 17💀"): idk i got my strategy and i m just testing different parameters
+[2026-08-19 09:41] muffles: what kinda pnl arr we getting?
+[2026-08-19 09:57] Cynzi: Oh yh its pnl based not result based
+[2026-08-19 10:32] harry: anyone know what the 'save and proceed' button does it the hackerrank?
+[2026-08-19 10:33] Akshat (replying to harry: "anyone know what the 'save and proceed' button does it the hackerrank?"): Your current code gets saved only and you return to the question home page
+[2026-08-19 10:33] harry: ah okay cheers
+[2026-08-19 10:56] JKing007 (replying to socks3000: "around 13-14/19"): Arent there 20 cases??
+[2026-08-19 11:15] Cynzi: The first case doesn’t produce a result just a max error
+[2026-08-19 11:42] Reset60 (replying to Cynzi: "Oh yh its pnl based not result based"): You sure ?
+[2026-08-19 11:49] Cynzi: A Two-Stage Tournament: The 20 tests in the HackerRank environment are only the first phase of the competition. Maximizing your PnL score in this environment serves as a qualifier. The top competitors will then advance to a direct face-off against each other to determine the final winners
+[2026-08-19 11:50] BAGGAA (replying to Cynzi: "A Two-Stage Tournament: The 20 tests in the HackerRank environment are only the "): how many top competitors and  we will be allowed to change the code for round 2?
+[2026-08-19 11:57] Cynzi: No idea for both cl
+[2026-08-19 12:55] JKing007: Im getting score of 9.3 from the test cases from 5-20... is it the same for everyone??
+[2026-08-19 12:55] shaolyn1108: got 16.9/20, hidden PNL 227.29$,  worst hidden test -5.66$
+[2026-08-19 12:55] BAGGAA: how are u able to get hidden pnl?
+[2026-08-19 12:56] .............🗿............. (replying to BAGGAA: "how are u able to get hidden pnl?"): Same question
+[2026-08-19 12:56] BAGGAA: i am getting 16.6/20
+[2026-08-19 12:56] JKing007 (replying to shaolyn1108: "got 16.9/20, hidden PNL 227.29$,  worst hidden test -5.66$"): Only from test cases 5-20 are scored right?
+[2026-08-19 12:56] .............🗿.............: I've been trying to do that but could not figure it out. I'm getting 16.9 too
+[2026-08-19 12:58] shaolyn1108 (replying to BAGGAA: "how are u able to get hidden pnl?"): compute the money u made on every tests, thats it
+[2026-08-19 12:58] .............🗿............. (replying to shaolyn1108: "compute the money u made on every tests, thats it"): But that's not hidden ?
+[2026-08-19 12:58] shaolyn1108 (replying to .............🗿.............: "But that's not hidden ?"): excluding the unhidden ones lol
+[2026-08-19 12:59] Mohit (replying to shaolyn1108: "compute the money u made on every tests, thats it"): nothing is hidden here everything is clear as daylight
+[2026-08-19 12:59] .............🗿............. (replying to shaolyn1108: "excluding the unhidden ones lol"): Oh I see I'll look into that thanks. And what about the worst hidden case ?
+[2026-08-19 12:59] JKing007: And the FOK thing- when it shows buy it means they will buy right? not from our pov
+[2026-08-19 13:00] shaolyn1108 (replying to .............🗿.............: "Oh I see I'll look into that thanks. And what about the worst hidden case ?"): -5.66
+[2026-08-19 13:01] .............🗿............. (replying to shaolyn1108: "-5.66"): I mean how do you see that ?
+[2026-08-19 13:01] BAGGAA: worst is -4.05 and total is 176.77 
+16.6/20
+[2026-08-19 13:01] JKing007 (replying to JKing007: "And the FOK thing- when it shows buy it means they will buy right? not from our "): anyone?
+[2026-08-19 13:02] shaolyn1108:   [attachments: ['image.png']]
+[2026-08-19 13:04] Reset60 (replying to Cynzi: "A Two-Stage Tournament: The 20 tests in the HackerRank environment are only the "): Where does that come from ?
+[2026-08-19 13:04] Reset60: except a guy on reddit
+[2026-08-19 13:05] .............🗿............. (replying to shaolyn1108: ""): Did you make this ?
+[2026-08-19 13:05] JKing007 (replying to shaolyn1108: ""): When it says BUY in FOK, it means they will buy right?
+[2026-08-19 13:06] JKing007: tq
+[2026-08-19 13:11] Reset60 (replying to shaolyn1108: ""): That gives you a $227.29 PnL and a 12.9/16 score. Which metric do you prioritise ?
+[2026-08-19 13:14] Cynzi (replying to Reset60: "except a guy on reddit"): Sorry mb i forgot to explain on there comes from the yt video
+[2026-08-19 13:16] Reset60 (replying to Cynzi: "Sorry mb i forgot to explain on there comes from the yt video"): Well I watched the youtube video, extracted the full script, and they never say that from what I see
+
+Welcome to the 2026 Akuna Capital Trading Competition. My name is Sean Vernon and I'm a quantitative trader here at Akuna Capital. >> And I'm Jack DeShane, a junior trader at Akuna trading binary options. You may be familiar with binary options, also known as event contracts, from different exchanges like Cboe or PredictIt. These instruments price the probability of a given event or outcome occurring, which could range from who will win an election to whether or not Bitcoin closes above $100,000 at the end of this year. These contracts are worth zero or one at settlement based on whether or not the given outcome occurs. I find these instruments to be conceptually easier to think about than traditional financial options as they are simply priced using the probability distribution of the underlying, the probability one event will occur out of a set of events, the distribution of returns of an index, or any other measurable outcome. In this challenge, you will design both pricing and trading strategies for binary options. I'll let Sean explain more of the details.
+[2026-08-19 13:16] Reset60: >> Thanks, Jack. The trading competition will involve binary options of three underlyings, the Fed funds rate and the valuations of two made-up private AI companies, Ajar AI and Theory AI. These three underlyings will vary in value according to a joint distribution, which you'll have to estimate from historical returns. Generally, as interest rates fall, the valuations of moonshot startups rise and vice versa. You'll be both quoting and responding to orders for binary options involving these three underlyings. You'll see all the details in the code once you start the challenge. Your goal will be to make a market-making bot which both provides two-sided quotes, a bid and an offer with quantities, and responds directly to customer buy-sell orders. Your market-making bot should balance the risk of trading orders, being mindful of both your theoretical value for the options and the position you already hold. You'll be competing in a variety of scenarios with both progressively more difficult competitors and more difficult trading conditions. So, you'll want to find ways to adapt your behavior based on information you get from your counterparties. You'll also want to be careful to avoid going bankrupt, which will cause you to automatically fail the scenario. You'll first be scored based on how well you do in the HackerRank environment, so get started soon and try to get your score as high as possible. The top competitors will then face off directly to determine the winners of the competition. Also note that using AI assistance is allowed, but we've structured the competition to try to balance the scales in favor of competitors that also draw on their own ideas. Be creative, good luck, and have fun.
+[2026-08-19 13:17] Cynzi: Count 3 sentences back from the end
+[2026-08-19 13:17] Reset60: that "You'll first be scored based on how well you do in the HackerRank environment, so get started soon and try to get your score as high as possible. " ?
+[2026-08-19 13:18] Cynzi: Then the next bit
+[2026-08-19 13:18] Reset60: Nah but you don't get my point
+[2026-08-19 13:18] Reset60: I'm saying that they never said that the ranking metric for them is your global PnL
+[2026-08-19 13:19] Reset60: From what I see, especially in the hackerrank description, the metric is your total score
+[2026-08-19 13:19] Reset60: which is different from PnL
+[2026-08-19 13:19] harry: i.e. passing the tests?
+[2026-08-19 13:20] Reset60 (replying to harry: "i.e. passing the tests?"): no the score you get at each test
+[2026-08-19 13:20] Cynzi: I meant they’re correlated if ur pnl is better so is ur result but yh ur right highk forgot to clarify
+[2026-08-19 13:20] harry: so there is risk of overfitting
+[2026-08-19 13:20] harry: ?
+[2026-08-19 13:20] harry: for round 2
+[2026-08-19 13:21] Reset60 (replying to Cynzi: "I meant they’re correlated if ur pnl is better so is ur result but yh ur right h"): They are but at various scale which can change the result a lot
+[2026-08-19 13:21] Reset60: From the hackerrank descritption : "The remaining 16 tests are SCORED, and your score will vary based on your performance. You will receive full credit for being the top market maker in the session by PnL, zero credit for going bankrupt (or code errors), and partial credit for avoiding bankruptcy. These tests will also vary in difficulty, including via different counterparties and different competing market makers."
+[2026-08-19 13:22] Reset60: plus, if they were ranking by PnL, I dont see why they would be providing scores, they would be completely useless imo
+[2026-08-19 13:22] Reset60: Or maybe there is something I don't see
+[2026-08-19 13:23] Reset60 (replying to harry: "so there is risk of overfitting"): yeah
+[2026-08-19 13:23] Reset60: allways
+[2026-08-19 13:23] Cynzi (replying to Reset60: "They are but at various scale which can change the result a lot"): If u maximise pnl and come first you get 1 from 0.4- like 0.8 it’s anything but coming last ur placement comes from ur pnl, they’re comparing ur bot’s pnl and akuna’s bots pnl to determine ranking thus results
+[2026-08-19 13:24] Cynzi (replying to harry: "so there is risk of overfitting"): 100%
+[2026-08-19 13:25] Mohit (replying to Cynzi: "If u maximise pnl and come first you get 1 from 0.4- like 0.8 it’s anything but "): nah but lets say in one test i get profit of 25 dollars but the other bots start at 2, 1 respectively in ranking high to low, i can tweak this to get lower profit and still maintain rank to get higher rank in other tests so it doesnt make sense
+[2026-08-19 13:25] Reset60 (replying to Cynzi: "If u maximise pnl and come first you get 1 from 0.4- like 0.8 it’s anything but "): Yeah but you can come first with a PnL of $10 or $20 and your score will still be 1.
+[2026-08-19 13:26] Reset60 (replying to Mohit: "nah but lets say in one test i get profit of 25 dollars but the other bots start"): exactly
+[2026-08-19 13:26] Cynzi (replying to Reset60: "Yeah but you can come first with a PnL of $10 or $20 and your score will still b"): Yh ik icl we’re saying the same thing
+[2026-08-19 13:26] Cynzi: Pnl its self doesn’t matter
+[2026-08-19 13:26] Reset60: Yeah ok so we agree
+[2026-08-19 13:26] Reset60: Which is weird btw
+[2026-08-19 13:26] Reset60: like
+[2026-08-19 13:26] Reset60: in life
+[2026-08-19 13:26] Reset60: PnL is more important
+[2026-08-19 13:27] Cynzi: But getting as high as possible helps u get a better result
+[2026-08-19 13:27] Mohit: man in life the overall pnl is more important
+[2026-08-19 13:27] Reset60 (replying to Mohit: "man in life the overall pnl is more important"): exactly
+[2026-08-19 13:27] Reset60: that'w why this whole score thing is weird
+[2026-08-19 13:28] Cynzi (replying to Reset60: "PnL is more important"): Yh 100% im treating it like a prediction market competition i did everything was based on rbp helps u go away from focusing on pnl
+[2026-08-19 13:30] Cynzi (replying to Mohit: "nah but lets say in one test i get profit of 25 dollars but the other bots start"): Yh but in the next stage when ur not against these simpler bots and against other competitors you cant just try coast by is what im implying having your bot aim to maximise pnl is just more robust especially in the unfortunate circumstance u cant change ur bot r2
+[2026-08-19 13:32] Mohit (replying to shaolyn1108: ""): how did you get 16 test cases there are 20 no ?
+[2026-08-19 13:32] Reset60 (replying to Mohit: "how did you get 16 test cases there are 20 no ?"): he excludes the 4 first cases which are not scored
+[2026-08-19 13:46] Mohit: oh ya i was counting that
+[2026-08-19 13:50] bhumitmaru: i got 17.3
+[2026-08-19 13:51] Mohit (replying to bhumitmaru: "i got 17.3"): out of 20 or 19
+[2026-08-19 13:51] bhumitmaru: 19
+[2026-08-19 13:52] Cynzi: Whtd u get out of 16 gho ignore first 4
+[2026-08-19 13:52] Mohit (replying to Cynzi: "Whtd u get out of 16 gho ignore first 4"): 17.3-3 bro
+[2026-08-19 13:54] Cynzi: U cldve gotten less than 1 on 2-4 😭✌🏽
+[2026-08-19 13:55] bhumitmaru (replying to Cynzi: "Whtd u get out of 16 gho ignore first 4"): 14.3
+[2026-08-19 13:55] Mohit: Bro is so goated i assume he got 1.0 on 2-4
+[2026-08-19 13:57] Cynzi (replying to Mohit: "Bro is so goated i assume he got 1.0 on 2-4"): Ur cold w foresight
+[2026-08-19 14:00] sricursion: what happens after i submit test  [attachments: ['image.png']]
+[2026-08-19 14:00] Blaze: Is there an actual time limit of 5-8 hrs?
+[2026-08-19 14:00] sricursion (replying to Blaze: "Is there an actual time limit of 5-8 hrs?"): im having it open from yesterday this time
+[2026-08-19 14:01] sricursion: timer on the platform is whole 7 days
+[2026-08-19 14:13] Jaskaran: what is the cutoff for second round likely to be?
+[2026-08-19 14:14] ilikebigbloons: Do you think they'll use the first round's code for second round?
+[2026-08-19 15:01] VJ: i think so the code wont change. because they said the challenge will tkae about 5-8 hrs in total. that's exhausted in r1 itself.
+[2026-08-19 15:02] shushhh5792: what will cutoff be
+[2026-08-19 15:35] harry (replying to VJ: "i think so the code wont change. because they said the challenge will tkae about"): if this is true then that implies that the 2nd round will be after the hackerrank timer runs out, no?
+[2026-08-19 15:37] Cynzi (replying to harry: "if this is true then that implies that the 2nd round will be after the hackerran"): Its likely and then the r2 is the day after and way shorter
+[2026-08-19 15:44] Mohit: Anyone get above 16.9/20
+[2026-08-19 15:44] vroom: nah lol
+[2026-08-19 15:44] vroom: anyoen getting >=0.7 on the first couple testcases
+[2026-08-19 15:45] Akshat: Im stuck on those too
+[2026-08-19 15:45] Akshat: Nothing at all is working for it
+[2026-08-19 15:45] shushhh5792: i got 17.1 but cant get higher
+[2026-08-19 15:46] Mohit (replying to shushhh5792: "i got 17.1 but cant get higher"): It’s actually idk
+[2026-08-19 15:46] Mohit: I am stuck at 16.6/20 can’t get any higher
+[2026-08-19 15:47] Akshat: Has anyone got score of 1 on the tc 5-7 yet?
+[2026-08-19 15:48] Mohit: I think it’s time to just submit I can’t give more time to this lol
+[2026-08-19 15:59] Cynzi: On 16.2/20 ibr above 15 shld be calm
+[2026-08-19 16:24] Jaskaran: did they announce or any historical idea of what percent people make round 2?
+[2026-08-19 16:33] vroom: I have two runs, one with a higher score, but that one has more -PNL on some testcases whereas the other run has a slightly lower score but better PNL
+[2026-08-19 16:33] vroom: Does anyone know what's considered better?
+[2026-08-19 16:35] shushhh5792: depends on the score i think
+[2026-08-19 16:35] vroom: score's 0.4 better
+[2026-08-19 16:37] Cynzi: Do the higher score pnl dont matter
+[2026-08-19 17:21] .............🗿.............: Did anyone get TC 5 and 6 past 0.4 ?
+[2026-08-19 17:21] Jaskaran: how's everyone doing on tc12?
+[2026-08-19 17:21] shushhh5792: do we get to change our bots before next round
+[2026-08-19 17:22] .............🗿............. (replying to Jaskaran: "how's everyone doing on tc12?"): 1.0
+[2026-08-19 17:22] .............🗿............. (replying to shushhh5792: "do we get to change our bots before next round"): I don't think so
+[2026-08-19 17:22] shushhh5792: ffs
+[2026-08-19 17:23] .............🗿............. (replying to shushhh5792: "ffs"): Why did you submit already ?
+[2026-08-19 17:23] Cynzi (replying to Jaskaran: "how's everyone doing on tc12?"): 1.0
+[2026-08-19 17:23] Cynzi (replying to shushhh5792: "do we get to change our bots before next round"): No
+[2026-08-19 17:56] shushhh5792 (replying to .............🗿.............: "Why did you submit already ?"): nah but it wld be sm easier if u cld
+[2026-08-19 18:09] Aaryan_viss: did someone figure out whats with the 5-7 test cases
+i just cant get to improve my score on them
+[2026-08-19 18:10] Aaryan_viss: ans what does stalemate quoters behaviour like
+[2026-08-19 18:11] Cynzi: Probably j toxic
+[2026-08-19 18:34] sounishant: did anyone get all test cases passed?!
+[2026-08-19 19:14] Shrey Agarwal: is anyone else getting a server error when trying to run tests?
+[2026-08-19 19:22] Aaryan_viss (replying to Shrey Agarwal: "is anyone else getting a server error when trying to run tests?"): that happens when ur file size exceed 64kb , happened with me aswell
+[2026-08-19 22:56] Mohit: Went to 16.8/20 but feel like I am overfitting at this point
+[2026-08-19 23:16] socks3000: are we trading against the other bots?
+[2026-08-19 23:16] socks3000: like theyre the one putting requests in
+[2026-08-19 23:20] kool2732: What is a good score out of 20 w/o overfitting? I'm getting stuck at 15.5
+[2026-08-19 23:29] grace: i got 20/20 lol am i overfitting?
+[2026-08-19 23:32] grace: guys do i submit?
+[2026-08-19 23:34] Mohit (replying to grace: "guys do i submit?"): Yes submit the code to my email
+[2026-08-19 23:42] JAKKEROFFER: anyone knows what this means 💀 Custom checker Failed: Success
+[2026-08-19 23:42] Mohit (replying to shushhh5792: "i got 17.1 but cant get higher"): Were you able to get past 17.1 <@726007480928174102>
+[2026-08-19 23:43] uufuu (replying to JAKKEROFFER: "anyone knows what this means 💀 Custom checker Failed: Success"): you modified something that shouldn't be changed..?
+[2026-08-19 23:43] JAKKEROFFER: shitt
+[2026-08-19 23:43] JAKKEROFFER: well i didnt modify it
+[2026-08-19 23:43] JAKKEROFFER: claude did
+[2026-08-19 23:57] JAKKEROFFER: looked through it, I dont think so?
+[2026-08-19 23:59] uufuu: emm idk then. It happened to me before and I realized I broke some rules specified by the description
+[2026-08-20 00:58] praxindice: wait on the instructions were allowed to create new definitions right cus for one of the things i exceeded the 15 limit so i just made it into 2
+[2026-08-20 01:59] Naman#0075 (replying to praxindice: "wait on the instructions were allowed to create new definitions right cus for on"): what happens if you exceed the 15 limit
+[2026-08-20 01:59] Naman#0075: program still runs fine right?
+[2026-08-20 02:26] Ryan: r u guys able to run the test
+[2026-08-20 02:27] Ryan: it shows server error on my end💀
+[2026-08-20 02:30] Mohit (replying to Ryan: "it shows server error on my end💀"): Max file size under 64kb for it to run
+[2026-08-20 03:26] uufuu: did anyone try to add print statements?  it said "Hidden test cases help evaluate whether your code handles different scenarios correctly. You can use print or log statements to debug and understand their behavior." but when i add one line of print statement it failed all tests.. then how are we supposed to use print or log to debug..
+[2026-08-20 03:33] socks3000: ^same problem, i've been using deduction to sort of figure out whats been going on
+[2026-08-20 04:03] Knight: anyone reached above 19/20 score? and what are ur total pnls?
+[2026-08-20 04:13] Aaryan_viss (replying to grace: "i got 20/20 lol am i overfitting?"): DAMNNN !!!!
+[2026-08-20 04:58] strixisme (replying to grace: "i got 20/20 lol am i overfitting?"): Did u use some neural network model?
+[2026-08-20 05:15] strixisme (replying to JAKKEROFFER: "looked through it, I dont think so?"): Make sure you have no print statements
+[2026-08-20 05:34] socks3000 (replying to strixisme: "Did u use some neural network model?"): bro you dont need a nn for this 😭
+[2026-08-20 05:35] socks3000: whats a comp pnl/hackerrank score rn?
+[2026-08-20 05:46] Knight: i have 19.7/20
+total pnl 340$
+[2026-08-20 05:46] socks3000: let me calculate my pnl
+[2026-08-20 05:46] socks3000: 15.2/19 or 16.2/20 if you count tc1 only but i havent worked out the quantity logic yet
+[2026-08-20 05:47] Knight: share ur pnl also, just want to know if score and pnl and correlated
+[2026-08-20 05:49] socks3000: 98 pnl
+[2026-08-20 05:49] socks3000: so give or take yeah
+[2026-08-20 05:49] socks3000: losing hella pnl to only a couple test cases
+[2026-08-20 05:49] Knight: ah yeah makes sense
+[2026-08-20 05:49] socks3000: u profitable all round or just in some places more than others?
+[2026-08-20 05:50] Knight: yeah rank 1 in all test cases except tc10
+[2026-08-20 05:50] socks3000: like are yo profiting in all?
+[2026-08-20 05:51] Knight: yes
+[2026-08-20 05:51] socks3000: okay cool
+[2026-08-20 05:51] Knight: lowest profit is 4$
+[2026-08-20 05:51] socks3000: did u track counterparty ids?
+[2026-08-20 05:52] Knight: damn bro nice
+[2026-08-20 05:53] Knight: if i hardcoded based on the testcases even i got 20
+
+but couldn’t pull off 20 without that
+[2026-08-20 05:54] socks3000: also is there any way to track who your competing mm's are?
+[2026-08-20 05:54] socks3000: if i can figure that out i can def get higher 😭
+[2026-08-20 06:01] rg (replying to Knight: "i have 19.7/20 total pnl 340$"): same but 510$
+[2026-08-20 08:16] shushhh5792 (replying to Mohit: "Were you able to get past 17.1 <@726007480928174102>"): 17.4
+[2026-08-20 08:16] shushhh5792: submitted
+[2026-08-20 08:27] Matthew: Wow it seems everyone here is very good, I’m at 17/20. 5-7 are giving me trouble
+[2026-08-20 08:34] muffles: will round 2 be interactive (eg people trade against each other actively) or just a pnl grind on oos cases?
+[2026-08-20 08:53] strixisme (replying to muffles: "will round 2 be interactive (eg people trade against each other actively) or jus"): i dont even think there will be round 2
+[2026-08-20 08:53] strixisme: or maybe its after friday
+[2026-08-20 08:59] muffles: does the chall end friday or monday?
+[2026-08-20 08:59] muffles: round 2 for top scorers
+[2026-08-20 09:05] strixisme: friday, they said that in the email
+[2026-08-20 09:11] Cynzi: So tomorrow?
+[2026-08-20 09:11] Cynzi: Whered they say tht
+[2026-08-20 09:11] aang (replying to strixisme: "friday, they said that in the email"): from where do you get friday? did not they say monday
+[2026-08-20 09:18] volodkov21_98511 (replying to strixisme: "friday, they said that in the email"): Which email? Can you send a screenshot?
+[2026-08-20 09:30] strixisme: my bad, ends on aug 23, so sunday  [attachments: ['Screenshot_2026-08-20_at_19.30.36.png']]
+[2026-08-20 09:35] praxindice (replying to Naman#0075: "what happens if you exceed the 15 limit"): yeah it runs fine if you split it into multiple
+[2026-08-20 09:36] Sinswickk: hi
+[2026-08-20 09:36] Sinswickk: can we close the window and then relogin again?
+[2026-08-20 09:37] praxindice: bro how are yall getting like 19 😭
+[2026-08-20 09:37] praxindice: im stuck on like 17-18
+[2026-08-20 09:37] Sinswickk: another thing how are y'all getting to know the pnl, I can just see 18 out of 20 test cases passed
+[2026-08-20 09:38] praxindice (replying to Sinswickk: "another thing how are y'all getting to know the pnl, I can just see 18 out of 20"): if you pass the testcase you can see
+[2026-08-20 09:38] praxindice: if you dotn you cant
+[2026-08-20 09:39] bestfromthewest: did they mention anything about what percentage/how many models will proceed to the final round?
+[2026-08-20 09:39] Sinswickk (replying to praxindice: "if you pass the testcase you can see"): for each test case ?
+[2026-08-20 09:40] praxindice (replying to Sinswickk: "for each test case ?"): yes
+[2026-08-20 09:41] Sinswickk: do we have to focus on clearing all test cases or pnl?
+[2026-08-20 09:43] socks3000 (replying to muffles: "will round 2 be interactive (eg people trade against each other actively) or jus"): p sure oos
+[2026-08-20 09:43] Cynzi: Both lol the result number u get from 0 to 1 is based on ur pnl being higher than akuna’s bots but u need to pass all test cases
+[2026-08-20 09:43] socks3000: because from the 6 bots, theres 127 combinations
+[2026-08-20 09:44] socks3000: so im guessing r2 is going to be the remaining or some subset of the unused ones
+[2026-08-20 09:44] socks3000: idk
+[2026-08-20 09:44] Sinswickk: does this mean 20/20 passed ?  [attachments: ['Screenshot_2026-08-20_at_3.13.30_PM.png', 'Screenshot_2026-08-20_at_3.13.57_PM.png', 'Screenshot_2026-08-20_at_3.14.07_PM.png', 'Screenshot_2026-08-20_at_3.14.01_PM.png']]
+[2026-08-20 09:44] Cynzi: Yh its oos but against the second round competitors
+[2026-08-20 09:44] socks3000: do you think theyll throw bots in
+[2026-08-20 09:44] Cynzi: No
+[2026-08-20 09:44] praxindice (replying to Sinswickk: "does this mean 20/20 passed ?"): yesyounpassed all
+[2026-08-20 09:45] Cynzi: This was the bot round
+[2026-08-20 09:45] socks3000: surely that means if we advance we can update code right
+[2026-08-20 09:45] Cynzi: Next is oos thats why avoiding over fitting is so important u probably cant change ur code and ur against other ppl tht did well in r2
+[2026-08-20 09:45] praxindice: Do you guys think a 19+ score will be needed to qual for r2
+[2026-08-20 09:45] Sinswickk (replying to praxindice: "yesyounpassed all"): now what should be my focus ? incresing pnl or should I submit, pls tell I am giving such a competition for the first time
+[2026-08-20 09:46] Cynzi (replying to praxindice: "Do you guys think a 19+ score will be needed to qual for r2"): I heard 75-80% as a good score last year
+[2026-08-20 09:46] praxindice (replying to Sinswickk: "now what should be my focus ? incresing pnl or should I submit, pls tell I am gi"): its my first too but you should optimize pnl accross all test cases
+[2026-08-20 09:46] socks3000 (replying to Cynzi: "Next is oos thats why avoiding over fitting is so important u probably cant chan"): well yeah but if your strategy revolves around your competition then ur fried
+[2026-08-20 09:46] praxindice (replying to Cynzi: "I heard 75-80% as a good score last year"): yeah but some people are dropping like 19.7 😭
+[2026-08-20 09:46] Cynzi: So maybe around tht or lower for r2 qualification then
+[2026-08-20 09:46] Cynzi (replying to praxindice: "yeah but some people are dropping like 19.7 😭"): Its not out of 20
+[2026-08-20 09:47] Cynzi: Its out of 16
+[2026-08-20 09:47] praxindice: oh yeah
+[2026-08-20 09:47] socks3000: first 4 r all 1's
+[2026-08-20 09:47] praxindice: Well subtracting 4
+[2026-08-20 09:47] socks3000: the pnl is also negligible from the first 4
+[2026-08-20 09:47] praxindice: Yeah true
+[2026-08-20 09:47] Sinswickk: how 19.7?
+[2026-08-20 09:47] socks3000 (replying to Sinswickk: "how 19.7?"): read the rules
+[2026-08-20 09:47] praxindice: so like i was guessing .9+ is probably a competitive bot for the 2nd round
+[2026-08-20 09:48] Sinswickk (replying to socks3000: "read the rules"): email?
+[2026-08-20 09:48] socks3000: the description tells you everything
+[2026-08-20 09:48] Cynzi: But also those ppl aren’t accurate representations, uve seen it alot because ur in spaces where ppl that get high say it. There were 500 competitors last yr and there was an oa barrier to entry, this year was an essay wayy lower so likely more ppl
+[2026-08-20 09:48] socks3000: also overfit is very likely icl
+[2026-08-20 09:48] praxindice: How would yoy even overfit here
+[2026-08-20 09:48] praxindice: they dont give you feedback
+[2026-08-20 09:49] socks3000: a certain strategy or to a certain TC
+[2026-08-20 09:49] praxindice (replying to socks3000: "a certain strategy or to a certain TC"): yeah but it could tank the other 15
+[2026-08-20 09:49] Cynzi (replying to socks3000: "well yeah but if your strategy revolves around your competition then ur fried"): Yh 100% u need a good medium do well in this but involve strategies like adverse selection and toxicity screening for r2 to avoid shitty bots
+[2026-08-20 09:49] socks3000: if it doesn't, also like if youre competing against other ppl it wont behave like it does right now (your competition)
+[2026-08-20 09:50] socks3000 (replying to Cynzi: "Yh 100% u need a good medium do well in this but involve strategies like adverse"): only thing is idk how theyre picking the ppl who advance
+[2026-08-20 09:50] Cynzi (replying to praxindice: "How would yoy even overfit here"): Changing parameters specifically for this data
+[2026-08-20 09:50] socks3000: if i optimize for other ppl and this round then its fried because i wont get the result i could get for only this round
+[2026-08-20 09:50] praxindice: ok i might sound dumb but i didnt see data anywhere fr
+[2026-08-20 09:51] socks3000: and the cutoff or how they select is incredibly vague
+[2026-08-20 09:51] praxindice: i just started typing on the keyboard
+[2026-08-20 09:51] socks3000: did u start the comp?
+[2026-08-20 09:51] praxindice: Yeah
+[2026-08-20 09:51] Cynzi: U can kinda tell the scenario data for each test case through trial and error so u optimise based on tht, but doing tht can hurt in r2 were u cant change and cant recur
+[2026-08-20 09:51] Sinswickk: so how much score are y'all getting
+[2026-08-20 09:51] socks3000: its all self contained, you aren't supposed to "analyze" data persay
+[2026-08-20 09:51] praxindice: Im at like a .8 smthn
+[2026-08-20 09:51] Cynzi (replying to socks3000: "only thing is idk how theyre picking the ppl who advance"): Based on result not pnl
+[2026-08-20 09:51] praxindice (replying to socks3000: "its all self contained, you aren't supposed to "analyze" data persay"): ok ya that makes mor sense
+[2026-08-20 09:51] socks3000 (replying to Cynzi: "U can kinda tell the scenario data for each test case through trial and error so"): what are you getting for pnl/results
+[2026-08-20 09:51] praxindice: my pnl lowkey 80 dollars
+[2026-08-20 09:52] praxindice: Cumulative
+[2026-08-20 09:52] Cynzi: 78%
+[2026-08-20 09:52] socks3000 (replying to Cynzi: "Based on result not pnl"): yeah ik but like if your result is strong but overfit, you'll pass on, but if its weak but fit to play against other people, you wont pass on (or there is a chance) since the cutoff isn't clearly defined
+[2026-08-20 09:52] socks3000 (replying to Cynzi: "78%"): like what number and pnl
+[2026-08-20 09:53] Cynzi: Pnl didn’t matter so I didn’t note it, submitted by accident and they aren’t responding to emails 12.2/16
+[2026-08-20 09:53] Cynzi (replying to socks3000: "yeah ik but like if your result is strong but overfit, you'll pass on, but if it"): No its just result
+[2026-08-20 09:53] praxindice: bro the first 4 scored cases are so annoying
+[2026-08-20 09:54] socks3000: theyre the best things
+[2026-08-20 09:54] praxindice: lkke whys their bot getting 400% returns
+[2026-08-20 09:54] socks3000 (replying to Cynzi: "No its just result"): nah im like not explaining it right mb
+[2026-08-20 09:54] Cynzi: Idt they look at pnl other than to rank u, or else they’d mention accumulated pnl, they mention score
+[2026-08-20 09:54] socks3000: you can either : 
+- get a 20/20 and overfit and advance 
+- get maybe a 18/20 and be fit properly and not advance (arbitrarily picked 18/20)
+[2026-08-20 09:54] praxindice: i think hes saying when your algos compete your cumulative pnl will be how they select you
+[2026-08-20 09:55] socks3000: pnl is useful to see if you are overfit imo
+[2026-08-20 09:55] praxindice (replying to socks3000: "you can either :  - get a 20/20 and overfit and advance  - get maybe a 18/20 and"): i think yoy can shoot for loke 18.5-19
+[2026-08-20 09:55] praxindice: beyond that might be overfittig
+[2026-08-20 09:56] socks3000: yeah pnl doesn't really help determine overfit but its more so like dont hardcode any values and its not that deep
+[2026-08-20 09:56] Cynzi: Yh it is but they dc if ur overfit theyll say thats ur own problem lol. They j want u to have a high score. 18/20 isnt low im thinking min 15 to advance lol
+[2026-08-20 09:56] socks3000: wish they said something to clarify it but its the name of the game lol
+[2026-08-20 09:57] Cynzi (replying to socks3000: "yeah pnl doesn't really help determine overfit but its more so like dont hardcod"): I disagree there its lowk an indicator especially in the notably toxic ones
+[2026-08-20 09:57] praxindice (replying to socks3000: "yeah pnl doesn't really help determine overfit but its more so like dont hardcod"): you dont have any hardcoded values…
+[2026-08-20 09:57] praxindice: oops..
+[2026-08-20 09:57] socks3000: nah not really, its a useful tool but you can still finesse it unintentionally
+[2026-08-20 09:57] socks3000 (replying to praxindice: "you dont have any hardcoded values…"): no i do lol
+[2026-08-20 09:57] socks3000: im fixing that stuff rn
+[2026-08-20 09:57] Cynzi: Like yk the ones were all ur competitors are neg pnl and ur insanely + ur either cracked or overfitting to tht scenario
+[2026-08-20 09:58] Cynzi: Lowk tho, not a crazy sign
+[2026-08-20 09:59] Sinswickk: i am getting 20/20 testcases passed, pnl in some test cases is 1. in some it is 0.4
+[2026-08-20 09:59] praxindice (replying to Cynzi: "Like yk the ones were all ur competitors are neg pnl and ur insanely + ur either"): tbf you can test if your thing is overfitted
+[2026-08-20 09:59] socks3000 (replying to Sinswickk: "i am getting 20/20 testcases passed, pnl in some test cases is 1. in some it is "): bro read the description
+[2026-08-20 09:59] socks3000: u havent read the rules
+[2026-08-20 10:00] Cynzi (replying to praxindice: "tbf you can test if your thing is overfitted"): Oh yhhh u can u can create ur own test cases innit
+[2026-08-20 10:00] praxindice (replying to Cynzi: "Oh yhhh u can u can create ur own test cases innit"): yeah
+[2026-08-20 10:00] praxindice: its lowk too much effort so i make claude do it
+[2026-08-20 10:00] Cynzi: Create a random one lol if u still do well then ur not genuinely
+[2026-08-20 10:00] Sinswickk (replying to socks3000: "bro read the description"): description and rules are where?
+[2026-08-20 10:00] praxindice: And it let me see i had like a 60% variance on this one value which meant i overfit a little
+[2026-08-20 10:07] Cynzi: Cl if i was on 19 id submit because ur guaranteed to move on to r2 only thing u whld be worried about is overfitting, even in tht case free cv space lol✌🏽
+[2026-08-20 10:19] strixisme: your code wont be uplaoded to any server
+[2026-08-20 10:21] .............🗿.............: how do we compete with others then ?
+[2026-08-20 10:21] strixisme: i have a central server
+[2026-08-20 10:21] strixisme: u guys run a file that calls ur MM to supply data to a central server
+[2026-08-20 10:22] bhumitmaru: In
+[2026-08-20 10:24] strixisme (replying to bhumitmaru: "In"): dm sent
+[2026-08-20 10:40] Cynzi (replying to strixisme: "dm sent"): Down
+[2026-08-20 10:44] strixisme: Live market-making match every 3 minutes; your maker runs on your machine and your code is never uploaded.
+
+Drop the attached file arena_client.py (check the code) into a folder with your maker saved as main.py. Then `pip install websockets && python3 arena_client.py`, and press **Y** for join 1 match, **a** for 3 consecutive matches. Live feed and ranking at https://akuna.server.strixthekiet.me/.
+[2026-08-20 13:00] Eis_0506: Can anyone confirm if we have to complete the test in one sitting like 5-8hrs and then we can't change the code or something like that?
+[2026-08-20 13:12] harry (replying to Eis_0506: "Can anyone confirm if we have to complete the test in one sitting like 5-8hrs an"): no you dont have to do it all in one go
+[2026-08-20 13:13] harry: btw does anyone know if we're meant to assume that rate_step: float = 0.25, rate_target: float = 2.0 are constants? Are they meant to be estimated from the warm up?
+[2026-08-20 13:17] strixisme (replying to strixisme: "Live market-making match every 3 minutes; your maker runs on your machine and yo"): sorry forgot to include the file  [attachments: ['arena_client.py']]
+[2026-08-20 13:58] pickle: Anyone got any tips on beating test case 5 6 and 8 I’m getting cooked so bad
+[2026-08-20 14:51] aang (replying to strixisme: "sorry forgot to include the file"): can you also send the code for the simulation logic?
+[2026-08-20 14:55] strixisme: no, but im happy to share the test cases
+[2026-08-20 15:30] kool2732: Does Pnl matter here? I'm getting like 220, but stuck at 16.5/20
+[2026-08-20 15:30] Matthew: How did you reverse engineer trades and FoK for the non verbose rounds
+[2026-08-20 15:42] strixisme: The test cases are not from Akuna obviously
+[2026-08-20 15:48] vroom: Anyone able to get 1.0 on tc7?
+[2026-08-20 16:11] Mohit: How much pnl is everyone getting
+[2026-08-20 17:00] tk: how is the test case input formatted?
+[2026-08-20 17:11] ▄︻̷̿┻̿═━一 u been sniped: what scores everyone currently has?
+[2026-08-20 17:13] ▄︻̷̿┻̿═━一 u been sniped: @everyone
+[2026-08-20 17:33] strixisme (replying to tk: "how is the test case input formatted?"): just json
+[2026-08-20 17:37] ocaou: whats this?
+[2026-08-20 17:38] strixisme (replying to strixisme: "Live market-making match every 3 minutes; your maker runs on your machine and yo"): just a simulation, not from akuna
+[2026-08-20 17:40] socks3000 (replying to harry: "btw does anyone know if we're meant to assume that rate_step: float = 0.25, rate"): same question, im assuming so because its in the MM class
+[2026-08-20 17:44] tk (replying to strixisme: "just json"): what's the format?
+[2026-08-20 17:45] Lied To All My Life: Hi I'm boundary scout
+[2026-08-20 17:45] strixisme: nice
+[2026-08-20 17:46] Lied To All My Life: Feel like I'm often making little losses but high gains. Needs some work
+[2026-08-20 17:48] strixisme: good gains on longer timeframe
+[2026-08-20 18:17] Eis_0506: If we submit the code then round 1 ends for us and then round 2 automatically starts or? Will the same code will be used or we'll be able to change and all? Like there would be a different ps or same strategy will be carried automatically if we get selected? Though I never saw anything regarding a second round.
+[2026-08-20 18:42] Lied To All My Life: I don't believe that round 2 immediately starts otherwise I don't think anyone really knows.
+[2026-08-20 19:26] harry: the params change??
+[2026-08-20 19:27] rg (replying to Eis_0506: "If we submit the code then round 1 ends for us and then round 2 automatically st"): round 2 starts after submission window closes on sunday. and u can’t change code
+[2026-08-20 20:20] Satvik Mittal (replying to Cynzi: "Oh yhhh u can u can create ur own test cases innit"): how can we create a test case in it? like what should be the format:??
+[2026-08-20 20:22] CranBerry: What is the end date, I thought it was Friday at midnight but now I do see the email says ends Sunday at midnight
+[2026-08-20 21:11] Xingzhe Li: Do we know if a possible trade (RFQ or FOK) is settled before another one come in? If they are settled in a batched way, then that'd need to be accounted for to avoid bankruptcies right?
+[2026-08-20 21:12] Reset60: I'm getting stuck at 16.3, shit doesnt want to budge
+[2026-08-20 21:50] Xingzhe Li: Anyone else struggling with bankruptcy logic?
+[2026-08-20 21:53] praxindice: not going bankrupt isnt that hard
+[2026-08-20 21:55] praxindice: just constrict your risk
+[2026-08-20 22:01] Xingzhe Li: Are each RFQ/FOK request processed sequentially? What if you quoted an RFQ (staying in limit), and then a FOK (or another RFQ) came before you know the result of your RFQ quote, you traded on the FOK (or the new RFQ), assuming your previous RFQ didn't trade. Then, after that, your previous RFQ does go through, and you basically double spent your remaining cash.
+[2026-08-20 22:21] hermit: anyone have any luck w/ cases 5-8?
+[2026-08-20 22:42] Xingzhe Li: Also, at which point does the money you earn from expiry actually gets credited to you?
+[2026-08-20 23:09] socks3000: whats yall score to pnl ratio
+[2026-08-20 23:09] socks3000: getting 320pnl but 17.4/19pts
+[2026-08-20 23:13] swish: man im maxing out at 15.3
+[2026-08-20 23:13] swish: how yall scoring so high wtf
+[2026-08-20 23:19] grace (replying to socks3000: "getting 320pnl but 17.4/19pts"): can i see ur code dm me
+[2026-08-20 23:51] praxindice: what error are you guys getting for tc1
+[2026-08-21 00:04] RishDaFish: 0.0000
+[2026-08-21 00:04] praxindice: yeah im getting that too i was lowkey scared if i overdid it
+[2026-08-21 02:35] Blaze: How do u guys calculate points? I can see the number of test cases passed.
+[2026-08-21 02:42] praxindice: click on test cases and youll see score
+[2026-08-21 02:42] praxindice: does antyone have advice for like the first 3-4 tcs
+[2026-08-21 02:42] praxindice: icl my bot gets destroyed on those
+[2026-08-21 02:42] Mohit (replying to praxindice: "does antyone have advice for like the first 3-4 tcs"): What do you get on 5-7, 13,14
+[2026-08-21 03:02] praxindice (replying to Mohit: "What do you get on 5-7, 13,14"): .4 .4 .4 .6 .7
+[2026-08-21 03:02] praxindice: unironically those are my worst 5
+[2026-08-21 03:29] strixisme: just noticed there is a file size/lines limit?
+[2026-08-21 04:03] Naman#0075 (replying to strixisme: "just noticed there is a file size/lines limit?"): where does it say that>
+[2026-08-21 04:04] strixisme: When I submit with over 1.2k lines, I kept getting server compile error
+[2026-08-21 04:04] strixisme (replying to Mohit: "Max file size under 64kb for it to run"): Oh here is why
+[2026-08-21 04:05] ocaou (replying to hermit: "anyone have any luck w/ cases 5-8?"): Lmk if you have found something
+[2026-08-21 04:19] Pine1pple (replying to Cynzi: "Yh it is but they dc if ur overfit theyll say thats ur own problem lol. They j w"): Are people actually getting above 17 or is it cap ?
+[2026-08-21 06:56] yunhoc2 (replying to Pine1pple: "Are people actually getting above 17 or is it cap ?"): i'm getting exactly 17
+[2026-08-21 09:03] Xingzhe Li: Are people adding expired options terminal value back to balance?
+[2026-08-21 09:50] aaronj: is 12.6 a good score?
+[2026-08-21 09:51] Xingzhe Li: Does anyone know the compute constraint?
+[2026-08-21 09:52] JKing007: the data we get in the warmup is the daily value or the daily returns??? how to check that
+[2026-08-21 09:54] Xingzhe Li: Good point, I think if it's all positive, probably daily value?
+[2026-08-21 09:55] Lied To All My Life: I've only run into file size problems. Which is 64 KiB
+[2026-08-21 09:56] Xingzhe Li: I did a stress test and there is compute restraints. I just don't know what it is
+[2026-08-21 10:00] JKing007 (replying to Xingzhe Li: "Good point, I think if it's all positive, probably daily value?"): how can we see the data?? so you wrote the code in such a way it detects the sign and changes the process according to that?
+[2026-08-21 10:01] JKing007 (replying to aaronj: "is 12.6 a good score?"): i have a doubt is this from tests 5-20 or from all 1-20(taking 1 point for 1-4)??
+[2026-08-21 10:02] Xingzhe Li (replying to JKing007: "how can we see the data?? so you wrote the code in such a way it detects the sig"): You can read the data and then assert that it's all positive (or nonneg for rates). I did that and it passed. So I think it's fair to assume they are daily values not returns
+[2026-08-21 10:03] JKing007: oh ok then
+[2026-08-21 13:55] Pine1pple: Are you guys running a strategy for each Test in particular or a generic bot ?
+[2026-08-21 14:03] bhumitmaru (replying to Pine1pple: "Are you guys running a strategy for each Test in particular or a generic bot ?"): I wish
+[2026-08-21 14:03] bhumitmaru: Going with a generic bot
+[2026-08-21 14:08] Pine1pple (replying to bhumitmaru: "I wish"): Biggest question is do we get to submit a new code if we qualify or not
+[2026-08-21 14:08] Pine1pple: Has anyone cracked sessions 6 to 8 ?
+[2026-08-21 14:09] bhumitmaru: ig i did
+[2026-08-21 14:11] Pine1pple: You got 1 point at each ? Nice
+[2026-08-21 14:15] Pine1pple: At both 6 and 8 I’m stuck at 0,4
+[2026-08-21 14:24] Eis_0506 (replying to bhumitmaru: "ig i did"): What's ur score?
+[2026-08-21 14:33] Pine1pple: Anyone getting full score at Test 6 ?
+[2026-08-21 14:54] Blaze (replying to Pine1pple: "Anyone getting full score at Test 6 ?"): I'm getting 0.4 for 4,5,6
+[2026-08-21 15:15] bhumitmaru (replying to Eis_0506: "What's ur score?"): over 17.2
+[2026-08-21 15:51] kool2732 (replying to bhumitmaru: "over 17.2"): for 19 or 20?
+[2026-08-21 16:21] mahedali: I'm at 17.1/20 with $162 PnL. is this a good result, given the PnL?
+[2026-08-21 17:12] ▄︻̷̿┻̿═━一 u been sniped (replying to ▄︻̷̿┻̿═━一 u been sniped: ""):   [embeds: 1]
+[2026-08-21 18:06] praxindice (replying to mahedali: "I'm at 17.1/20 with $162 PnL. is this a good result, given the PnL?"): I think thats good
+[2026-08-21 19:59] Lied To All My Life: Everytime I build a model which beats all my other models it performs worse in the tests 🥲
+[2026-08-21 20:10] hahahe: What score out of 20 r u guys getting? And total pnl
+[2026-08-21 20:27] ▄︻̷̿┻̿═━一 u been sniped (replying to ▄︻̷̿┻̿═━一 u been sniped: ""): Scores are here
+[2026-08-21 20:28] ▄︻̷̿┻̿═━一 u been sniped: My pnl is 160 :krai:
+[2026-08-21 21:54] strixisme: Unified porfolio 38?
+[2026-08-21 21:55] mahedali (replying to Pine1pple: "Anyone getting full score at Test 6 ?"): i'm getting 0.4 for 5,6,7, can't see to imrove that. been at it for 3 hours now
+[2026-08-21 21:56] ꌗꃅꋪꃴ ╾━╤デ╦︻ (replying to mahedali: "i'm getting 0.4 for 5,6,7, can't see to imrove that. been at it for 3 hours now"): Same
+[2026-08-21 22:37] ▄︻̷̿┻̿═━一 u been sniped (replying to mahedali: "i'm getting 0.4 for 5,6,7, can't see to imrove that. been at it for 3 hours now"): I was even stuck there but now I am getting 1 on 5 after improving idk if I should reveal my edge
+[2026-08-21 22:39] Lied To All My Life (replying to ▄︻̷̿┻̿═━一 u been sniped: "I was even stuck there but now I am getting 1 on 5 after improving idk if I shou"): did you improve your PnL?
+[2026-08-21 22:40] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "did you improve your PnL?"): yeah till 180
+[2026-08-21 22:40] ▄︻̷̿┻̿═━一 u been sniped: this sucks bro
+[2026-08-21 22:41] ▄︻̷̿┻̿═━一 u been sniped: How ppl are getting 19.6 is beyond my understanding they are phd students I feel
+[2026-08-21 22:41] Jaskaran: what percent of people would probably make to the second round?
+[2026-08-21 22:41] ▄︻̷̿┻̿═━一 u been sniped (replying to Jaskaran: "what percent of people would probably make to the second round?"): According to the mail I got today I dont think there is a 2nd round
+[2026-08-21 22:41] mahedali (replying to ▄︻̷̿┻̿═━一 u been sniped: "How ppl are getting 19.6 is beyond my understanding they are phd students I feel"): who's getting above 19? is there a lot of people getting above 18/19?
+[2026-08-21 22:42] Jaskaran (replying to ▄︻̷̿┻̿═━一 u been sniped: "According to the mail I got today I dont think there is a 2nd round"): what mail?
+[2026-08-21 22:42] ▄︻̷̿┻̿═━一 u been sniped (replying to ▄︻̷̿┻̿═━一 u been sniped: ""): <@1524555318980378759> 5 ppl got between 19-20
+[2026-08-21 22:43] ▄︻̷̿┻̿═━一 u been sniped:   [attachments: ['image.png']]
+[2026-08-21 22:43] ▄︻̷̿┻̿═━一 u been sniped: I couldnt remove the name just ignore my name
+[2026-08-21 22:44] Jaskaran (replying to ▄︻̷̿┻̿═━一 u been sniped: ""): well this means the top performers would straight be getting interviews
+[2026-08-21 22:44] ▄︻̷̿┻̿═━一 u been sniped (replying to Jaskaran: "well this means the top performers would straight be getting interviews"): hmm that's why I am trying to get something around 18 to have a shot
+[2026-08-21 22:44] Jaskaran: but that doesn't make sense, we don't know how they'd perform oos
+[2026-08-21 22:45] ▄︻̷̿┻̿═━一 u been sniped: but my dumb ass is stuck around 16
+[2026-08-21 22:46] Jaskaran (replying to Jaskaran: "but that doesn't make sense, we don't know how they'd perform oos"): would they be reviewing the code? for all it's worth they could have just hardcoded
+[2026-08-21 22:47] Lied To All My Life (replying to ▄︻̷̿┻̿═━一 u been sniped: "but my dumb ass is stuck around 16"): 16 and doing well on 5 damn
+[2026-08-21 22:47] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "16 and doing well on 5 damn"): what is your overall?
+[2026-08-21 22:47] ▄︻̷̿┻̿═━一 u been sniped (replying to Jaskaran: "would they be reviewing the code? for all it's worth they could have just hardco"): I have no idea
+[2026-08-21 22:47] Lied To All My Life: 17 but no luck with 5,6 or 8 all .4
+[2026-08-21 22:48] Jaskaran (replying to ▄︻̷̿┻̿═━一 u been sniped: "I have no idea"): well let's see
+[2026-08-21 22:48] mahedali (replying to ▄︻̷̿┻̿═━一 u been sniped: "<@1524555318980378759> 5 ppl got between 19-20"): well if people are getting above 19, i think we're cooked. they only invited the top 10 to interviews last year as far as i remember
+[2026-08-21 22:49] ▄︻̷̿┻̿═━一 u been sniped (replying to mahedali: "well if people are getting above 19, i think we're cooked. they only invited the"): I mean we dont really know if those ppl are really undergrads or like real quants or something. So, maybe
+[2026-08-21 22:49] ▄︻̷̿┻̿═━一 u been sniped: My delusional mind wants to believe I have shot
+[2026-08-21 22:51] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "17 but no luck with 5,6 or 8 all .4"): I suggest for 5 to improve your quote and take on a bit lower-profit contracts, but nothing super cheap. I don't know what your code is, but I wasn't taking anything below 2x probability; I reduced it to 1.5x and got a 1 in 5. If that makes sense.
+[2026-08-21 22:52] Jaskaran: bro be revealing his strat
+[2026-08-21 22:52] ▄︻̷̿┻̿═━一 u been sniped (replying to Jaskaran: "bro be revealing his strat"): I mean he is already above me and maybe give a referal next year lmao
+[2026-08-21 22:56] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "17 but no luck with 5,6 or 8 all .4"): Is you 13 and 14 above 0.4? if yes can you suggest me something
+[2026-08-21 23:01] Lied To All My Life: It's a bit hard to guess tbh. message me and I can try and diagnose
+[2026-08-21 23:02] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "It's a bit hard to guess tbh. message me and I can try and diagnose"): I mean that's fine. Not like I was going to get anything above 17.
+[2026-08-21 23:02] ▄︻̷̿┻̿═━一 u been sniped (replying to Lied To All My Life: "It's a bit hard to guess tbh. message me and I can try and diagnose"): what year are you in? I am a sophomore
+[2026-08-21 23:03] Lied To All My Life: I'm a master's student but I only became interested in this stuff this year so it's a bit strange
+[2026-08-21 23:03] aaronj: you cant even get a score higher than 19
+[2026-08-21 23:03] ▄︻̷̿┻̿═━一 u been sniped (replying to aaronj: "you cant even get a score higher than 19"): you can add 1 for your 1st test case
+[2026-08-21 23:03] aaronj: is that the convention
+[2026-08-21 23:03] Bot1234: anyone running into the "Custom checker Failed: Success" error? I run it only on the 1st time running my code for test case 20.
+[2026-08-21 23:04] aaronj (replying to Bot1234: "anyone running into the "Custom checker Failed: Success" error? I run it only on"): yeahi am
+[2026-08-21 23:04] aaronj: i think kits cuz its taking too long
+[2026-08-21 23:04] ▄︻̷̿┻̿═━一 u been sniped (replying to aaronj: "is that the convention"): As far as I have seen on reddit
+[2026-08-21 23:04] Jaskaran (replying to ▄︻̷̿┻̿═━一 u been sniped: "you can add 1 for your 1st test case"): your score's out of 19 or 20?
+[2026-08-21 23:04] ▄︻̷̿┻̿═━一 u been sniped (replying to Bot1234: "anyone running into the "Custom checker Failed: Success" error? I run it only on"): you are taking more resources then alloted
+[2026-08-21 23:04] ▄︻̷̿┻̿═━一 u been sniped (replying to Jaskaran: "your score's out of 19 or 20?"): 20
+[2026-08-21 23:04] Jaskaran (replying to Bot1234: "anyone running into the "Custom checker Failed: Success" error? I run it only on"): could be coz of the file size ig
+[2026-08-21 23:04] harry: is there a time limit?
+[2026-08-21 23:04] Bot1234: Only happens the first time I load the hackerrank environment and then every run after than no issues. I'm scoring 1/1 on this test case but idk how to fix lol 🙁
+[2026-08-21 23:05] ▄︻̷̿┻̿═━一 u been sniped:   [attachments: ['image.png']]
+[2026-08-21 23:05] ▄︻̷̿┻̿═━一 u been sniped: time limit and memory limit
+[2026-08-21 23:05] Bot1234: anyone have any ideas? my code is only like 600ish lines total with all of their helper files, using a pretty simple algo
+[2026-08-21 23:06] harry (replying to ▄︻̷̿┻̿═━一 u been sniped: ""): cheers dawg
+[2026-08-21 23:06] ▄︻̷̿┻̿═━一 u been sniped (replying to Bot1234: "anyone have any ideas? my code is only like 600ish lines total with all of their"): make your parameters thingy faster
+[2026-08-21 23:06] mahedali: is PnL significant too or just the ranking?
+[2026-08-21 23:07] Bot1234 (replying to ▄︻̷̿┻̿═━一 u been sniped: "make your parameters thingy faster"): i do but then my probabilities are all off. lol
+[2026-08-21 23:07] ▄︻̷̿┻̿═━一 u been sniped (replying to mahedali: "is PnL significant too or just the ranking?"): I think score would matter more than pnl but they might consider pnl for tie breakers (same score)
+[2026-08-21 23:08] ▄︻̷̿┻̿═━一 u been sniped (replying to Bot1234: "i do but then my probabilities are all off. lol"): then you might need to read a book or two on how to make better predictions
+[2026-08-21 23:08] Bot1234: bruh i'm getting flamed LOLLL
+[2026-08-21 23:20] Pine1pple (replying to ▄︻̷̿┻̿═━一 u been sniped: "How ppl are getting 19.6 is beyond my understanding they are phd students I feel"): I don’t think it’s about education level
+But ye I don’t get it either
+[2026-08-21 23:21] Pine1pple (replying to ▄︻̷̿┻̿═━一 u been sniped: "According to the mail I got today I dont think there is a 2nd round"): Ye they said competition is from 18th to 23rd so there is no submission beyond that
+[2026-08-21 23:24] Sharp: Really seems like you can just hardcode to cheese a top placement icl
+[2026-08-21 23:47] Pine1pple (replying to mahedali: "well if people are getting above 19, i think we're cooked. they only invited the"): Last year it was top 20
+[2026-08-22 00:06] BAGGAA (replying to Pine1pple: "Last year it was top 20"): are u sure the number was  20 ?
+[2026-08-22 00:24] Pine1pple (replying to aaronj: "you cant even get a score higher than 19"): How do y know ?
+[2026-08-22 00:24] Sharp: Probably disclosing the Theo case
+[2026-08-22 00:24] Sharp: Disincluding
+[2026-08-22 00:25] Pine1pple (replying to BAGGAA: "are u sure the number was  20 ?"): Ye I still have their mail from last year
+[2026-08-22 00:26] Pine1pple: Saying unfortunately you didn’t rank top 20 lol
+[2026-08-22 00:27] Pine1pple: I’m willing to exchange info with anyone getting full score on 6,8,14 or 18
+[2026-08-22 00:28] MrChubb: Does anyone know how much time there is from winners announced -> interview scheduling? I know for 201 it takes months
+[2026-08-22 00:29] praxindice: i mean for winners to be announced it probably wont take that long
+[2026-08-22 00:30] praxindice: cus they literally just run all the models and see whos score performs good
+[2026-08-22 00:30] praxindice: and they screen out alot of people in this stage
+[2026-08-22 00:31] BAGGAA (replying to Pine1pple: "I’m willing to exchange info with anyone getting full score on 6,8,14 or 18"): i am getting full on 14
+[2026-08-22 00:44] Pine1pple: DM !
+[2026-08-22 00:52] Pine1pple: What test do you want V
+[2026-08-22 01:03] Bot1234: I'm also getting 1/1 on 14
+[2026-08-22 01:06] Pine1pple: Which test do you want ? lol
+[2026-08-22 01:06] BAGGAA (replying to Pine1pple: "Which test do you want ? lol"): 4 or 5 or 6
+[2026-08-22 01:18] BAGGAA: whats ur score out of 20?
+[2026-08-22 01:18] Mohit (replying to BAGGAA: "whats ur score out of 20?"): 100/20
+[2026-08-22 06:06] bhumitmaru: Anyone here participating in Quantfest?
+[2026-08-22 06:06] bhumitmaru: @everyone
+[2026-08-22 06:07] BAGGAA (replying to bhumitmaru: "Anyone here participating in Quantfest?"): yes
+[2026-08-22 06:07] bhumitmaru: How are u hoping to prepare?
+[2026-08-22 06:07] BAGGAA: prelims is easy no need to prepare
+[2026-08-22 06:08] bhumitmaru: ohh okayy
+[2026-08-22 06:21] muffles (replying to mahedali: "well if people are getting above 19, i think we're cooked. they only invited the"): there is a round 2 where top players in round 1 compete against each other on oos cases
+[2026-08-22 07:23] aaronj: can i pls clarify something
+
+do the bots on the test cases know the future prices/info that we can't determine even with a perfect estimate of hte paramters  and can directly adversely select you
+Or do they simply have a better idea of the parametres --> thus pricing better than you
+[2026-08-22 07:25] aaronj: 2nd q: are counterparty_id consistent acrsos test cases
+[2026-08-22 07:56] praxindice (replying to aaronj: "can i pls clarify something  do the bots on the test cases know the future price"): They
+[2026-08-22 07:56] praxindice: Ok
+[2026-08-22 07:57] praxindice: So from my understanding
+[2026-08-22 07:57] praxindice: Early bots have simplistic strategies
+[2026-08-22 07:57] praxindice: Which arent very optimal
+[2026-08-22 07:57] praxindice: which makes them annoying to beat on simpler test cases
+[2026-08-22 08:20] aaronj: ???????????????????????????????
+[2026-08-22 11:27] heyjae: where are y'all from? are we competing with ppl around the world?
+[2026-08-22 11:37] RiemannJr: The Netherlands here
+[2026-08-22 11:38] RiemannJr: More interesting is what your backgrounds are
+[2026-08-22 11:38] RiemannJr: Math/physics/cs, and bachelor, master or PhD?
+[2026-08-22 11:51] heyjae: I do cs and maths and just finished 1st year undergrad
+[2026-08-22 11:52] heyjae: wby?
+[2026-08-22 11:52] heyjae: also is anyone having an issue with the hackerrank server
+[2026-08-22 11:52] RiemannJr: I’m starting my third year as a PhD candidate in mathematics, probability theory and mathematical statistics to be precise.
+[2026-08-22 11:52] heyjae:   [attachments: ['IMG_5098.jpg']]
+[2026-08-22 11:52] RiemannJr (replying to heyjae: ""): That probably means your file is too large in size
+[2026-08-22 11:54] heyjae (replying to RiemannJr: "I’m starting my third year as a PhD candidate in mathematics, probability theory"): that’s so cool
+[2026-08-22 11:54] heyjae (replying to RiemannJr: "That probably means your file is too large in size"): cheers let me try
+[2026-08-22 11:56] RiemannJr: No problem
+[2026-08-22 12:53] hahahe: Does anyone know if we get to change our code if we advance from this hackerrank?
+[2026-08-22 13:08] ▄︻̷̿┻̿═━一 u been sniped: Can ppl who are getting 19-20 send me their code after the tournament finishes? I wanna see what you guys had better than me.
+[2026-08-22 13:18] ▄︻̷̿┻̿═━一 u been sniped (replying to hahahe: "Does anyone know if we get to change our code if we advance from this hackerrank"): I don't think you can change your code cause the whole tournament ends on sunday
+[2026-08-22 13:18] RiemannJr (replying to ▄︻̷̿┻̿═━一 u been sniped: "Can ppl who are getting 19-20 send me their code after the tournament finishes? "): I am also interested in your solutions
+[2026-08-22 13:19] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "I am also interested in your solutions"): What is your score? I feel your score would be so much higher than mine
+[2026-08-22 13:44] RiemannJr: I’ve got 17.7, what about you?
+[2026-08-22 13:46] RiemannJr: But the score is only half the story, ultimately it needs to generalise to understand market conditions and perhaps more informed counterparties.
+[2026-08-22 13:49] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "I’ve got 17.7, what about you?"): 16.4
+[2026-08-22 13:50] RiemannJr: That’s not bad at all
+[2026-08-22 13:50] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "But the score is only half the story, ultimately it needs to generalise to under"): hmm I think so
+[2026-08-22 13:50] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "That’s not bad at all"): yeah, given the fact that my first score was a 13.2 and I was stuck on it for a day
+[2026-08-22 13:53] RiemannJr: Did you have AI write your code?
+[2026-08-22 13:54] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "Did you have AI write your code?"): just option parameters I couldnt make it work by my limited knowledge of probablity
+[2026-08-22 13:55] ▄︻̷̿┻̿═━一 u been sniped: AI is pretty bad at quotes and foks. The version it gives are so dumb
+[2026-08-22 13:57] RiemannJr: I just got the logic, had AI code it up for me and do the general audit.
+[2026-08-22 13:58] ▄︻̷̿┻̿═━一 u been sniped: nice
+[2026-08-22 13:58] RiemannJr: This was also easier given that now I was able to track the performances of different bots, so as to compare their strengths and weaknesses.
+[2026-08-22 13:58] RiemannJr: Documented and pushed everything to GitHub.
+[2026-08-22 13:58] ▄︻̷̿┻̿═━一 u been sniped: is your repo public lol?
+[2026-08-22 13:59] RiemannJr: No, that will also be against the rules. Perhaps they allow people to share their code after the challenge though.
+[2026-08-22 14:00] ▄︻̷̿┻̿═━一 u been sniped: I just searched github now and I see a public repo for akuna capital challenge with all info
+[2026-08-22 14:01] ▄︻̷̿┻̿═━一 u been sniped: Although I won't run the code cause I dont wanna get flagged and disqualified
+[2026-08-22 14:03] ▄︻̷̿┻̿═━一 u been sniped: Damn the guy who has his code publicly posted studies in UPenn and has done a software internship from amazon
+[2026-08-22 14:03] ▄︻̷̿┻̿═━一 u been sniped: idk how can he be this dumb to post it publicly
+[2026-08-22 14:03] RiemannJr: The code for this year’s challenger?
+[2026-08-22 14:04] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "The code for this year’s challenger?"): yes with the writeup and everything
+[2026-08-22 14:04] ▄︻̷̿┻̿═━一 u been sniped: I would dm you the link its so funny
+[2026-08-22 14:04] RiemannJr: Please do.
+[2026-08-22 14:05] ▄︻̷̿┻̿═━一 u been sniped (replying to RiemannJr: "Please do."): you would have to accept my request 1st I guess
+[2026-08-22 14:37] Reset60 (replying to ▄︻̷̿┻̿═━一 u been sniped: "Damn the guy who has his code publicly posted studies in UPenn and has done a so"): xD which one is it, there are plenty of people posting it publicly
+[2026-08-22 14:38] ▄︻̷̿┻̿═━一 u been sniped (replying to Reset60: "xD which one is it, there are plenty of people posting it publicly"): idk I just see 1
+[2026-08-22 14:40] Reset60: You just have to type Akuna on github, sort by date
+[2026-08-22 14:40] Reset60: and you'll see
+[2026-08-22 14:41] ▄︻̷̿┻̿═━一 u been sniped (replying to Reset60: "You just have to type Akuna on github, sort by date"): yeah I see 4-5 codes
+[2026-08-22 14:44] Reset60 (replying to ▄︻̷̿┻̿═━一 u been sniped: "yeah I see 4-5 codes"): Let's chat in PM if u want
+[2026-08-22 14:46] ▄︻̷̿┻̿═━一 u been sniped (replying to Reset60: "Let's chat in PM if u want"): nah I am good. I am just so done with this. I want it to get over and see results
+[2026-08-22 14:46] Reset60: Yeah it's just I'm curious, I found some from NYU, St Andrews, Uni of Maryland, but no UPenn idk why
+[2026-08-22 14:47] ▄︻̷̿┻̿═━一 u been sniped: you sad about that huh
+[2026-08-22 14:48] Reset60: wtf is this guy on abt
+[2026-08-22 14:49] Reset60: it's just weird we don't have the same search results
+[2026-08-22 14:49] Reset60: it tickles curiosity
+[2026-08-22 14:49] Reset60: if it doesn't tickle urs, no pb
+[2026-08-22 14:56] JKing007: hello , im stuck like arounf 12.2/16 score... is that very bad, is full 16/16 is required?
+[2026-08-22 14:57] JKing007: and btw im from india
+[2026-08-22 16:15] yellow213342: yo guys
+[2026-08-22 16:15] yellow213342: can i still do it
+[2026-08-22 16:15] yellow213342: like if i havent started yet
+[2026-08-22 16:24] ▄︻̷̿┻̿═━一 u been sniped (replying to yellow213342: "like if i havent started yet"): you can do it till monday 8 am
+[2026-08-22 16:27] ▄︻̷̿┻̿═━一 u been sniped (replying to ▄︻̷̿┻̿═━一 u been sniped: "you can do it till monday 8 am"): est ny time
+[2026-08-22 16:33] yellow213342: what is it tho
+[2026-08-22 16:34] yellow213342: like how can we u use ai
+[2026-08-22 16:34] RiemannJr: However you feel fit
+[2026-08-22 16:34] yellow213342: this might be trivial but like we are unabl eto copy the text
+[2026-08-22 16:34] yellow213342: and it wont flag us if we paste the output
+[2026-08-22 16:37] RiemannJr: How I interpret the instruction is that the use of AI is allowed (and probably to an extend encouraged), but that copy pasting of the works of others is not allowed. You can let AI code your entire strategy, but I’d advise you to come up with the logic (that is how deep to quote etc.) and ask AI to code it up. They said anywhere from five to eight hours, so plenty of time left.
+[2026-08-22 16:56] ilikebigbloons: Does Hackerrank submit your code automatically when time runs out, or do you need to submit yourself?
+[2026-08-22 17:16] RiemannJr: Take the risk and figure it out later, or submit it yourself and know for sure.
+[2026-08-22 17:17] Eis_0506: How will our strategies be graded once they are made to compete against each other.. Like a tradeoff between pnl and score or?
+[2026-08-22 17:29] TriadicYew (replying to Eis_0506: "How will our strategies be graded once they are made to compete against each oth"): i dont think they have said, the phase 2 is quite a mystery haha
+[2026-08-22 18:02] Pine1pple (replying to TriadicYew: "i dont think they have said, the phase 2 is quite a mystery haha"): Indeed
+[2026-08-22 18:02] Pine1pple: No one scoring about 19 has shown themself yet huh
+[2026-08-22 18:05] Satvik Mittal: how is 16.3/19 though?
+[2026-08-22 18:05] RiemannJr: Pretty good I would say
+[2026-08-22 18:07] Satvik Mittal (replying to RiemannJr: "Pretty good I would say"): are you a sophomore or what?
+[2026-08-22 18:08] RiemannJr: Far from actually
+[2026-08-22 18:08] king3ds: He’s as old as his profile pic
+[2026-08-22 18:08] RiemannJr: That comes with the wisdom perk too
+[2026-08-22 18:09] Satvik Mittal: how much is your code scoring /19?
+[2026-08-22 18:10] RiemannJr: Had various bots, but went with the 16.7/19 one as I believe it will generalise best to unseen market conditions
+[2026-08-22 18:10] Satvik Mittal: were you able to score above 0.4 on tc-5,6?
+[2026-08-22 18:11] king3ds (replying to Satvik Mittal: "were you able to score above 0.4 on tc-5,6?"): Oh this one yuh
+[2026-08-22 18:12] RiemannJr: The fifth was a first placement, the sixth I believe I only got .4 points
+[2026-08-22 18:13] king3ds (replying to RiemannJr: "Had various bots, but went with the 16.7/19 one as I believe it will generalise "): Do u think it’s enough to pass to r2
+[2026-08-22 18:14] king3ds: I have 16.9/19 but not sure if I should continue cuz I feel like I’m overfitting
+[2026-08-22 18:14] king3ds: I’m sure I can get higher but that’s how I feel
+[2026-08-22 18:14] Satvik Mittal (replying to king3ds: "Do u think it’s enough to pass to r2"): would they even let us know if we even advanced to round 2? so that we could atleast keep a track of our achievement/performance
+[2026-08-22 18:15] RiemannJr: To be completely honest, I have no clue. I would say your above average, but what the criteria will be, and how many participants will get a seat, no one knows…
+[2026-08-22 18:15] king3ds (replying to RiemannJr: "To be completely honest, I have no clue. I would say your above average, but wha"): Mystery competition ❤️
+[2026-08-22 18:15] Atharva T: I dont think they are testing us on overfitting. If they wanted us to, they wouldve made the test cases public. I think getting a 20/20 makes the most sense.
+[2026-08-22 18:16] Atharva T: The fact that the 10+ day test cases are hidden means that they are extensive and we arent meant to know the specific patterns within them.
+[2026-08-22 18:16] RiemannJr: That just gets you to the next round. A proper model would be able to score similarly well on other tests, doubt that any overfitted model would
+[2026-08-22 18:17] king3ds (replying to RiemannJr: "That just gets you to the next round. A proper model would be able to score simi"): This is my thought too
+[2026-08-22 18:17] king3ds: Cuz 20/20 seems like overfitting is the only way
+[2026-08-22 18:17] Satvik Mittal (replying to Atharva T: "I dont think they are testing us on overfitting. If they wanted us to, they woul"): i believe you could find a way to get the hidden TCs
+[2026-08-22 18:18] Satvik Mittal: so technically you can overfit if tried hard enough
+[2026-08-22 18:18] Atharva T: How have you guys found out the hidden test cases?
+[2026-08-22 18:20] RiemannJr: I am very curious how their own model would perform though. Ultimately, market making is about beating the market ever so slightly over and over again. Would also think that 20/20 models are more prone to go bankrupt, but who knows…
+[2026-08-22 18:20] Mohit: There are hidden test cases ?
+[2026-08-22 18:21] Atharva T: bruh
+[2026-08-22 18:21] Atharva T: as in we dont know what trades got T5-20 to those specific rankings
+[2026-08-22 18:21] Mohit: Ah that’s what you mean ok
+[2026-08-22 18:22] Mohit: Well I didn’t think too much about this figured out it’s uncertain to determine if your code will do well in the final, and just submitted
+[2026-08-22 18:23] RiemannJr: It also depends on other market participants, I had models that would drag theirs down with me
+[2026-08-22 18:23] Mohit (replying to RiemannJr: "It also depends on other market participants, I had models that would drag their"): We all going down 😭
+[2026-08-22 18:24] Jiayi: hows ur overall pnl?
+[2026-08-22 18:24] Jiayi: If round 2 pnl should matter more I guess?
+[2026-08-22 18:26] Atharva T: I asked fable 5 to impove my code and I went from 16.4 -> 11.2. Any ideas on how I can use AI better?
+[2026-08-22 18:27] luckyducky: tell it to make no mistakes
+[2026-08-22 18:28] Mohit: “Improve code to 19/19 make no mistakes if you make a mistake I will cancel your subscription”
+[2026-08-22 18:29] CranBerry: So what’s the consensus on what score needed to move on
+[2026-08-22 18:29] Atharva T: full
+[2026-08-22 18:29] CranBerry: Let’s standardize /16 to make it clear what we’re talking about
+[2026-08-22 18:30] RiemannJr (replying to Atharva T: "I asked fable 5 to impove my code and I went from 16.4 -> 11.2. Any ideas on how"): Try asking it to make subtle changes first, and not overhaul the entire project. You can also improve by asking other LLMs to (re)write prompts for you.
+[2026-08-22 18:31] RiemannJr (replying to CranBerry: "So what’s the consensus on what score needed to move on"): I would say 12/16 and 4/4 for the first sanity checks
+[2026-08-22 18:31] CranBerry: Im at 12.2 but I don’t think I’d move on
+[2026-08-22 18:31] CranBerry: I feel like that’s too low
+[2026-08-22 18:33] Greenzy: How do you know like 12.2
+[2026-08-22 18:33] JKing007 (replying to CranBerry: "Im at 12.2 but I don’t think I’d move on"): same
+[2026-08-22 18:33] Atharva T: I also dont believe they will bother to export each hackerrank submission, run it in a new private environment (which may cause more runtime errors), evaluate it on new test cases, and then score based on that to see who qualifies.
+[2026-08-22 18:33] Greenzy: are you submitting after running the test cases?
+[2026-08-22 18:33] RiemannJr: Couldn’t it also be that there is some sort of “in-between” test to filter out the cheaters and over-fitters? The bar to move on to this phase would then be lower
+[2026-08-22 18:34] Greenzy: or are you adding the score it gives u on
+[2026-08-22 18:34] Greenzy: each of the cases
+[2026-08-22 18:34] JKing007: ok a small dilemma here i can choose 2: score 12/16 and pnl = 132.2 or score 12.2/16 and pnl = 126.3
+[2026-08-22 18:34] JKing007: do they see the score or the pnl?
+[2026-08-22 18:35] CranBerry: Does anyone have any help on tests 5 6 7
+[2026-08-22 18:36] CranBerry: Any hints
+[2026-08-22 18:36] JKing007 (replying to JKing007: "do they see the score or the pnl?"): any idea anyone?
+[2026-08-22 18:36] JKing007 (replying to CranBerry: "Does anyone have any help on tests 5 6 7"): nah bro its at .4
+[2026-08-22 19:09] (paraplegic) (replying to ▄︻̷̿┻̿═━一 u been sniped: "How ppl are getting 19.6 is beyond my understanding they are phd students I feel"): I'm currently getting 17.6, you  interested in trading code after the comp?
+[2026-08-22 19:09] ▄︻̷̿┻̿═━一 u been sniped (replying to JKing007: "any idea anyone?"): higher pnl would be better
+[2026-08-22 19:09] ▄︻̷̿┻̿═━一 u been sniped (replying to (paraplegic): "I'm currently getting 17.6, you  interested in trading code after the comp?"): yeah sure
+[2026-08-22 19:10] JKing007 (replying to ▄︻̷̿┻̿═━一 u been sniped: "yeah sure"): me too, i want to learn too
+[2026-08-22 19:31] RiemannJr (replying to (paraplegic): "I'm currently getting 17.6, you  interested in trading code after the comp?"): I’d be open to this too
+[2026-08-22 19:36] Cynzi (replying to ▄︻̷̿┻̿═━一 u been sniped: "higher pnl would be better"): Isnt it score
+[2026-08-22 19:37] Pine1pple (replying to Atharva T: "I dont think they are testing us on overfitting. If they wanted us to, they woul"): Agreed
+[2026-08-22 19:39] ▄︻̷̿┻̿═━一 u been sniped (replying to Cynzi: "Isnt it score"): ?
+[2026-08-22 19:40] Cynzi: Its not pnl
+[2026-08-22 19:40] Cynzi: Pnl determines ur result
+[2026-08-22 19:40] Cynzi: But result is what matters
+[2026-08-22 19:41] ▄︻̷̿┻̿═━一 u been sniped (replying to Cynzi: "But result is what matters"): whatever helps you sleep
+[2026-08-22 19:43] ▄︻̷̿┻̿═━一 u been sniped: I meant that when scores are the same, higher pnl would be better, cause in the round where we compete against each other, score would be less important than pnl.
+[2026-08-22 19:44] Bot1234: yeah but u need a high enough score to get into the next round lol
+[2026-08-22 19:44] Cynzi (replying to ▄︻̷̿┻̿═━一 u been sniped: "whatever helps you sleep"): If ur worrying bout wht helps me sleep tuck me in
+[2026-08-22 19:46] Cynzi (replying to ▄︻̷̿┻̿═━一 u been sniped: "I meant that when scores are the same, higher pnl would be better, cause in the "): This round barely matter theyre likely to just let guys in and when we compete against eachother is the actual indicator. Dyu think akuna cares how well u fitted models to this specific scenario to get 20/20, its about the robustness of ur model and ability to perform well in oos
+[2026-08-22 19:54] ▄︻̷̿┻̿═━一 u been sniped (replying to Cynzi: "This round barely matter theyre likely to just let guys in and when we compete a"): you can't change code after this round
+[2026-08-22 19:56] Cynzi (replying to ▄︻̷̿┻̿═━一 u been sniped: "you can't change code after this round"): Yh ik😭
+[2026-08-22 19:56] ▄︻̷̿┻̿═━一 u been sniped (replying to Cynzi: "Yh ik😭"): then care to explain how would be competitive if you overfit
+[2026-08-22 19:56] ▄︻̷̿┻̿═━一 u been sniped: 🥀🥀 🥀🥀
+[2026-08-22 19:57] Cynzi: Bro didn’t read shit, i said itd lose r2 if it was overfit
+[2026-08-22 19:57] Bot1234: don't waste ur time on it lol
+[2026-08-22 19:57] Cynzi: 😂✌🏽
+[2026-08-22 19:57] Cynzi: This guy is too funny
+[2026-08-22 20:00] ▄︻̷̿┻̿═━一 u been sniped (replying to Cynzi: "This guy is too funny"): bro why would you reply to me saying the same shit I was saying, but in a paragraph? I didn't really read your thing and replied because I never thought words of wisdom could come from you.
+[2026-08-22 20:15] Atharva T: Can someone tell me how they know a round two exists and how people know its format already? I looked back and saw no mention of round 2 in the instructions .
+[2026-08-22 20:17] RiemannJr: It mentions that top performers move to a second round to face each other. No one knows its format to the best of my knowledge.
+[2026-08-22 20:36] bai: how are score calculated? does that mean passing test cases?
+[2026-08-22 20:37] TriadicYew: honestly i think this is kinda poor. so many unknowns for a comp. others i have done have been much better
+[2026-08-22 20:37] Cynzi (replying to ▄︻̷̿┻̿═━一 u been sniped: "bro why would you reply to me saying the same shit I was saying, but in a paragr"): 🐕
+[2026-08-22 20:37] TriadicYew: also the balance between overfitting enough to get into the second round but not too much that you bomb the pvp round lol
+[2026-08-22 20:40] Cynzi (replying to bai: "how are score calculated? does that mean passing test cases?"): Score, from what we know rn is based on how well u beat the akuna bots, this is the equation for the result given: score = 0.4 + 0.6 × (N − rank) / (N − 1), N being number of competitors
+[2026-08-22 20:44] bai: thank you!
+[2026-08-22 21:54] Wreckingbald (replying to RiemannJr: "It mentions that top performers move to a second round to face each other. No on"): where did you see this information
+[2026-08-22 21:57] Reset60: I agree with the general consensus that the format of this competition is pretty unclear
+[2026-08-22 21:57] Reset60: but
+[2026-08-22 21:58] TriadicYew: last year i think 10 people moved on from what i gather??
+[2026-08-22 21:59] TriadicYew (replying to Wreckingbald: "where did you see this information"): it has been said a few places. like the intro vid
+[2026-08-22 22:01] TriadicYew: straight from the video transcript for ya  [attachments: ['image.png']]
+[2026-08-22 22:10] Reset60 (replying to RiemannJr: "Couldn’t it also be that there is some sort of “in-between” test to filter out t"): i dont really see how you could cheat
+[2026-08-22 22:11] king3ds: i wanna stop bruh 
+at 14.2/16 and it's tiring
+[2026-08-22 22:11] Reset60: bro 14.2 is enough
+[2026-08-22 22:12] king3ds: idk man 
+wish they told me what's the threshold
+[2026-08-22 22:12] Reset60: There is probably no threshold, it's a ranking
+[2026-08-22 22:12] TriadicYew: i think it will be rank based. be in the top x people
+[2026-08-22 22:12] Reset60: but at 14.2 you're high in it
+[2026-08-22 23:33] anisuth: is anyone else getting a server error on hackerrank
+[2026-08-22 23:41] ocaou: Nah
+[2026-08-22 23:41] king3ds (replying to anisuth: "is anyone else getting a server error on hackerrank"): that means ur file is too big
+[2026-08-22 23:47] TriadicYew: how are people doing score wise? i have no clue what the cutoff will be for final round
+[2026-08-23 00:05] muffles: anyone know how round 2 works? like are we trading against other people's bots in the same test case lobbies or does it just evaluate our scores against the same akuna bots as before but on new data
+[2026-08-23 00:08] fin_smith5: Can you guys paste in to HackerRank or am I being a retard
+[2026-08-23 00:08] jroch: just about to start this thing
+[2026-08-23 00:08] jroch: is it so hard that it is not worth my time
+[2026-08-23 00:09] yellow213342: is it that hard
+[2026-08-23 00:09] yellow213342: im also about to start this thing
+[2026-08-23 00:09] yellow213342: i've never done anything like this before
+[2026-08-23 00:10] fin_smith5: Really depends what you think r2 will be like. You can optimise and overfit and get a high score or you can build a general model if you think it will be tested on oos data
+[2026-08-23 00:17] ▄︻̷̿┻̿═━一 u been sniped (replying to muffles: "anyone know how round 2 works? like are we trading against other people's bots i"): I think we would have a real market scenario and everyone would give their quotes and in the long run who would be most profitable would win accordingly
+[2026-08-23 00:17] ▄︻̷̿┻̿═━一 u been sniped (replying to fin_smith5: "Can you guys paste in to HackerRank or am I being a retard"): you are a retard
+[2026-08-23 00:23] fin_smith5: Appreciate that
+[2026-08-23 00:55] Mohit (replying to anisuth: "is anyone else getting a server error on hackerrank"): file too huge, must be below 64kb
+[2026-08-23 00:56] Mohit: btw curios to know where are yall participating from ?
+[2026-08-23 00:57] ▄︻̷̿┻̿═━一 u been sniped (replying to Mohit: "btw curios to know where are yall participating from ?"): I am from Gliese 667 Cc
+[2026-08-23 00:58] Mohit (replying to ▄︻̷̿┻̿═━一 u been sniped: "I am from Gliese 667 Cc"): we got people from outer space competing 🔥
+[2026-08-23 01:08] ▄︻̷̿┻̿═━一 u been sniped (replying to Mohit: "we got people from outer space competing 🔥"): jk US
+[2026-08-23 01:39] yellow213342: wait
+[2026-08-23 01:39] yellow213342: so whats the plan here to pass 20 test cases or what
+[2026-08-23 02:07] strixisme: Might i ask whos Ar4yu?  [attachments: ['Screenshot_2026-08-23_at_12.06.59.png']]
+[2026-08-23 02:08] tk: did you guys hear back for qt intern for the regular recruiting process (not competition)
+[2026-08-23 02:08] rg: yo good luck every1, final stretch of 24hrs-ish
+[2026-08-23 02:19] yellow213342: r yall deadass spending a lot fo time on this?
+[2026-08-23 02:30] strixisme: guys, join us to test ur code!  [attachments: ['Screenshot_2026-08-23_at_12.29.55.png']]
+[2026-08-23 02:31] strixisme (replying to strixisme: "Live market-making match every 3 minutes; your maker runs on your machine and yo"): https://discord.com/channels/1539336742165942352/1539336742795083848/1539986793766715422
+[2026-08-23 02:33] Blaze (replying to strixisme: "guys, join us to test ur code!"): Where is this?
+[2026-08-23 02:33] Blaze (replying to strixisme: "https://discord.com/channels/1539336742165942352/1539336742795083848/15399867937"): Ok
+[2026-08-23 02:38] ▄︻̷̿┻̿═━一 u been sniped (replying to strixisme: "guys, join us to test ur code!"): I did and me and you tied
+[2026-08-23 02:39] strixisme: you are arya?
+[2026-08-23 02:39] strixisme: oh , you r Short_AI_stocks
+[2026-08-23 02:40] ▄︻̷̿┻̿═━一 u been sniped: short
+[2026-08-23 02:41] ▄︻̷̿┻̿═━一 u been sniped (replying to strixisme: "you are arya?"): how many different tests you have and when they repeat?
+[2026-08-23 02:43] strixisme: i have 27, no repeat
+[2026-08-23 02:44] strixisme: feel free to give me some more to add  [attachments: ['message.txt']]
+[2026-08-23 03:11] yellow213342: hi guys
+[2026-08-23 03:11] yellow213342: in order to submit for the first round completely, do we just write our code and submit on hackerrank?
+[2026-08-23 03:11] yellow213342: is it just one thing?
+[2026-08-23 03:12] ▄︻̷̿┻̿═━一 u been sniped: yes
+[2026-08-23 03:21] Blaze (replying to yellow213342: "is it just one thing?"): Did anyone submit?
+[2026-08-23 03:22] Mohit (replying to Blaze: "Did anyone submit?"): i did
+[2026-08-23 03:48] fin_smith5: How’s everyone finding it so far
+[2026-08-23 03:48] fin_smith5: Are you maximising PnL or score?
+[2026-08-23 04:10] Pine1pple: Score on my end
+[2026-08-23 04:15] yellow213342 (replying to strixisme: "sorry forgot to include the file"): either this guy is helpful or a total genius
+[2026-08-23 04:21] null_ptr26: hi
+[2026-08-23 04:22] null_ptr26: what we need to do  in 1st round  ? just a hackerrank test  ?
+[2026-08-23 04:23] yellow213342: just gotta jork it
+[2026-08-23 04:23] yellow213342: https://klipy.com/gifs/my-mom-is-kinda-homeless-ishowspeed  [embeds: 1]
+[2026-08-23 04:25] muffles (replying to tk: "did you guys hear back for qt intern for the regular recruiting process (not com"): bumping this i did oas but nothing yet
+[2026-08-23 04:25] Blaze (replying to Mohit: "i did"): Did they say anything after u submitted?
+[2026-08-23 04:41] yellow213342: join in on the game guys
+[2026-08-23 04:42] Jiayi: hold on cannot join the live match
+[2026-08-23 04:43] strixisme: whats the problem?
+[2026-08-23 04:43] Mohit (replying to Blaze: "Did they say anything after u submitted?"): Yes, said that thank you for completing, we have submitted your code to akuna capital from hacker rank that’s it
+[2026-08-23 04:43] Jiayi (replying to strixisme: "whats the problem?"): run in terminal cannot press Y to join
+[2026-08-23 04:44] strixisme: just press enter for 1 match
+[2026-08-23 04:44] strixisme: you might have to wait for it to finish the current match
+[2026-08-23 04:47] yellow213342: join next match
+[2026-08-23 04:48] yellow213342: pls
+[2026-08-23 04:48] yellow213342: imma be there too
+[2026-08-23 04:48] yellow213342: too fun
+[2026-08-23 04:48] yellow213342: https://klipy.com/gifs/yes-yes-cat-2  [embeds: 1]
+[2026-08-23 04:48] Jiayi: it continues on live current market information but no space for me to input Y
+[2026-08-23 04:48] yellow213342: strixi can u teach everyone
+[2026-08-23 04:48] strixisme: good to hear
+[2026-08-23 04:48] yellow213342: like can u teach everyone how to join
+[2026-08-23 04:48] ilikebigbloons: This Ar4yu guy keeps quoting at the boundaries
+[2026-08-23 04:48] strixisme: It dosnt uploadd your code to my server too btw
+[2026-08-23 04:49] yellow213342: next match starting in 2 mins
+[2026-08-23 04:49] ilikebigbloons: does this server allow profanity?
+[2026-08-23 04:49] strixisme (replying to yellow213342: "strixi can u teach everyone"): teach what
+[2026-08-23 04:49] yellow213342: strixi u are aryu right
+[2026-08-23 04:49] yellow213342: everyone join this game
+[2026-08-23 04:49] yellow213342: lets seee it bois
+[2026-08-23 04:49] yellow213342: u aint beating me bois
+[2026-08-23 04:49] yellow213342: ok im danky
+[2026-08-23 04:49] yellow213342: say out ur usernames
+[2026-08-23 04:50] strixisme (replying to yellow213342: "like can u teach everyone how to join"): just start the python3 arena_client.py with your main.py next to it
+[2026-08-23 04:50] strixisme: thats it
+[2026-08-23 04:50] strixisme: i joined
+[2026-08-23 04:50] ilikebigbloons: Oh, when left alone fw 0.5 wins
+[2026-08-23 04:50] yellow213342: can we make a kalshi market on the market markers
+[2026-08-23 04:50] ilikebigbloons: If another guy joins in and forces 0.5 to share quotes then aryun wins
+[2026-08-23 04:51] ilikebigbloons: Oh shi 7 players
+[2026-08-23 04:54] yellow213342: can we make a prediction
+[2026-08-23 04:54] yellow213342: bot
+[2026-08-23 04:54] yellow213342: on who is going to make out of each 7
+[2026-08-23 04:54] yellow213342: and make it trade against eacha other
+[2026-08-23 04:54] yellow213342: https://klipy.com/gifs/the-big-short-smile  [embeds: 1]
+[2026-08-23 04:55] strixisme: prediction market for prediction market?
+[2026-08-23 04:55] ilikebigbloons (replying to strixisme: "prediction market for prediction market?"): sounds like hedging potential
+[2026-08-23 04:55] ilikebigbloons: like having options, but for options
+[2026-08-23 04:56] ilikebigbloons: aww I'm getting cooked
+[2026-08-23 04:57] strixisme: fk i was winning but i accidentally stop my terminal
+[2026-08-23 04:58] yellow213342: cant be doing execution faults here
+[2026-08-23 04:58] strixisme: hahaha
+[2026-08-23 04:59] ilikebigbloons: Does the server allow profanity
+[2026-08-23 05:00] yellow213342: holy
+[2026-08-23 05:00] strixisme (replying to ilikebigbloons: "Does the server allow profanity"): mine? yes
+[2026-08-23 05:00] ilikebigbloons (replying to strixisme: "mine? yes"): No, this server
+[2026-08-23 05:01] yellow213342: ryall joining
+[2026-08-23 05:01] yellow213342: next match
+[2026-08-23 05:01] yellow213342: fixed width bot is too powerful bruh
+[2026-08-23 05:01] yellow213342: i gotta amke some changes
+[2026-08-23 05:01] yellow213342: i'll join next one
+[2026-08-23 05:01] ilikebigbloons (replying to yellow213342: "fixed width bot is too powerful bruh"): are you quoting outside of fixed width?
+[2026-08-23 05:01] yellow213342: what does that even mean
+[2026-08-23 05:02] yellow213342: i dont know what is going on if imma be honest
+[2026-08-23 05:02] ilikebigbloons (replying to yellow213342: "what does that even mean"): gng
+[2026-08-23 05:02] yellow213342: but i like it
+[2026-08-23 05:02] yellow213342: like am i changing my bid asks
+[2026-08-23 05:02] yellow213342: spread
+[2026-08-23 05:02] ilikebigbloons: I'm guessing that maybe all participants are bidding and asking too far away from fair value
+[2026-08-23 05:02] ilikebigbloons: so fixed width gets all the fills
+especially me and ar4yu, ig
+[2026-08-23 05:02] ilikebigbloons: this mf ar4yu, he quotes 0.0 x1000/1.0 x 1000
+[2026-08-23 05:03] yellow213342: is there a way we could get like hacckerank test cases score
+[2026-08-23 05:03] yellow213342: without having to copy paste into gpt again and again
+[2026-08-23 05:04] ilikebigbloons (replying to yellow213342: "is there a way we could get like hacckerank test cases score"): Lowk I think this arena is a better backtesting source than hackerrank
+it has way more info
+[2026-08-23 05:06] yellow213342: i see
+[2026-08-23 05:06] ilikebigbloons (replying to yellow213342: "is there a way we could get like hacckerank test cases score"): idk, maybe you can make an API or smth idk
+never done this before
+[2026-08-23 05:06] yellow213342: ar4yu is getting thrased
+[2026-08-23 05:07] strixisme (replying to yellow213342: "is there a way we could get like hacckerank test cases score"): you can check inspect enelent
+[2026-08-23 05:07] strixisme: network
+[2026-08-23 05:09] yellow213342: holy
+[2026-08-23 05:09] yellow213342: ^mogger
+[2026-08-23 05:09] strixisme: like this  [attachments: ['Screenshot_2026-08-23_at_15.09.26.png']]
+[2026-08-23 05:11] yellow213342: can i dm u
+[2026-08-23 05:11] strixisme: sure
+[2026-08-23 05:14] strixisme: hold up, Fixed Width 0.05      is not my bot
+[2026-08-23 05:15] strixisme: holy fk, i was confused how tf simple bot doing so well
+[2026-08-23 05:16] ilikebigbloons (replying to strixisme: "holy fk, i was confused how tf simple bot doing so well"): It's taking all the flow I think? Ar4yu quotes pretty wide, so did I, idk what yours and Dankyv3 did
+[2026-08-23 05:16] yellow213342: then what is fixed width 0.05
+[2026-08-23 05:16] yellow213342: it is not a human right
+[2026-08-23 05:17] yellow213342: its not one of us
+[2026-08-23 05:17] yellow213342: wait did ai take over, and take all our flow
+[2026-08-23 05:17] yellow213342: gggg... guys-
+[2026-08-23 05:17] ilikebigbloons (replying to yellow213342: "then what is fixed width 0.05"): bids 0.025 below fair value and asks 0.025 above fair value, always
+[2026-08-23 05:17] yellow213342: what about the fair value tho
+[2026-08-23 05:17] yellow213342: is it estimating it usign its own algorithm
+[2026-08-23 05:17] yellow213342 (replying to ilikebigbloons: "bids 0.025 below fair value and asks 0.025 above fair value, always"): what if i bid 0.026 and ask 0.024 lowk
+[2026-08-23 05:18] ilikebigbloons (replying to yellow213342: "is it estimating it usign its own algorithm"): that would be fine
+it would be worse if it *knows* what the fair value is in the real simulation
+[2026-08-23 05:18] yellow213342: wtf
+[2026-08-23 05:18] yellow213342: lmao
+[2026-08-23 05:18] yellow213342: how did u build this like
+[2026-08-23 05:18] yellow213342: i dont even know how this arena is working lnike
+[2026-08-23 05:18] yellow213342: can u englithen us
+[2026-08-23 05:18] yellow213342: the creator
+[2026-08-23 05:18] yellow213342: or was this given by akuna itself
+[2026-08-23 05:19] ilikebigbloons (replying to yellow213342: "the creator"): I'm not the creator, creator is <@564763958343368710>
+[2026-08-23 05:19] ilikebigbloons: gng how does your fixed width work
+[2026-08-23 05:19] yellow213342: yea
+[2026-08-23 05:19] yellow213342: <@564763958343368710>
+[2026-08-23 05:19] strixisme: like how the arena works?
+[2026-08-23 05:19] ilikebigbloons: Also who da f is Lattice?
+[2026-08-23 05:20] RiemannJr: What about mongoose
+[2026-08-23 05:20] yellow213342: join up
+[2026-08-23 05:20] yellow213342: guys
+[2026-08-23 05:20] ilikebigbloons: I have a lot of wins and I still placed badly. aeaehafsdkasfj
+[2026-08-23 05:20] strixisme: it just plays all 27 test cases, like i sent
+[2026-08-23 05:20] ilikebigbloons: why
+[2026-08-23 05:20] yellow213342: yea how does the arena work. also how do the bots work. how about fixed width 0.05 does it know the fair value
+[2026-08-23 05:21] strixisme: and each MM runs from locally, arena_client calls your function and upload your buy/sell/quote to my server
+[2026-08-23 05:21] yellow213342: how is it able to play the test cases tho. 27 teste cases where did u get i from? are these the test cases akuna sent us
+[2026-08-23 05:21] strixisme (replying to yellow213342: "how is it able to play the test cases tho. 27 teste cases where did u get i from"): no
+[2026-08-23 05:21] ilikebigbloons (replying to strixisme: "and each MM runs from locally, arena_client calls your function and upload your "): Wait so you're saying that someone else made Fixed Width 0.5, not you?
+[2026-08-23 05:21] strixisme: oh my bad, it is a bot  [attachments: ['Screenshot_2026-08-23_at_15.21.47.png']]
+[2026-08-23 05:22] strixisme: i thought someone named it same as my bot
+[2026-08-23 05:22] ilikebigbloons (replying to strixisme: "i thought someone named it same as my bot"): Ok so you did make it
+Did you make Lattice also? Is it similar to the Lattice bot in Hackerrank?
+[2026-08-23 05:22] yellow213342: wait
+[2026-08-23 05:22] yellow213342: why did it stop
+[2026-08-23 05:22] yellow213342: oh its going
+[2026-08-23 05:23] strixisme: it works on websocket, so it has to wait for eveyrone, some people is far from the server, in sydney
+[2026-08-23 05:23] strixisme: so laggy sometimes
+[2026-08-23 05:23] yellow213342: Ary4u is mogging
+[2026-08-23 05:25] yellow213342: start to end
+[2026-08-23 05:27] lost traveller 37,53: guys, is there a way of having the scores of all the tcs displayed out at once? I'm having to click on each tc to see the score
+[2026-08-23 05:27] yellow213342: im betting englighten is gonna win
+[2026-08-23 05:27] RiemannJr: Not that I know
+[2026-08-23 05:28] RiemannJr: Maybe you could build a web scraper
+[2026-08-23 05:28] Naman#0075: how do i join
+[2026-08-23 05:28] strixisme (replying to lost traveller 37,53: "guys, is there a way of having the scores of all the tcs displayed out at once? "): go to inspect
+[2026-08-23 05:28] strixisme: network
+[2026-08-23 05:28] strixisme (replying to strixisme: "like this"): like this
+[2026-08-23 05:31] strixisme: sorry, network problem, i am joining this game
+[2026-08-23 05:32] Naman#0075 (replying to strixisme: "sorry, network problem, i am joining this game"): yo how do i join
+[2026-08-23 05:33] strixisme: get the file
+[2026-08-23 05:33] strixisme: python3 areana_client.py
+[2026-08-23 05:35] yellow213342: i'll join with new way
+[2026-08-23 05:35] yellow213342: one*
+[2026-08-23 05:35] yellow213342: with my new improved MM bot
+[2026-08-23 05:35] yellow213342: and about to mog u all so har
+[2026-08-23 05:35] yellow213342: like im actually gonna win this
+[2026-08-23 05:36] yellow213342: is there a 3 min delay after we finish to join? i need some time lowk
+[2026-08-23 05:36] strixisme: u want to turn to 5?
+[2026-08-23 05:37] yellow213342: nah
+[2026-08-23 05:37] yellow213342: i just wanted to know if its still there
+[2026-08-23 05:40] yellow213342: ar4yu goat is typing
+[2026-08-23 05:42] yellow213342: my new bot is Mistral
+[2026-08-23 05:42] yellow213342: be aware
+[2026-08-23 05:42] yellow213342: its situationally aware btw
+[2026-08-23 05:42] yellow213342: **** fixed width bruh
+[2026-08-23 05:51] ilikebigbloons: Hey <@564763958343368710>, if I update my code mid match during a round, does the arena take the quotes from the updated bot or the old bot before the round started?
+[2026-08-23 05:54] strixisme: no
+[2026-08-23 05:54] strixisme: MM object is created when you start
+[2026-08-23 05:54] yellow213342: can we increase the time
+[2026-08-23 05:55] yellow213342: its starting in 2 and i dont have time to udpate 🙁
+[2026-08-23 05:55] yellow213342: but its ok i guess
+[2026-08-23 05:56] strixisme (replying to strixisme: "MM object is created when you start"): you can create new folder,  take updated code
+[2026-08-23 05:56] strixisme: give me a few minutes
+[2026-08-23 05:56] strixisme: to update
+[2026-08-23 06:00] strixisme: all good guys
+[2026-08-23 06:00] yellow213342: guys its up again
+[2026-08-23 06:00] yellow213342: join up
+[2026-08-23 06:00] yellow213342: join join join
+[2026-08-23 06:16] yellow213342: joinnnnn
+[2026-08-23 06:16] yellow213342: guydsssss
+[2026-08-23 06:18] yellow213342: jane street is there too
+[2026-08-23 06:18] yellow213342: whoever is beating jane street is getting qt internship
+[2026-08-23 06:23] ilikebigbloons (replying to strixisme: "to update"): Is market maker behavior resetted between test cases?
+[2026-08-23 06:40] Naman#0075 (replying to yellow213342: "joinnnnn"): yooo im in
+[2026-08-23 06:49] Naman#0075: whats the link for the live leaderboard
+[2026-08-23 06:49] Naman#0075: there was a site u made right?
+[2026-08-23 06:49] strixisme: My server’s bandwidth is 3mb/s haha, it will throttle soon
+[2026-08-23 06:49] strixisme (replying to Naman#0075: "there was a site u made right?"): akuna.server.strixthekiet.me
+[2026-08-23 06:49] strixisme: .me
+[2026-08-23 06:50] Naman#0075: preciate u
+[2026-08-23 06:50] Naman#0075 (replying to strixisme: "akuna.server.strixthekiet.me"): whose jae-4?
+[2026-08-23 06:52] ilikebigbloons: Damn who's NoCOMM
+[2026-08-23 06:52] ilikebigbloons (replying to Naman#0075: "whose jae-4?"): is it you?
+[2026-08-23 06:52] Naman#0075 (replying to ilikebigbloons: "Damn who's NoCOMM"): thas me :)
+[2026-08-23 06:53] Naman#0075: r u in?
+[2026-08-23 06:53] ilikebigbloons (replying to Naman#0075: "thas me :)"): no, I"m still fixing things
+[2026-08-23 07:03] strixisme: join guys
+[2026-08-23 07:06] strixisme: holy mogging jae-4
+[2026-08-23 07:08] Naman#0075: why did i get dqed 😭
+[2026-08-23 07:12] heyjae (replying to strixisme: "holy mogging jae-4"): bankrupted 🫡
+[2026-08-23 07:13] strixisme: bro who is citadel sec? can you please withdraw your rejection email
+[2026-08-23 07:43] praxindice: wait
+[2026-08-23 07:43] praxindice: does your bot on the simulator just use the name from your code
+[2026-08-23 07:44] Naman#0075: yes
+[2026-08-23 07:44] strixisme: yeah
+[2026-08-23 07:45] praxindice: and we use main.py as our marketmaker code
+[2026-08-23 07:45] strixisme: yeah, just like how you would submit, and the client file will call functions of ur main.py
+[2026-08-23 07:45] praxindice: we copy eveyrthing from hackrrank right..
+[2026-08-23 07:45] strixisme: no code from your side isuploaded
+[2026-08-23 07:45] strixisme: yes
+[2026-08-23 07:47] praxindice: i might be slow
+[2026-08-23 07:48] praxindice:   [attachments: ['image.png']]
+[2026-08-23 07:50] strixisme: wdym?
+[2026-08-23 07:51] praxindice: nvm i did it
+[2026-08-23 08:00] praxindice: brah howd my bot win
+[2026-08-23 08:00] praxindice: but get 2 wins
+[2026-08-23 08:00] praxindice: im cryin
+[2026-08-23 08:04] yellow213342: is wins based on overall PNL
+[2026-08-23 08:04] yellow213342: or game based pnl
+[2026-08-23 08:04] yellow213342: or just positive negative
+[2026-08-23 08:04] praxindice: whos citadel...
+[2026-08-23 08:04] praxindice: they stole my wins..
+[2026-08-23 08:12] strixisme: win is nb 1 of 1 testcase
+[2026-08-23 08:45] ilikebigbloons (replying to strixisme: "win is nb 1 of 1 testcase"): Are the test cases deterministic?
+[2026-08-23 08:50] strixisme: yes
+[2026-08-23 08:51] strixisme: i sent them
+[2026-08-23 09:17] andrew: is 18 a guarantee pass
+[2026-08-23 09:18] andrew: never done one of these before
+[2026-08-23 09:31] Ganjedi.bhai (replying to andrew: "is 18 a guarantee pass"): same question
+[2026-08-23 09:33] Ganjedi.bhai: is there a leaderboard or smtg?
+[2026-08-23 09:35] strixisme: come find out  [attachments: ['Screenshot_2026-08-23_at_19.35.29.png']]
+[2026-08-23 09:36] andrew: how do u see that
+[2026-08-23 09:38] strixisme (replying to strixisme: "sorry forgot to include the file"): here
+[2026-08-23 09:45] bhumitmaru (replying to Ganjedi.bhai: "same question"): Maal milega?
+[2026-08-23 09:49] Ganjedi.bhai (replying to bhumitmaru: "Maal milega?"): maybe
+[2026-08-23 09:53] bhumitmaru (replying to Ganjedi.bhai: "maybe"): Rate?
+[2026-08-23 09:59] Ganjedi.bhai (replying to strixisme: "come find out"): I ran it on cmd but how do I see the leaderboard after that
+[2026-08-23 10:04] Ganjedi.bhai (replying to strixisme: "come find out"): I can't see my name on the leaderboard, do I have to change the name of my file to be able to see it?
+[2026-08-23 10:10] strixisme: U can go to the site
+[2026-08-23 10:10] strixisme: akuna.server.strixthekiet.me
+[2026-08-23 11:28] ryan: hey how to join this
+[2026-08-23 11:33] TriadicYew: anyone know of any other competitions coming up? i am based in uk
+[2026-08-23 11:43] Naman#0075 (replying to ryan: "hey how to join this"): download arena client.py file
+[2026-08-23 11:43] Naman#0075: make a new file called main and copy all of ur submission file into that file
+[2026-08-23 11:43] Naman#0075: then run arena client.py file
+[2026-08-23 11:51] ryan: what's rule? only 8 live trading days?
+[2026-08-23 11:54] RiemannJr (replying to TriadicYew: "anyone know of any other competitions coming up? i am based in uk"): I’m also interested in opportunities.
+[2026-08-23 13:02] Aditya Goyal: Anybody can assist me on how to start with the competition and also the leaderboard
+[2026-08-23 13:02] Aditya Goyal: I'm unable to see any leaderboard there
+[2026-08-23 13:02] Aditya Goyal: Also, can I switch off my laptop and it still allows me to code again later?
+[2026-08-23 13:51] strixisme: Last minute final boss
+[2026-08-23 13:52] strixisme: Yes, you can close your laptop and rejoin
+[2026-08-23 13:52] strixisme: The leaderboard, find arena_client file and run it with ur code in main.py
+[2026-08-23 13:57] Vishal: Link to public leaderboard / github repo pls
+[2026-08-23 14:11] strixisme: akuna.server.strixthekiet.me
+[2026-08-23 14:19] huyes: anyone in lobby got 17 or above in hackerank?
+[2026-08-23 14:20] RiemannJr: I got 17.7/20
+[2026-08-23 14:20] huyes: what's urs
+[2026-08-23 14:22] Maxwell Sam (replying to strixisme: "The leaderboard, find arena_client file and run it with ur code in main.py"): I don’t see my name on the leaderboard
+[2026-08-23 14:23] strixisme: Did you join?
+[2026-08-23 14:23] strixisme: Maybe wait for next game
+[2026-08-23 14:23] huyes: join lobby and wait for next match
+[2026-08-23 14:23] strixisme (replying to huyes: "anyone in lobby got 17 or above in hackerank?"): I did
+[2026-08-23 14:23] Maxwell Sam (replying to strixisme: "Maybe wait for next game"): Yes
+[2026-08-23 14:24] strixisme: Thank you so much kind strangers, you have no idea how much your participation means for me.
+[2026-08-23 14:26] huyes: apparently winning with 17- lol
+[2026-08-23 14:26] heyjae: do we count the first testcase for the score?
+[2026-08-23 14:26] heyjae: the theo one
+[2026-08-23 14:27] Reset60: depends on who says the score
+[2026-08-23 14:27] Reset60: that's why you say 17/20 for ex
+[2026-08-23 14:27] heyjae: I mean there is no score for tc 1 innit
+[2026-08-23 14:27] heyjae: it’s just pass/fail
+[2026-08-23 14:28] Reset60: Yeah but when someone says 17.7/20, obviously they're still counting it
+[2026-08-23 14:28] heyjae: sure
+[2026-08-23 14:28] aang: anyone else encounter "Custom checker Failed: Success" ? does that mean the code hits a time limit?
+[2026-08-23 14:29] luckyducky: just passed 15/20 will akuna give me an internship 👉👈
+[2026-08-23 14:29] Reset60 (replying to luckyducky: "just passed 15/20 will akuna give me an internship 👉👈"): xD who knows
+[2026-08-23 14:29] ilikebigbloons (replying to luckyducky: "just passed 15/20 will akuna give me an internship 👉👈"): fo sho
+[2026-08-23 14:30] Maxwell Sam: Who is 3 Rings on the leaderboard?
+[2026-08-23 14:30] huyes: me
+[2026-08-23 14:31] aang (replying to strixisme: "Thank you so much kind strangers, you have no idea how much your participation m"): dont you see the code of people who participate lol
+[2026-08-23 14:31] Xentence (replying to strixisme: "Thank you so much kind strangers, you have no idea how much your participation m"): cool idea ngl, will you open source it
+[2026-08-23 14:34] strixisme (replying to aang: "dont you see the code of people who participate lol"): I can’t
+[2026-08-23 14:34] strixisme: the point is privacy because it’s a competition
+[2026-08-23 14:34] strixisme (replying to Xentence: "cool idea ngl, will you open source it"): Yeah, after this competition
+[2026-08-23 14:36] strixisme: Wish I could join the fun, I locked myself out of my apartment
+[2026-08-23 14:37] wrowotile: guys, what would you do if a few cases scored very low like 0.4 or 0.5? i've been modifying params for a while but didn't seem to improve much
+[2026-08-23 14:38] Vishal: Server error while compiling. Try again.
+[2026-08-23 14:38] Vishal: did that happen for anyone else?
+[2026-08-23 14:38] RiemannJr: File too large
+[2026-08-23 14:39] huyes (replying to Vishal: "did that happen for anyone else?"): u might be overcomplicating pricing theo
+[2026-08-23 14:39] fin_smith5 (replying to wrowotile: "guys, what would you do if a few cases scored very low like 0.4 or 0.5? i've bee"): Same
+[2026-08-23 14:40] CranBerry: I think I remember someone saying there was a rule about only 15 functions does anyone remember that specific rule or if it’s true
+[2026-08-23 14:40] John.sa: as long as you are outweighing that in other cases i think its a fair tradeoff, like in some tests in losing money, it might be unavoidable
+[2026-08-23 14:41] Xentence (replying to Vishal: "Server error while compiling. Try again."): try to keep it under 1.4k lines
+[2026-08-23 14:41] fin_smith5: I’m not loosing money in any tests. I feel like r2 would be longevity tested and you don’t wanna be going bankrupt early
+[2026-08-23 14:42] ilikebigbloons (replying to Vishal: "Server error while compiling. Try again."): keep your code size below 64kb
+[2026-08-23 14:43] Vishal: Aahh thanks
+[2026-08-23 14:44] huyes: off topic but what procs are yall on (for 27 intern)
+[2026-08-23 14:46] CranBerry: <@1079523414013906964> what is your score right now /20
+[2026-08-23 14:46] ilikebigbloons (replying to huyes: "off topic but what procs are yall on (for 27 intern)"): what's a proc
+[2026-08-23 14:46] aang (replying to RiemannJr: "File too large"): did you also encounter Custom checker Failed: Success" error ?
+[2026-08-23 14:47] huyes (replying to ilikebigbloons: "what's a proc"): aka recruiting
+[2026-08-23 14:47] ilikebigbloons (replying to huyes: "aka recruiting"): My resume is still crap so I'm waiting for some further improvements I think
+[2026-08-23 14:47] ilikebigbloons: then i can apply
+[2026-08-23 14:47] fin_smith5 (replying to CranBerry: "<@1079523414013906964> what is your score right now /20"): 17
+[2026-08-23 14:48] strixisme (replying to huyes: "off topic but what procs are yall on (for 27 intern)"): None, not even an interview for alien boy
+[2026-08-23 14:48] huyes: anyone on citsec pls dms me
+[2026-08-23 14:48] strixisme: I did 5 rounds citsec Sydney, dm
+[2026-08-23 14:48] CranBerry (replying to fin_smith5: "17"): Bro how
+[2026-08-23 14:48] CranBerry: Does anyone know what the cutoff is
+[2026-08-23 14:49] CranBerry: Also how do I join the live matches
+[2026-08-23 14:49] CranBerry: That you guys made
+[2026-08-23 14:53] strixisme: Find arena_client file, run it next to ur code as main.py
+[2026-08-23 14:54] strixisme: Your code is safe, I won’t see it
+[2026-08-23 14:54] CranBerry: Im confused like in python?
+[2026-08-23 14:54] CranBerry: Im not a programmer
+[2026-08-23 14:54] CranBerry: And how do I find that file
+[2026-08-23 14:55] wrowotile (replying to strixisme: "I did 5 rounds citsec Sydney, dm"): dmed, thanks
+[2026-08-23 14:55] strixisme: In this chat, you can search it
+[2026-08-23 14:55] strixisme: I don’t have my laptop to send, sorry
+[2026-08-23 14:55] aang (replying to strixisme: "I did 5 rounds citsec Sydney, dm"): can i also dm you?
+[2026-08-23 14:55] strixisme: Sure
+[2026-08-23 14:56] heyjae: what’s the point of being 1st on the leaderboard but getting 15/20 on hackerrank 😭😭
+[2026-08-23 14:58] CranBerry: Can some please explain how to test against the leaderboard thing he made
+[2026-08-23 15:00] strixisme (replying to strixisme: "sorry forgot to include the file"): Here, follow this
+[2026-08-23 15:00] Vishal: Yo anyone done citsec, akuna, js R1 or doing OptiverR2?
+[2026-08-23 15:00] strixisme (replying to strixisme: "Live market-making match every 3 minutes; your maker runs on your machine and yo"): And url is herd
+[2026-08-23 15:00] strixisme: Here*
+[2026-08-23 15:00] huyes (replying to Vishal: "Yo anyone done citsec, akuna, js R1 or doing OptiverR2?"): pls dms me
+[2026-08-23 15:00] ilikebigbloons (replying to Vishal: "Yo anyone done citsec, akuna, js R1 or doing OptiverR2?"): Damn, are you?
+[2026-08-23 15:01] Vishal (replying to ilikebigbloons: "Damn, are you?"): Combined ask for me and some friends
+[2026-08-23 15:01] huyes (replying to heyjae: "what’s the point of being 1st on the leaderboard but getting 15/20 on hackerrank"): same bro 😭
+[2026-08-23 15:01] ꌗꃅꋪꃴ ╾━╤デ╦︻ (replying to Vishal: "Yo anyone done citsec, akuna, js R1 or doing OptiverR2?"): ye
+[2026-08-23 15:01] ilikebigbloons (replying to Vishal: "Yo anyone done citsec, akuna, js R1 or doing OptiverR2?"): oh *done*
+ye
+[2026-08-23 15:02] Vishal: Dmed all
+[2026-08-23 15:03] Vishal: 🙏🏻
+[2026-08-23 15:03] aang (replying to Vishal: "Dmed all"): me too pls
+[2026-08-23 15:05] yellow213342: anyone done flow supsrday?
+[2026-08-23 15:08] Cynzi: Anyone done drw r1
+[2026-08-23 15:15] macker (replying to grace: "can i see ur code dm me"): somebody get these beggars out of here
+[2026-08-23 15:18] CranBerry: If I can’t see my name am I doing horrible
+[2026-08-23 15:18] CranBerry: I know im entered
+[2026-08-23 15:19] CranBerry: Maybe im going into the second one?
+[2026-08-23 15:20] CranBerry: Because I don’t see my name im standings
+[2026-08-23 15:20] huyes: wait until the current match finish
+[2026-08-23 15:20] Aditya Goyal: What match are u guys talking about?
+[2026-08-23 15:21] Sam: Does anyone get more than 18/20?
+[2026-08-23 15:22] William (replying to Vishal: "Dmed all"): Dm plss
+[2026-08-23 15:22] strixisme: Damn who’s 3 Rings mogger
+[2026-08-23 15:23] strixisme (replying to Aditya Goyal: "What match are u guys talking about?"): Search arena_client file and pythkn3 that file with ur code in main.py
+[2026-08-23 15:24] CranBerry: I think I entered
+[2026-08-23 15:25] wrowotile (replying to ▄︻̷̿┻̿═━一 u been sniped: ""): should we have another survey like this
+[2026-08-23 15:26] CranBerry: How many days are there?
+[2026-08-23 15:31] Vishal (replying to William: "Dm plss"): Dmed
+[2026-08-23 15:31] Vishal (replying to aang: "me too pls"): Dmed
+[2026-08-23 15:32] ilikebigbloons (replying to strixisme: "Damn who’s 3 Rings mogger"): the quant firms gonna mog us all
+[2026-08-23 15:32] ilikebigbloons: first jane street, then citsec, then this guy
+[2026-08-23 15:33] TROLLLLLLLLLLLLL (replying to Vishal: "Dmed"): what are you dming?
+[2026-08-23 15:33] VJ (replying to Vishal: "Yo anyone done citsec, akuna, js R1 or doing OptiverR2?"): akuna technical 1 here
+[2026-08-23 15:33] TROLLLLLLLLLLLLL: <@1412811464703737898> dm me too
+[2026-08-23 15:33] Aditya Goyal: Can anybody explain to me what's going on here? Unable to understand
+[2026-08-23 15:42] Sam: A good guy (<@564763958343368710>) made an open leaderboard, you can test your bot against other real human under many conditions.
+[2026-08-23 15:50] Vishal (replying to TROLLLLLLLLLLLLL: "<@1412811464703737898> dm me too"): dmed
+[2026-08-23 15:51] Vishal (replying to VJ: "akuna technical 1 here"): dmed
+[2026-08-23 15:51] Vishal: so yeah the dms are me asking if you guys have had interviews at those firms since I'm looking to collect experiences for myself and my friends who've gotten some at those firms!
+[2026-08-23 15:57] RiemannJr: Dm me too!
+[2026-08-23 15:58] mrrobot: can i have the leaderboard too?
+[2026-08-23 16:00] strixisme: Oh wow there are 12 human joined the arena
+[2026-08-23 16:00] strixisme (replying to mrrobot: "can i have the leaderboard too?"): akuna.server.strixthekiet.me
+[2026-08-23 16:18] huyes: js vs 3 rings lol
+[2026-08-23 16:19] aaronj: teh ahckerrank due date and the email due date disgaree
+
+Which one is it
+[2026-08-23 16:19] volodkov21_98511: Email
+[2026-08-23 16:24] huyes: <@564763958343368710> def W the comp regardless
+[2026-08-23 16:25] JKing007: i have a doubt our latest saved one will get submitted if we didnt submit anything right?
+[2026-08-23 16:26] CranBerry: It’s so annoying that create an actual good MM you have to lose points in the tests
+[2026-08-23 16:26] CranBerry: Does anyone know what the goal should be
+[2026-08-23 16:26] CranBerry: Are a huge amount of people gonna move on n
+[2026-08-23 16:26] RiemannJr (replying to CranBerry: "It’s so annoying that create an actual good MM you have to lose points in the te"): So true
+[2026-08-23 16:26] JKing007: and btw i was the jaisakhthivelan bot in the leaderboard, is the ranking based on pnl or the score???
+[2026-08-23 16:27] RiemannJr: So it’s either move to the next round with a model that perhaps doesn’t work in practice, or have a proper model that never sees the second round
+[2026-08-23 16:28] JKing007: lol maybe they are seeing how good we are at reverse engineering
+[2026-08-23 16:28] CranBerry: That could be it
+[2026-08-23 16:28] CranBerry: Has anyone gotten above .4 on the first 3
+[2026-08-23 16:28] RiemannJr: as in 5-6-7?
+[2026-08-23 16:28] JKing007: i got .7 on case 6
+[2026-08-23 16:29] CranBerry: I got .7 on case 6 but it messes up the rest
+[2026-08-23 16:29] RiemannJr: I got 1 on 5&7 I believe
+[2026-08-23 16:29] CranBerry: Wtf
+[2026-08-23 16:29] CranBerry: That crazy
+[2026-08-23 16:29] JKing007 (replying to RiemannJr: "I got 1 on 5&7 I believe"): wow
+[2026-08-23 16:29] CranBerry: What’s your overall score?
+[2026-08-23 16:30] Maxwell Sam: big shoutout to <@564763958343368710> for the leaderboard
+[2026-08-23 16:30] JKing007: whats yours <@1515002714147258484>  (say /20)
+[2026-08-23 16:31] CranBerry: 16.2
+[2026-08-23 16:31] JKing007: same
+[2026-08-23 16:31] CranBerry: I’ve been trying for hours with no luck at improving
+[2026-08-23 16:31] CranBerry: And one of the test cases is completely overfitted
+[2026-08-23 16:31] JKing007 (replying to CranBerry: "I’ve been trying for hours with no luck at improving"): i can say i actually understand that
+[2026-08-23 16:32] heyjae: does anyone know how many people will be accepted to round 2? or the proportion?
+[2026-08-23 16:32] RiemannJr (replying to CranBerry: "What’s your overall score?"): 17.7/20 for that bot
+[2026-08-23 16:32] JKing007: at this point i wont even aim for 19+, i just want 17+ ...
+[2026-08-23 16:33] JKing007 (replying to RiemannJr: "17.7/20 for that bot"): so what are the test cases you're losing???
+[2026-08-23 16:33] JKing007: cause 5,6,7  r the hardest as far as i think
+[2026-08-23 16:33] aang: does anybody use neural networks?
+[2026-08-23 16:34] aaronj (replying to CranBerry: "It’s so annoying that create an actual good MM you have to lose points in the te"): or maybe
+[2026-08-23 16:34] aaronj: your mm just isnt good
+[2026-08-23 16:34] aaronj: it is clearly getting exploited by something
+[2026-08-23 16:35] mrrobot (replying to aang: "does anybody use neural networks?"): its not feasible
+[2026-08-23 16:35] CranBerry: What is your score aaronj
+[2026-08-23 16:35] CranBerry: Just curious
+[2026-08-23 16:35] CranBerry: Im i just trash lol
+[2026-08-23 16:35] aaronj: out of 19
+[2026-08-23 16:35] aaronj: its not great
+[2026-08-23 16:35] aaronj: 16.5
+[2026-08-23 16:35] ryan: the test cases are definitely not distributed as real market, scoring on test cases makes no sense to me
+[2026-08-23 16:35] aaronj: i suck as well
+[2026-08-23 16:35] CranBerry: Bruh wdym not great
+[2026-08-23 16:35] aaronj: i think mid 17s to qualify
+[2026-08-23 16:36] aaronj (replying to ryan: "the test cases are definitely not distributed as real market, scoring on test ca"): this doesnt make any sense
+[2026-08-23 16:36] aaronj: it just means your model can be imrpoved
+[2026-08-23 16:36] CranBerry: Idk not necessarily
+[2026-08-23 16:37] CranBerry: If one test case you need to have 0 risk to get #1 against the bot
+[2026-08-23 16:37] mrrobot (replying to aaronj: "i think mid 17s to qualify"): i though someone was geeting 18-19?
+[2026-08-23 16:37] CranBerry: And the other tou need to have super risk
+[2026-08-23 16:37] king3ds (replying to RiemannJr: "I got 1 on 5&7 I believe"): Same getting 1 on 6 feels impossible tho
+[2026-08-23 16:38] JKing007 (replying to king3ds: "Same getting 1 on 6 feels impossible tho"): so u got 1 on 5&7 too??
+[2026-08-23 16:38] king3ds (replying to JKing007: "so u got 1 on 5&7 too??"): Yeah
+[2026-08-23 16:38] ryan: btw 3 rings feels like a half gambling machine half serious trading to me lol  it should not work in the test cases
+[2026-08-23 16:38] king3ds: I don’t have any 0.4s 
+All of my scores are 0.7 or higher
+[2026-08-23 16:39] mrrobot (replying to king3ds: "I don’t have any 0.4s  All of my scores are 0.7 or higher"): what's ur total /20?
+[2026-08-23 16:39] king3ds: 18.5
+[2026-08-23 16:39] mrrobot: fuck that's good
+[2026-08-23 16:39] king3ds: It’s not bad
+[2026-08-23 16:39] mrrobot: u a student?
+[2026-08-23 16:39] king3ds: Yeah
+[2026-08-23 16:39] mrrobot: undergrad?
+[2026-08-23 16:39] king3ds: Yeah
+[2026-08-23 16:39] TROLLLLLLLLLLLLL: 19+ good
+[2026-08-23 16:40] king3ds: I wanna hit 19.5 and stop
+[2026-08-23 16:40] mrrobot (replying to king3ds: "Yeah"): holy shit, must be ivy? mit?
+[2026-08-23 16:40] king3ds: No
+[2026-08-23 16:40] TROLLLLLLLLLLLLL (replying to king3ds: "I wanna hit 19.5 and stop"): bro help please
+[2026-08-23 16:40] king3ds: Not ivy
+[2026-08-23 16:40] king3ds: But I do have some superdays if that can speak about my abilities
+[2026-08-23 16:40] king3ds: Won’t mention which firms
+[2026-08-23 16:40] mrrobot: oohhh
+[2026-08-23 16:40] mrrobot: wow
+[2026-08-23 16:41] ryan (replying to king3ds: "18.5"): me too, stuck on 7/9/10/14
+[2026-08-23 16:41] TROLLLLLLLLLLLLL (replying to ryan: "me too, stuck on 7/9/10/14"): i can help you 9 10 14 , i have 0.7 and 1 there
+[2026-08-23 16:42] ryan: all 0.7
+[2026-08-23 16:42] king3ds: 6,10,14,18-20 are my final clutch bars 
+Need my 1.0s
+[2026-08-23 16:42] RiemannJr (replying to JKing007: "so what are the test cases you're losing???"): Here are my scores. Total points 17.7/20 with P&L 221.91$.  [attachments: ['image.png']]
+[2026-08-23 16:42] aang: how do you keep track of the scores? doing it by hand seems a lot of work
+[2026-08-23 16:42] TROLLLLLLLLLLLLL: anyone up to trade ???
+[2026-08-23 16:42] king3ds (replying to aang: "how do you keep track of the scores? doing it by hand seems a lot of work"): U could use smth like excel or drop it to some llm to sum up
+[2026-08-23 16:43] strixisme (replying to aang: "how do you keep track of the scores? doing it by hand seems a lot of work"): Inspect element
+[2026-08-23 16:43] aang: thanks for the advice!
+[2026-08-23 16:43] king3ds (replying to strixisme: "Inspect element"): Ok that’s a sick one
+[2026-08-23 16:43] king3ds: Should’ve done
+[2026-08-23 16:43] strixisme (replying to strixisme: "like this"): Here
+[2026-08-23 16:43] huyes (replying to ryan: "btw 3 rings feels like a half gambling machine half serious trading to me lol  i"): dont tryna reverse eng me, alpha changes every match lol
+[2026-08-23 16:43] TROLLLLLLLLLLLLL: bro anyone help me please
+[2026-08-23 16:44] ryan (replying to huyes: "dont tryna reverse eng me, alpha changes every match lol"): cool
+[2026-08-23 16:44] IdrinkVaccine: does anyone know what score it should be aiming for ?
+[2026-08-23 16:44] TROLLLLLLLLLLLLL: 19+
+[2026-08-23 16:44] strixisme: I think less than consent age is good
+[2026-08-23 16:44] IdrinkVaccine: i saw some ppl get 19+ but im not sure if its tested outside of these test cases asw?
+[2026-08-23 16:44] strixisme: 16-18
+[2026-08-23 16:45] king3ds (replying to strixisme: "I think less than consent age is good"): Gotta get 21 if u are American
+[2026-08-23 16:45] IdrinkVaccine (replying to strixisme: "I think less than consent age is good"): mint
+[2026-08-23 16:45] ilikebigbloons (replying to RiemannJr: "Here are my scores. Total points 17.7/20 with P&L 221.91$."): damn how did you quote in test case 5?
+[2026-08-23 16:45] mrrobot: i mean i got a score of 19.5 but that was just glorified overfitting
+[2026-08-23 16:45] king3ds (replying to mrrobot: "i mean i got a score of 19.5 but that was just glorified overfitting"): Yeah I mean how else are we supposed to score high haha
+[2026-08-23 16:45] IdrinkVaccine: rn im just getting above 16
+[2026-08-23 16:45] mrrobot: i think a score of 19 is very very hard without overfitting
+[2026-08-23 16:45] ilikebigbloons (replying to strixisme: "I think less than consent age is good"): gng 🥀
+[2026-08-23 16:46] heyjae: how do we get 18+ w/o overfitting
+[2026-08-23 16:46] mrrobot (replying to king3ds: "Yeah I mean how else are we supposed to score high haha"): god knows
+[2026-08-23 16:46] heyjae: anyone managed to do that
+[2026-08-23 16:46] king3ds (replying to heyjae: "how do we get 18+ w/o overfitting"): Mission impossible 
+Be James Bond or smth
+[2026-08-23 16:46] heyjae: I’m stuck at 17
+[2026-08-23 16:46] huyes: am I safe w 16/20 lol?
+[2026-08-23 16:46] heyjae: but the thing is that to qualify we need like 17-18 I assume
+[2026-08-23 16:46] ilikebigbloons (replying to heyjae: "how do we get 18+ w/o overfitting"): I don't think you can; beating fw 0.5 and beating stalemate quoter asks for different things I believe
+[2026-08-23 16:47] king3ds (replying to huyes: "am I safe w 16/20 lol?"): Seeing how many people are overfitting to get a high score likely not
+[2026-08-23 16:47] mrrobot (replying to heyjae: "anyone managed to do that"): i got a 18.1 w/o overfitting
+[2026-08-23 16:47] heyjae (replying to mrrobot: "i got a 18.1 w/o overfitting"): crazy work bro
+[2026-08-23 16:47] IdrinkVaccine: is the bot tested outside of these tests asw or is ur performance only determined on these test cases?
+[2026-08-23 16:47] ilikebigbloons (replying to king3ds: "Seeing how many people are overfitting to get a high score likely not"): But like it would be bullshit to just take the top overfitters; I think akuna is smarter than that
+[2026-08-23 16:47] strixisme: Wait, how do u know when u overfit tho?
+[2026-08-23 16:48] mrrobot (replying to ilikebigbloons: "But like it would be bullshit to just take the top overfitters; I think akuna is"): yes exaclty
+[2026-08-23 16:48] strixisme (replying to ilikebigbloons: "But like it would be bullshit to just take the top overfitters; I think akuna is"): Most likely they will break to groups and score in groups
+[2026-08-23 16:48] mrrobot: they;ll immediately know
+[2026-08-23 16:48] huyes (replying to ilikebigbloons: "But like it would be bullshit to just take the top overfitters; I think akuna is"): hope they smart enough 😂
+[2026-08-23 16:48] heyjae (replying to strixisme: "Wait, how do u know when u overfit tho?"): if u r adjusting parameters like hardcoding them
+[2026-08-23 16:48] heyjae: after seeing data
+[2026-08-23 16:48] mrrobot (replying to strixisme: "Wait, how do u know when u overfit tho?"): if you fix your code with respect to each test to win the test
+[2026-08-23 16:48] mrrobot: by using raw values
+[2026-08-23 16:48] ilikebigbloons (replying to huyes: "hope they smart enough 😂"): brother they are smarter than us for sure
+[2026-08-23 16:49] ilikebigbloons: and if I can figure that out, why can't they
+[2026-08-23 16:49] ilikebigbloons (replying to strixisme: "Wait, how do u know when u overfit tho?"): Ar4yu overfitted, for instance
+I'm guessing it is a bot made to win against stalemate quoter in low player count scenarios
+[2026-08-23 16:50] RiemannJr (replying to ilikebigbloons: "damn how did you quote in test case 5?"): My model did haha
+[2026-08-23 16:50] aang: i feel like i am the only one encountering time limits. probably overegineered this shit
+[2026-08-23 16:51] ilikebigbloons (replying to RiemannJr: "My model did haha"): How did you win while only making 14 dollars pnl against stalemate quoter? 
+Usually the winner of that test case makes something like 20 dollar-ish
+[2026-08-23 16:52] mrrobot (replying to ilikebigbloons: "How did you win while only making 14 dollars pnl against stalemate quoter?  Usua"): yes it was 23$ i think
+[2026-08-23 16:53] ilikebigbloons (replying to aang: "i feel like i am the only one encountering time limits. probably overegineered t"): too many comments can also cause that
+you can just ask AI to shorten it for you too
+[2026-08-23 16:53] king3ds (replying to ilikebigbloons: "But like it would be bullshit to just take the top overfitters; I think akuna is"): ik but scoring system is biased to ranking > all rn
+[2026-08-23 16:53] mrrobot (replying to king3ds: "ik but scoring system is biased to ranking > all rn"): i think they'll run it on unseen tests, that'll fail all the overfitters
+[2026-08-23 16:54] RiemannJr (replying to ilikebigbloons: "How did you win while only making 14 dollars pnl against stalemate quoter?  Usua"): Stalemate quoter only achieved a P&L of 13.00$ that round. Had multiple models get first place where a similar result happened
+[2026-08-23 16:55] ilikebigbloons (replying to RiemannJr: "Stalemate quoter only achieved a P&L of 13.00$ that round. Had multiple models g"): interesting
+[2026-08-23 16:57] RiemannJr: I just hope that it also performs in the second round, at least if I qualify.
+[2026-08-23 16:57] ethann: how important is pnl in the hackerrank test
+[2026-08-23 16:57] RiemannJr: I can share my code after the challenge if you would like?
+[2026-08-23 16:57] ilikebigbloons (replying to ethann: "how important is pnl in the hackerrank test"): hey ethan
+[2026-08-23 16:58] ilikebigbloons (replying to RiemannJr: "I can share my code after the challenge if you would like?"): you should make a repo then send here
+[2026-08-23 16:59] RiemannJr: I have a repo, just isn’t public as the challenge is ongoing.
+[2026-08-23 17:00] king3ds: some bros made public repos
+[2026-08-23 17:01] ilikebigbloons (replying to king3ds: "some bros made public repos"): based
+[2026-08-23 17:06] uufuu: Got 17.9/20, stuck in 0.4 for test 5-7 and stuck in 0.7 for test 10. Pass all other tests with score = 1. DM me if anyone scoring higher on Test 5-7 or Test10 than me wanna discuss the idea for all other tests 🙂
+[2026-08-23 17:12] ayaan: would 15.1/20 be good
+[2026-08-23 17:12] ayaan: to qualify?
+[2026-08-23 17:12] mrrobot: nope
+[2026-08-23 17:12] mrrobot: at least touch 17
+[2026-08-23 17:13] Aditya Goyal: Where r u guys getting this score out of 20?
+In hacckerank?
+[2026-08-23 17:13] mrrobot: yes
+[2026-08-23 17:13] ayaan: add for all the test cases 2-20
+[2026-08-23 17:13] ayaan: right ?
+[2026-08-23 17:13] ayaan (replying to mrrobot: "nope"): oh really?
+[2026-08-23 17:13] ayaan: can u help me out with it a bit
+[2026-08-23 17:13] Aditya Goyal: It just shows passed or failed
+[2026-08-23 17:13] mrrobot (replying to ayaan: "add for all the test cases 2-20"): 1-20
+[2026-08-23 17:14] mrrobot (replying to ayaan: "can u help me out with it a bit"): go ahead
+[2026-08-23 17:14] mrrobot: i can answer questions
+[2026-08-23 17:14] mrrobot (replying to Aditya Goyal: "It just shows passed or failed"): read the output logs
+[2026-08-23 17:14] ayaan: but test case one just shows Market parameters: MarketParameters(ajarai_drift=0.001, ajarai_idio_std_dev=0.01, ajarai_rate_beta=-0.02, ajarai_sector_beta=1.0, rate_down_probability=0.2, rate_reversion_strength=0.1, rate_up_probability=0.25, sector_std_dev=0.02, theriodic_drift=0.0015, theriodic_idio_std_dev=0.012, theriodic_rate_beta=-0.015, theriodic_sector_beta=1.0, rate_step=0.25, rate_target=2.0)
+Underlyings: FED=3.0, AJR=500.0, THR=600.0
+1 (1d FED >= 3.00): user theo=0.7000, actual theo=0.7000
+2 (5d FED >= 3.50): user theo=0.0471, actual theo=0.0471
+3 (1d AJR >= 500.00): user theo=0.5309, actual theo=0.5309
+4 (10d THR >= 650.00): user theo=0.2068, actual theo=0.2068
+5 (1d THR - AJR >= 0.00): user theo=1.0000, actual theo=1.0000
+6 (10d THR - AJR >= 0.00): user theo=0.9999, actual theo=0.9999
+Result: PASS (max_error=0.0000)
+[2026-08-23 17:14] mrrobot: it shows a score between 0 and 1
+[2026-08-23 17:14] mrrobot (replying to ayaan: "but test case one just shows Market parameters: MarketParameters(ajarai_drift=0."): yes pass means 1
+[2026-08-23 17:14] ayaan: i added my scores from test 2-20 and got 15.1
+[2026-08-23 17:14] mrrobot (replying to ayaan: "i added my scores from test 2-20 and got 15.1"): that's 16.1
+[2026-08-23 17:14] ayaan: so it measn i got 16.1/20
+[2026-08-23 17:14] mrrobot: yes
+[2026-08-23 17:15] ayaan: alr so i need to get around 1 more
+[2026-08-23 17:15] mrrobot: for test 1-4 pass means 1
+[2026-08-23 17:15] mrrobot (replying to ayaan: "alr so i need to get around 1 more"): yes
+[2026-08-23 17:15] Aditya Goyal (replying to mrrobot: "read the output logs"): Where is it?
+[2026-08-23 17:15] mrrobot (replying to Aditya Goyal: "Where is it?"): click on the test
+[2026-08-23 17:15] mrrobot: for example test 5
+[2026-08-23 17:15] mrrobot: it'll show something in the logs like
+[2026-08-23 17:15] ayaan: test 5 and test 7 im geteting 0.4
+[2026-08-23 17:15] mrrobot: yes that's a score
+[2026-08-23 17:15] mrrobot: passing score is .4
+[2026-08-23 17:15] mrrobot: it means ur model didnt go bankrupt
+[2026-08-23 17:15] ayaan: oh so how can i improve that
+[2026-08-23 17:15] Aditya Goyal: Ohh got it
+[2026-08-23 17:16] ayaan: because those are one of the weakest for me
+[2026-08-23 17:16] mrrobot (replying to ayaan: "oh so how can i improve that"): you gotta improve the overall strategy
+[2026-08-23 17:16] mrrobot: do not improve test-wirse
+[2026-08-23 17:16] mrrobot: *wise
+[2026-08-23 17:16] ayaan: yeah faris
+[2026-08-23 17:16] mrrobot: that'll be overfitting
+[2026-08-23 17:16] ayaan: fairs
+[2026-08-23 17:16] mrrobot: yes
+[2026-08-23 17:16] ayaan: wondt that be hardcoding
+[2026-08-23 17:16] mrrobot: yes its called overfitting
+[2026-08-23 17:17] Aditya Goyal: Got it
+[2026-08-23 17:17] ayaan (replying to mrrobot: "yes its called overfitting"): ccan  i dm u to askk sth
+[2026-08-23 17:17] Aditya Goyal: So result is based on highest score or what?
+Will there be more testing of these bots for proceeding?
+[2026-08-23 17:17] mrrobot (replying to ayaan: "ccan  i dm u to askk sth"): yes go ahead
+[2026-08-23 17:17] mrrobot (replying to Aditya Goyal: "So result is based on highest score or what? Will there be more testing of these"): its based on rank
+[2026-08-23 17:18] IdrinkVaccine (replying to mrrobot: "its based on rank"): how is it ranked though
+[2026-08-23 17:18] mrrobot: by pnl
+[2026-08-23 17:18] Aditya Goyal (replying to mrrobot: "its based on rank"): Where is the rank shown in hacckerank and also one can do overfit and get  near to 20 right
+[2026-08-23 17:18] uufuu: rank 3rd in two participants = 0.4
+[2026-08-23 17:19] uufuu: 2nd*
+[2026-08-23 17:19] IdrinkVaccine (replying to mrrobot: "by pnl"): r these based on diff test cases ?
+[2026-08-23 17:19] uufuu: rank 3rd in 3 participants = 0.4, rank 2nd in 3 participants = 0.7
+[2026-08-23 17:19] mrrobot (replying to Aditya Goyal: "Where is the rank shown in hacckerank and also one can do overfit and get  near "): yes but wouldnt recommend, because they will most probably test it on unseen tests
+[2026-08-23 17:19] uufuu: that's the pattern
+[2026-08-23 17:19] mrrobot (replying to IdrinkVaccine: "r these based on diff test cases ?"): its in each test
+[2026-08-23 17:20] Aditya Goyal (replying to mrrobot: "yes but wouldnt recommend, because they will most probably test it on unseen tes"): Okayyy
+Also, where can we get the current pnl and leaderboard from?
+[2026-08-23 17:20] uufuu: so you should increase your pnl large enough to beat participants ahead of you.
+[2026-08-23 17:20] uufuu: if u increase ur pnl in one test by a little bit but still lower than some participants than your score stay the same
+[2026-08-23 17:20] mrrobot (replying to Aditya Goyal: "Okayyy Also, where can we get the current pnl and leaderboard from?"): in hackerrank
+[2026-08-23 17:20] uufuu: that's it
+[2026-08-23 17:21] Aditya Goyal (replying to mrrobot: "in hackerrank"): U mean the pnl or rank?
+[2026-08-23 17:21] mrrobot: both
+[2026-08-23 17:21] Aditya Goyal: Unable to get the rank
+Where is the option to that?
+[2026-08-23 17:22] strixisme (replying to Aditya Goyal: "U mean the pnl or rank?"): This is the last minute final boss guy, isn’t it
+[2026-08-23 17:22] mrrobot (replying to Aditya Goyal: "Unable to get the rank Where is the option to that?"): your score
+[2026-08-23 17:22] mrrobot: check ur score
+[2026-08-23 17:22] mrrobot: if its 1
+[2026-08-23 17:22] mrrobot: ur rank is 1
+[2026-08-23 17:22] mrrobot: if its .4 ur rank is last
+[2026-08-23 17:22] Reset60: damn got 13.3/16
+[2026-08-23 17:22] Reset60: happy
+[2026-08-23 17:23] Aditya Goyal (replying to strixisme: "This is the last minute final boss guy, isn’t it"): Sorry man
+I was too much into tests the whole week
+[2026-08-23 17:23] mrrobot (replying to Reset60: "damn got 13.3/16"): that's chill
+[2026-08-23 17:24] smile: Anyone had experience of improving test case 5-7 and could share what the possible reason could be?
+[2026-08-23 17:24] Reset60 (replying to mrrobot: "that's chill"): I think it's enough to get on the right of the bell curve.
+[2026-08-23 17:24] strixisme (replying to Aditya Goyal: "Sorry man I was too much into tests the whole week"): Nah man you are good, but I think you should read the description from email or hackerrank carefully
+[2026-08-23 17:25] Aditya Goyal (replying to strixisme: "Nah man you are good, but I think you should read the description from email or "): Nothing such mail received
+[2026-08-23 17:26] heyjae (replying to Reset60: ""): out of 16?
+[2026-08-23 17:27] Reset60 (replying to heyjae: "out of 16?"): dont count 1-4
+[2026-08-23 17:27] heyjae: gotchu
+[2026-08-23 17:27] strixisme (replying to Aditya Goyal: "Nothing such mail received"): I don’t think you are in the competition
+[2026-08-23 17:27] heyjae: I didn’t know we had more than 250 ppl here
+[2026-08-23 17:28] Aditya Goyal (replying to strixisme: "I don’t think you are in the competition"): Why man 😭😭
+[2026-08-23 17:29] Aditya Goyal: I got mail but nothing like how to use hacckerank
+[2026-08-23 17:33] king3ds (replying to Aditya Goyal: "Why man 😭😭"): if u cant figure that out bro
+[2026-08-23 17:33] king3ds: i have no words to say lmao
+[2026-08-23 17:33] king3ds: go back to 20hour youtube tutorial
+[2026-08-23 17:34] Aditya Goyal (replying to king3ds: "go back to 20hour youtube tutorial"): What's that now. I received a 2 min link for an overview
+[2026-08-23 17:35] strixisme: Were you sent here to distract us?
+[2026-08-23 17:35] king3ds: 🥀
+[2026-08-23 17:36] ryan (replying to strixisme: "Were you sent here to distract us?"): if it's possible to set a longer trading horizon
+[2026-08-23 17:37] Reset60 (replying to Reset60: ""): What is you guy's PnL ?
+[2026-08-23 17:37] Reset60: Mine is +$196.98
+[2026-08-23 17:38] Vishal: $154 jussnow
+[2026-08-23 17:38] strixisme (replying to ryan: "if it's possible to set a longer trading horizon"): Yeah, so more dates and longer expiration?
+[2026-08-23 17:39] ryan: more dates like 40+120 or longer
+[2026-08-23 17:39] strixisme: But I’m locked out of my apartment lol, I can’t do nth till 21 Utc
+[2026-08-23 17:39] ryan: just as a reference, the 20 history parameter estimation gives almost 0.1$ estimate std
+[2026-08-23 17:40] strixisme (replying to ryan: "more dates like 40+120 or longer"): I will try
+[2026-08-23 17:40] ryan: the online trading is definitely more interesting than hackerrank
+[2026-08-23 17:40] ryan: don't want to overfit anymore
+[2026-08-23 17:41] strixisme: The last case is where Jerome Powell set rate to 0, dont think akuna has that in mind hahaha
+[2026-08-23 17:43] Reset60 (replying to ryan: "don't want to overfit anymore"): The worst it that it seems like they want us to overfit
+[2026-08-23 17:44] ryan: maybe the bar is lower than we thought
+[2026-08-23 17:46] Sam: It's very easy to achieve 16/16 if you do hardcore rules.
+[2026-08-23 17:46] Sam: But that's the worst bot.
+[2026-08-23 17:46] king3ds: yeah
+[2026-08-23 17:47] king3ds: u gotta have a fine balance
+[2026-08-23 17:47] king3ds: https://klipy.com/gifs/aroojtwt-4  [embeds: 1]
+[2026-08-23 17:47] ryan: yeah I output the trading log and the pattern seems to be clear
+[2026-08-23 17:47] strixisme: As all things should be
+[2026-08-23 17:47] Sumit: What's the max PnL here, and will it matter after the score?
+[2026-08-23 17:47] strixisme (replying to ryan: "yeah I output the trading log and the pattern seems to be clear"): Wait what, wdym trading log? On hackerrank?
+[2026-08-23 17:48] ryan: yep
+[2026-08-23 17:48] John.sa: its locked though no?
+[2026-08-23 17:48] ryan: but there is a maximum output limit
+[2026-08-23 17:48] ryan: some trick
+[2026-08-23 17:48] strixisme: How
+[2026-08-23 17:48] strixisme: I can’t even print inside any function
+[2026-08-23 17:48] ryan: but enough for small cases
+[2026-08-23 17:48] strixisme: Can u do for 5? 6-7
+[2026-08-23 17:48] strixisme: And maybe dm me, maybe
+[2026-08-23 17:49] Sam: I guess it's like a fingerprint, reverse-engineering
+[2026-08-23 17:49] ilikebigbloons (replying to strixisme: "Can u do for 5? 6-7"): https://klipy.com/gifs/nub-nub-cat-25  [embeds: 1]
+[2026-08-23 17:49] king3ds (replying to strixisme: "I can’t even print inside any function"): i wanted to do print function so so many times
+[2026-08-23 17:49] king3ds: holy
+[2026-08-23 17:49] ryan: hmmm
+[2026-08-23 17:50] ryan: idk if it's fair, but try put you log in error
+[2026-08-23 17:51] ryan: lol go overfit your strategy then
+[2026-08-23 17:51] Sam: yeah. It's kinda like cheating
+[2026-08-23 17:52] king3ds: well yeah
+[2026-08-23 17:57] John.sa: have 2 bots, one with +200 pnl and another with 185, thing is the former couuld be expoited during final pvp round, but the latter could not be good enough to pass the first round, anyone have thoughts on which I shouuld submit?
+[2026-08-23 17:58] ryan: did they just use the code we submitted for the second round?
+[2026-08-23 17:58] yellow213342 (replying to John.sa: "have 2 bots, one with +200 pnl and another with 185, thing is the former couuld "): whcihver that will lose to me
+[2026-08-23 17:58] John.sa: Im not sure also
+[2026-08-23 17:59] John.sa: im assuming yes
+[2026-08-23 17:59] ryan: then all the hyperparamters need to be self-evolved?
+[2026-08-23 17:59] Sam (replying to John.sa: "have 2 bots, one with +200 pnl and another with 185, thing is the former couuld "): what's your score out of 16 for both bots?
+[2026-08-23 18:00] John.sa (replying to Sam: "what's your score out of 16 for both bots?"): 12.7 and 13.7 i think
+[2026-08-23 18:01] John.sa: im not too focused on win rate per scenario though I dont think thatll be the main needle mover
+[2026-08-23 18:01] Sam: I think 12.7 is not safe
+[2026-08-23 18:01] John.sa: yeah maybe, i guess well see
