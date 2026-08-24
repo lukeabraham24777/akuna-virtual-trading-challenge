@@ -1,9 +1,10 @@
-# v4 Meridian-Prime-2 — real hidden-test results (from HackerRank testcase_message API)
+# Meridian run (v3 OR v4 — version pending user confirmation) — real hidden-test results
 
 **Total: 16.8/20** (scored e–t: 12.8/16) · **Total PnL ≈ +$150.23** · **0 bankruptcies**
 Run collected 2026-08-24 via the submission-detail network response (all 20 outputs in one
-`testcase_message` array). Behavioral signatures (whale FOK accepts, $10-capital wide
-quotes, test-m positive, test-t loss capped) confirm this is the v4 build (commit aae3517).
+`testcase_message` array). Version NOT yet confirmed: the behavioral signatures (whale FOK accepts, test-m positive,
+test-t loss capped) fit v4 but are also consistent with v3's counterparty ladder. To settle it,
+search the pasted code for "CAP_WIDTH_REF" or "_floor_lock": present = v4 (aae3517), absent = v3 (e7d5431).
 
 | Test | Score | Ranking (PnL) |
 |---|---|---|
